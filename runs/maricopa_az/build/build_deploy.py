@@ -106,69 +106,137 @@ PARTIAL_REASON = (
 )
 
 
-def build_leads_json(scored: list) -> dict:
-    """Map framework-scored leads -> dashboard rows (transparent, honest).
+def build_leads_json(enriched: list, scored: list | None = None) -> dict:
+    """Map framework-enriched leads -> dashboard rows (transparent, honest).
 
-    These leads were produced by the real pipeline run. The framework could
-    NOT resolve parcels/owners for most (party names redacted by portals,
-    recorder docs lack parcel_ids), so addresses are often absent. We surface
-    what IS real: doc type, source, event date, case/recording #, review flags.
-    The PARTIAL_BUILD label + review_flags stay visible -- no fabrication.
+    PRIMARY source is real_enriched_leads.json: leads the framework actually
+    resolved to a real Assessor parcel (owner_name_assessor + situs_address +
+    parcel_id). These are REAL, address-backed leads.
+
+    For unenriched events (party names redacted by portals / no parcel join),
+    we fall back to the scored leads and label them honestly as NEEDS_REVIEW
+    with no address. No fabrication: a lead shows an address ONLY if the
+    framework resolved one.
     """
+    scored_by_id = {}
+    if scored:
+        for s in scored:
+            sid = s.get("lead_id") or s.get("scored_lead_id")
+            if sid:
+                scored_by_id[sid] = s
+
     rows = []
-    for i, s in enumerate(scored, 1):
-        dtn = s.get("doc_type_normalization") or {}
-        dt_list = dtn.get("canonical_doc_types") or []
-        dt = (dt_list[0] if dt_list else "UNKNOWN").upper()
-        src_ids = s.get("source_ids") or []
-        src_id = src_ids[0] if src_ids else "unknown"
-        review_flags = s.get("review_flags") or []
-        unresolved = any("parcel_resolution" in f or "no_debtor" in f or "no_pattern" in f
-                         for f in review_flags)
+    for i, e in enumerate(enriched, 1):
+        dt = (e.get("canonical_doc_type") or "UNKNOWN").upper()
+        addr = " ".join(v for v in [
+            e.get("situs_address"), e.get("situs_city"),
+            e.get("situs_state")] if v).strip()
+        owner = e.get("owner_name_assessor") or e.get("joined_from_name") or "Unknown"
+        parcel = e.get("parcel_id")
         rows.append({
             "lead_id": f"MCR-{i:03d}",
-            "primary_parcel_id": s.get("primary_parcel_id"),
-            "display_address": (s.get("parcel_display") or "").strip(),
-            "display_owner": s.get("owner_name") or "Unknown",
+            "primary_parcel_id": parcel,
+            "display_address": addr,
+            "display_owner": owner,
             "display_score": {"Hot": 92, "Strong": 78, "Workable": 61,
                               "Low": 40, "Archive": 30}.get(
-                s.get("tier", "Low"), 40),
-            "display_tier": s.get("tier") or DOC_TO_TIER.get(dt, "Low"),
-            "display_patterns": s.get("display_patterns") or DOC_TO_PATTERNS.get(dt, []),
-            "stack_contrib_patterns": s.get("display_patterns") or DOC_TO_PATTERNS.get(dt, []),
-            "display_pattern_set": s.get("display_patterns") or DOC_TO_PATTERNS.get(dt, []),
+                e.get("tier", DOC_TO_TIER.get(dt, "Low")), 40),
+            "display_tier": e.get("tier") or DOC_TO_TIER.get(dt, "Low"),
+            "display_patterns": DOC_TO_PATTERNS.get(dt, []),
+            "stack_contrib_patterns": DOC_TO_PATTERNS.get(dt, []),
+            "display_pattern_set": DOC_TO_PATTERNS.get(dt, []),
             "display_attributes": [],
-            "display_deal_paths": [d.get("path") if isinstance(d, dict) else d
-                                  for d in (s.get("deal_paths") or (
+            "display_deal_paths": (
                 ["wholesale"] if dt in (
                     "NOTICE_OF_TRUSTEE_SALE", "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
                     "DEED_OF_TRUST", "TRUSTEE_DEED", "LIS_PENDENS", "SURPLUS") else (
                     ["probate_estate"] if dt == "PROBATE" else (
                     ["divorce_transfer"] if dt == "DIVORCE" else (
-                    ["occupant_distress"] if dt == "EVICTION" else ["wholesale"])))))],
+                    ["occupant_distress"] if dt == "EVICTION" else ["wholesale"])))),
             "display_title_complexity_tier": "Unknown",
-            "display_lead_status": "NEEDS_REVIEW" if unresolved else "STACKED_LEAD",
+            "display_lead_status": "STACKED_LEAD" if addr else "NEEDS_REVIEW",
             "display_assessed_value": None,
             "display_last_sale_price": None,
             "display_last_sale_date": None,
             "display_year_built": None,
-            "display_match_confidence": s.get("match_confidence") or 0.5,
-            "stack_depth": s.get("stack_depth") or 1,
-            "primary_event_date": s.get("primary_event_date"),
+            "display_match_confidence": 0.9 if addr else 0.4,
+            "stack_depth": 1,
+            "primary_event_date": None,
             "expected_sale_date": None,
-            "parcel_master_status": "unresolved" if unresolved else "matched",
-            "parcel_master_status_note": "; ".join(review_flags) if review_flags
-                else "resolved",
-            "parcel_master_match_method": "framework_scored",
-            "candidate_parcel_ids": [s.get("primary_parcel_id")] if s.get("primary_parcel_id") else [],
-            "review_flags": review_flags,
+            "parcel_master_status": "resolved_assessor_parcel" if parcel else "unresolved",
+            "parcel_master_status_note": f"owner-name join from '{e.get('joined_from_name')}'"
+                                          if e.get("joined_from_name") else "resolved",
+            "parcel_master_match_method": "owner_name_to_assessor_parcel",
+            "candidate_parcel_ids": [parcel] if parcel else [],
+            "review_flags": [],
             "score_reasons": [f"{DOC_LABELS.get(dt, dt)} — primary distress signal"
-                              + (" (UNRESOLVED: needs manual parcel/owner lookup)" if unresolved else "")],
-            "evidence_ids": s.get("evidence_ids") or [],
+                              + (f"; resolved to {owner} @ {addr}" if addr else
+                                 " (UNRESOLVED: no address from free source)")],
+            "evidence_ids": [e.get("instrument_number") or e.get("case_number") or ""],
             "primary_source_urls": [],
             "display_doc_type": DOC_LABELS.get(dt, dt),
-            "display_source": SOURCE_LABELS.get(src_id, src_id),
+            "display_source": SOURCE_LABELS.get(e.get("source_id", ""), e.get("source_id", "")),
         })
+
+    # Fallback: unenriched scored leads (honest "no address" rows).
+    # The enriched file is a resolved SUBSET of the same ~125 events, so we
+    # add scored leads only until we reach the true event total (no duplicates).
+    enr_evidence = set()
+    for e in enriched:
+        for k in ("instrument_number", "case_number"):
+            v = e.get(k)
+            if v:
+                enr_evidence.add(str(v).strip().upper())
+    TARGET_TOTAL = len(scored) if scored else len(enriched)
+    seen_parcels = {r["primary_parcel_id"] for r in rows}
+    if scored:
+        for s in scored:
+            if len(rows) >= TARGET_TOTAL:
+                break  # reached the true event count; no duplicates
+            s_ev = s.get("evidence_ids") or []
+            s_ev_set = {str(x).strip().upper() for x in s_ev if x}
+            if s_ev_set & enr_evidence:
+                continue  # already represented by an enriched (resolved) row
+            if s.get("primary_parcel_id") in seen_parcels:
+                continue
+            dtn = s.get("doc_type_normalization") or {}
+            dt = ((dtn.get("canonical_doc_types") or [""])[0] or "UNKNOWN").upper()
+            src_ids = s.get("source_ids") or []
+            src_id = src_ids[0] if src_ids else "unknown"
+            rows.append({
+                "lead_id": f"MCR-{len(rows)+1:03d}",
+                "primary_parcel_id": s.get("primary_parcel_id"),
+                "display_address": "",
+                "display_owner": "Unknown (portal redacted)",
+                "display_score": {"Hot": 92, "Strong": 78, "Workable": 61,
+                                  "Low": 40, "Archive": 30}.get(s.get("tier", "Low"), 40),
+                "display_tier": s.get("tier") or DOC_TO_TIER.get(dt, "Low"),
+                "display_patterns": DOC_TO_PATTERNS.get(dt, []),
+                "stack_contrib_patterns": DOC_TO_PATTERNS.get(dt, []),
+                "display_pattern_set": DOC_TO_PATTERNS.get(dt, []),
+                "display_attributes": [],
+                "display_deal_paths": ["wholesale"],
+                "display_title_complexity_tier": "Unknown",
+                "display_lead_status": "NEEDS_REVIEW",
+                "display_assessed_value": None,
+                "display_last_sale_price": None,
+                "display_last_sale_date": None,
+                "display_year_built": None,
+                "display_match_confidence": 0.3,
+                "stack_depth": 1,
+                "primary_event_date": s.get("primary_event_date"),
+                "expected_sale_date": None,
+                "parcel_master_status": "unresolved",
+                "parcel_master_status_note": "portal redacted party; no parcel join",
+                "parcel_master_match_method": "none",
+                "candidate_parcel_ids": [],
+                "review_flags": ["portal_redacted"],
+                "score_reasons": [f"{DOC_LABELS.get(dt, dt)} — event only; no address (free source redacts)"],
+                "evidence_ids": s.get("evidence_ids") or [],
+                "primary_source_urls": [],
+                "display_doc_type": DOC_LABELS.get(dt, dt),
+                "display_source": SOURCE_LABELS.get(src_id, src_id),
+            })
 
     # Header aggregates (Two-Truths invariant: re-derived from records).
     tier_dist = Counter(r["display_tier"] for r in rows)
@@ -209,17 +277,19 @@ def build_leads_json(scored: list) -> dict:
 
 
 def main():
-    # Prefer the framework-scored real leads (125 from the live run).
+    # PRIMARY: framework-enriched leads (real owner + parcel + situs address).
+    if ENRICHED.exists():
+        enriched = json.loads(ENRICHED.read_text())
+        print(f"  [deploy] {len(enriched)} enriched leads from real_enriched_leads.json")
+    else:
+        enriched = []
+        print("  [warn] no enriched leads; only scored fallback will be used")
+    # FALLBACK: scored leads for unenriched events (honest, no address).
+    scored = []
     if SCORED.exists():
         scored = json.loads(SCORED.read_text())
-        print(f"  [deploy] {len(scored)} scored leads from real_scored_leads.json")
-    elif ENRICHED.exists():
-        print("  [warn] scored leads absent; falling back to enriched (may be empty)")
-        scored = json.loads(ENRICHED.read_text())
-    else:
-        print("  [warn] no lead source found")
-        scored = []
-    payload = build_leads_json(scored)
+        print(f"  [deploy] {len(scored)} scored leads available as fallback")
+    payload = build_leads_json(enriched, scored)
 
     # Assemble deploy folder from the repo-canonical dashboard front-end.
     DEPLOY.mkdir(exist_ok=True)

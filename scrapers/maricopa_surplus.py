@@ -80,34 +80,65 @@ def _extract_pdf_text(pdf_path: Path) -> str:
 
 
 def parse_tax_deeded_text(text: str) -> list[dict]:
-    """Parse parcel + prior owner + tax rows from the tax-deeded PDF text.
+    """Parse parcel + prior owner + legal description + tax rows from the tax-deeded PDF text.
 
-    The PDF text is column-formatted (not pipe-delimited). Each data row
-    starts with a parcel number (NNN-NN-NNN[Letter]) on its own line, followed
-    by the foreclosure year, prior owner, and tax figures. We capture the
-    parcel + prior owner + year.
+    Canonical contract (repo): emit `property_refs` with `parcel_id`,
+    `legal_description`, and `prior_owner` where available. The PDF is
+    column-formatted; each data row starts with a parcel number
+    (NNN-NN-NNN[Letter]) on its own line, followed by the foreclosure year,
+    the PREVIOUS OWNER (real name, NOT redacted), and a PROPERTY DESCRIPTION
+    (legal description -- not a street address, but a real, locatable parcel
+    description). We capture all three. We do NOT fabricate a street address.
     """
     events = []
-    # Match a parcel number at line start, then look ahead for the year + owner.
-    for m in re.finditer(r'^(\d{3}-\d{2}-\d{3}[A-Z]?)\s*$', text, re.M):
+    # A data row: parcel number on its own line, then year, owner, legal desc.
+    for m in re.finditer(r'^(\d{1,3}-\d{2}-\d{3}[A-Z]?)\s*$', text, re.M):
         parcel = m.group(1)
-        rest = text[m.end():m.end() + 400]
+        # Look ahead across the next ~1200 chars (covers wrapped legal-desc lines).
+        rest = text[m.end():m.end() + 1200]
         yr = re.search(r'\b(20\d{2})\b', rest)
-        owner = re.search(r'([A-Z][A-Z0-9 .,&/\-]{5,40})', rest)
+        # Previous owner: the real prior owner is the ALL-CAPS name that appears
+        # BEFORE "c/o" (care-of manager) and BEFORE the legal description
+        # (which starts with SEC/LOT/TRACT/MCR/TH). Take the FIRST qualifying
+        # name run, not the longest, so a "c/o MANAGEMENT" suffix isn't picked.
+        legal_start = re.search(r'\b(SEC\s+\d+|LOT\s|TRACT\s|MCR\s|BLK\s|TH\s)', rest)
+        owner_region = rest[:legal_start.start()] if legal_start else rest
+        # Cut the care-of manager from the region so it can't be matched.
+        owner_region = re.split(r'\s*c/o\s*', owner_region, flags=re.I)[0]
+        owner = None
+        for om in re.finditer(
+            r'([A-Z][A-Z0-9 .,&/\-]*(?:LLC|LP|TRUST|TRUSTEES|INC|CORP|ASSOCIATION|'
+            r'MANAGEMENT|HOLDINGS|REALTY|PROPERTIES|ESTATE|OF ARIZONA|ET AL|CO)?)',
+            owner_region):
+            cand = om.group(1).strip()
+            # Skip a bare 4-digit year or the column header word "YEAR"
+            # (row 1 layout puts YEAR first).
+            if re.match(r'^\d{4}$', cand) or cand == "YEAR":
+                continue
+            if len(cand) >= 4:
+                owner = cand  # FIRST qualifying run wins
+                break
+        # Legal description: the wrapped "SEC ..." / "LOT ..." / "MCR ..." block.
+        legal = re.search(r'(SEC\s+\d+[^\n]*(?:MCR[^\n]*|LOT[^\n]*|TRACT[^\n]*|BLK[^\n]*)?)', rest)
         events.append({
             "source_id": SOURCE_ID,
             "canonical_doc_type": "SURPLUS",
             "raw_event_id": f"real_surp_{parcel}",
             "event_date": None,
-            "parties": [{"name": (owner.group(1).strip() if owner else "Unknown"),
+            "parties": [{"name": (owner.strip() if owner else "Unknown"),
                          "name_type": "OWN", "raw_role": "prior_owner"}],
-            "property_refs": {"parcel_id": parcel},
+            "property_refs": {
+                "parcel_id": parcel,
+                "legal_description": (legal.group(1).strip() if legal else None),
+                "prior_owner": (owner.strip() if owner else None),
+            },
             "instrument_number": None,
             "source_url": PDF_URL,
             "fetched_at": _now_iso(),
             "evidence": [{"type": "pdf", "url": PDF_URL,
                           "note": f"Maricopa tax-deeded land list, foreclose year {yr.group(1) if yr else 'n/a'}"}],
-            "notes": f"tax-deeded land, foreclosure done {yr.group(1) if yr else 'n/a'}",
+            "notes": f"tax-deeded land, foreclosure done {yr.group(1) if yr else 'n/a'}"
+                     + (f"; legal desc: {legal.group(1).strip()[:80]}..." if legal else ""),
         })
     return events
 

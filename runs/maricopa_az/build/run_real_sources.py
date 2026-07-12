@@ -491,16 +491,38 @@ def build_parcel_enrichment_provider():
     parcels: dict[str, dict] = {}
     owner_index: dict[str, list[str]] = {}  # normalized owner token -> parcel ids
     _pkl = OPEN_DATA_ZIP.with_suffix(".pkl")
-    if _pkl.exists() and _pkl.stat().st_mtime >= OPEN_DATA_ZIP.stat().st_mtime:
-        # Fast resume path: load pre-built index (blink-proof).
+    _off = OPEN_DATA_ZIP.with_suffix(".pkl.offset")
+    _start = 0
+    if _off.exists():
+        try:
+            _start = int(_off.read_text().strip() or "0")
+        except Exception:
+            _start = 0
+    if _start > 0 and _pkl.exists():
+        # Resume from a previous (blink-killed) partial build.
         try:
             import pickle as _pk
             with open(_pkl, "rb") as f:
                 parcels, owner_index = _pk.load(f)
-            print(f"  parcel_master index LOADED from cache: {len(parcels):,} parcels")
-            # build provider + resolver below (same as fresh path)
+            print(f"  parcel_master index RESUMED from cache: {len(parcels):,} parcels (resume @ {_start:,})")
         except Exception as e:
-            print(f"  [warn] parcel cache load failed ({e}); rebuilding")
+            print(f"  [warn] parcel cache load failed ({e}); full rebuild")
+            parcels = {}; owner_index = {}
+    elif _pkl.exists():
+        # Complete index (no offset file) -> use directly (blink-proof fast path).
+        try:
+            import pickle as _pk
+            with open(_pkl, "rb") as f:
+                parcels, owner_index = _pk.load(f)
+            # Guard against a corrupt/truncated index (e.g. a blink-killed
+            # partial left only a handful of parcels). Rebuild if implausibly small.
+            if len(parcels) < 1000:
+                print(f"  [warn] parcel cache implausibly small ({len(parcels)}); full rebuild")
+                parcels = {}; owner_index = {}
+            else:
+                print(f"  parcel_master index LOADED from cache: {len(parcels):,} parcels")
+        except Exception as e:
+            print(f"  [warn] parcel cache load failed ({e}); full rebuild")
             parcels = {}; owner_index = {}
     if not parcels and OPEN_DATA_ZIP.exists():
         import pickle as _pk
@@ -552,18 +574,17 @@ def build_parcel_enrichment_provider():
                     key = re.sub(r"[^A-Z0-9 ]", "", owner)
                     owner_index.setdefault(key, []).append(pid)
                 # incremental checkpoint -> survives gateway blink
+                # Write the REAL pickle (not just .partial) every chunk so a
+                # kill at any point leaves a valid, resumable index.
                 try:
-                    with open(_partial, "wb") as f:
+                    with open(_pkl, "wb") as f:
                         _pk.dump((parcels, owner_index), f)
                     _off.write_text(str(_end))
                 except Exception:
                     pass
-                print(f"  parcel parse progress: {_end:,}/{len(lines):,} lines")
+                print(f"  parcel parse progress: {_end:,}/{len(lines):,} lines ({len(parcels):,} parcels)")
                 _i = _end
             try:
-                import os as _os
-                if _partial.exists():
-                    _os.replace(_partial, _pkl)
                 if _off.exists():
                     _off.unlink()
                 print(f"  parcel_master index CACHED to {_pkl.name}")
