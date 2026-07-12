@@ -1,0 +1,10 @@
+{
+  "source_id": "harris_sheriff_sales",
+  "official_url": "NOT_CONFIRMED",
+  "vendor": "UNCONFIRMED (URL not pinned)",
+  "detection_heuristics": "Expected county sheriff/constable domain; not verified in recon",
+  "architecture": "UNKNOWN",
+  "search_interface": "UNKNOWN",
+  "scrape_difficulty": "UNKNOWN",
+  "notes": "Fingerprint deferred \u2014 URL must be pinned before fingerprinting (operator option B)."
+}

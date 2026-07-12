@@ -1,0 +1,12 @@
+{
+  "source_id": "harris_tax_delinquent",
+  "official_url": "https://www.hctax.net/Property/DelinquentTax",
+  "vendor": "In-house county web app (ASP.NET MVC-style routing)",
+  "detection_heuristics": "hctax.net; 'Harris County Tax Office' branding",
+  "architecture": "Server-rendered HTML (MVC routing)",
+  "search_interface": "Search by account / name / address",
+  "result_url_pattern": "/Property/DelinquentTax",
+  "detail_url_pattern": "account detail under /Property/*",
+  "scrape_difficulty": "MEDIUM",
+  "notes": "No CAPTCHA at landing observed."
+}

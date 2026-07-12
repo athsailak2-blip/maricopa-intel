@@ -1,0 +1,40 @@
+{
+  "header": [
+    "",
+    "File Number",
+    "File Date",
+    "Type\n                                                            Vol Page",
+    "Names",
+    "Legal Description",
+    "Pgs",
+    "Film Code"
+  ],
+  "sample_rows": [
+    [
+      "",
+      "RP-2026-261706",
+      "06/30/2026",
+      "W/D"
+    ],
+    [
+      "Grantor:",
+      "BURRUS DAVID S"
+    ],
+    [
+      "Grantor:",
+      "FREIRE MARIELLA M"
+    ],
+    [
+      "Grantee:",
+      "BURRUS DAVID S"
+    ],
+    [
+      "Grantee:",
+      "FREIRE MARIELLA M"
+    ],
+    [
+      "Grantee:",
+      "THE BURRUS-FREIRE FAMILY REVOCABLE LIVING TRUST"
+    ]
+  ]
+}

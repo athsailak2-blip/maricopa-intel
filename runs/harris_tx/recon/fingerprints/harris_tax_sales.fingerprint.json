@@ -1,0 +1,24 @@
+{
+  "source_id": "harris_tax_sales",
+  "official_url": "https://www.hctax.net/Property/TaxSales/Index",
+  "authority_type": "GOV",
+  "vendor_name": "",
+  "source_role": "PRIMARY_EVENT_SOURCE",
+  "access_status": "SEARCH_ONLY_PUBLIC",
+  "bulk_availability": "PER_RECORD_ONLY",
+  "verification_layers": {
+    "authority": "VERIFIED",
+    "lead_type_relevance": "VERIFIED",
+    "access": "VERIFIED",
+    "extractability": "UNVERIFIED",
+    "refresh_provenance": "VERIFIED"
+  },
+  "sample_record_path_confirmed": false,
+  "sample_document_view_possible": false,
+  "minimum_lead_fields_available": ["property_identifier_or_address", "tax_year", "amount"],
+  "fingerprint_summary": "Harris County Tax Office tax-sale index. Public, no login observed. Scraper not yet built this session (candidate primary).",
+  "recommended_adapter": "scrapers/harris_tax_sales.py (TODO)",
+  "credentials_required_kind": "",
+  "credentials_declared": false,
+  "notes": "Candidate primary. extractability UNVERIFIED — adapter pending."
+}

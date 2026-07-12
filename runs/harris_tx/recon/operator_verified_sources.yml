@@ -1,0 +1,11 @@
+# operator_verified_sources.yml — Harris County (harris_tx)
+# Captures source links the operator surfaces, per §16.H. Provenance record only.
+# (No external operator-surfaced links were provided this session beyond the
+#  recon-discovered official URLs.)
+entries: []
+operator_decisions:
+  - lead_type: Sheriff Sale
+    official_url: NOT_CONFIRMED
+    how_confirmed: operator chose option B (leave UNVERIFIED, document as next-session follow-up)
+    why_recon_missed: county /sheriff paths 404/302; third-party hostname FAILED DNS (treated unverified)
+    review_status: PENDING_NEXT_SESSION

@@ -1,0 +1,302 @@
+{
+  "county_slug": "harris_tx",
+  "county_name": "Harris County",
+  "state": "TX",
+  "framework_version": "v5.1.2-beta-r3",
+  "generated_at": "2026-07-12T06:00:00Z",
+  "county_build_status": "PARTIAL_BUILD_READY",
+  "lead_types": [
+    {
+      "lead_type": "Foreclosure",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk", "Harris County District Clerk", "Harris County Sheriff"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties", "record_date"], "operator_verified": true, "notes": "LIS_PENDENS / NOTICE recordings are the foreclosure trigger events."},
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties", "doc_type"], "operator_verified": true, "notes": "Civil foreclosure dockets via CivilOnly filter."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk LIS_PENDENS + District Clerk civil foreclosure dockets both live."
+    },
+    {
+      "lead_type": "Trustee Sale",
+      "state_applicability": "NOT_APPLICABLE_IN_STATE",
+      "expected_authorities": ["Harris County Trustee"],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "NOT_APPLICABLE_IN_STATE",
+      "coverage_notes": "Texas is a non-judicial-foreclosure state; trustee sales are substituted by the District Clerk civil foreclosure docket + Notice of Sale postings."
+    },
+    {
+      "lead_type": "Notice of Trustee Sale",
+      "state_applicability": "NOT_APPLICABLE_IN_STATE",
+      "expected_authorities": ["Harris County Trustee"],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "NOT_APPLICABLE_IN_STATE",
+      "coverage_notes": "Non-judicial state; no trustee-sale notice instrument. Equivalent event = District Clerk civil foreclosure filing."
+    },
+    {
+      "lead_type": "Notice of Substitute Trustee Sale",
+      "state_applicability": "NOT_APPLICABLE_IN_STATE",
+      "expected_authorities": ["Harris County Trustee"],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "NOT_APPLICABLE_IN_STATE",
+      "coverage_notes": "Non-judicial state; NSTS not applicable."
+    },
+    {
+      "lead_type": "Sheriff Sale",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Sheriff", "Harris County Constable"],
+      "candidate_sources": [
+        {"source_id": "harris_sheriff_sales", "official_url": "https://www.harriscountytx.gov", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "UNKNOWN", "bulk_availability": "UNKNOWN", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "UNKNOWN", "extractability": "UNKNOWN", "refresh_provenance": "UNKNOWN"}, "sample_record_path_confirmed": false, "sample_document_view_possible": false, "minimum_lead_fields_available": [], "operator_verified": false, "notes": "Official foreclosure-sale URL not pinned in recon. Override OO-HARRIS-001 (enabled=false)."}
+      ],
+      "selected_source_id": "",
+      "status": "SOURCE_FOUND_BLOCKED",
+      "coverage_notes": "Blocked on operator-provided official Sheriff/Constable sale URL."
+    },
+    {
+      "lead_type": "Tax Lien Foreclosure",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Tax Assessor-Collector", "Harris County District Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_tax_sales", "official_url": "https://www.hctax.net/Property/TaxSales/Index", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "UNVERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": false, "sample_document_view_possible": false, "minimum_lead_fields_available": ["tax_year", "amount"], "operator_verified": false, "notes": "Tax Office tax-sale index; adapter pending."}
+      ],
+      "selected_source_id": "harris_tax_sales",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Tax Office verified; adapter not yet built this session."
+    },
+    {
+      "lead_type": "Tax Sale",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Tax Assessor-Collector"],
+      "candidate_sources": [
+        {"source_id": "harris_tax_sales", "official_url": "https://www.hctax.net/Property/TaxSales/Index", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "UNVERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": false, "sample_document_view_possible": false, "minimum_lead_fields_available": ["tax_year", "amount"], "operator_verified": false, "notes": "Tax sale certificates / announcements."}
+      ],
+      "selected_source_id": "harris_tax_sales",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Same Tax Office source as Tax Lien Foreclosure."
+    },
+    {
+      "lead_type": "Tax Sale Certificate",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Tax Assessor-Collector"],
+      "candidate_sources": [
+        {"source_id": "harris_tax_sales", "official_url": "https://www.hctax.net/Property/TaxSales/Index", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "UNVERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": false, "sample_document_view_possible": false, "minimum_lead_fields_available": ["tax_year", "amount"], "operator_verified": false, "notes": "Tax certificate sales."}
+      ],
+      "selected_source_id": "harris_tax_sales",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Tax Office candidate."
+    },
+    {
+      "lead_type": "Tax Delinquency",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Tax Assessor-Collector"],
+      "candidate_sources": [
+        {"source_id": "harris_tax_sales", "official_url": "https://www.hctax.net/Property/TaxSales/Index", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "UNVERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": false, "sample_document_view_possible": false, "minimum_lead_fields_available": ["tax_year", "amount"], "operator_verified": false, "notes": "Delinquent tax rolls."}
+      ],
+      "selected_source_id": "harris_tax_sales",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Tax Office candidate."
+    },
+    {
+      "lead_type": "Lis Pendens",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties", "record_date"], "operator_verified": true, "notes": "L/P code in Clerk recordings."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk LIS_PENDENS live."
+    },
+    {
+      "lead_type": "Civil Judgment",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County District Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties", "doc_type"], "operator_verified": true, "notes": "Civil judgments via CivilOnly filter."}
+      ],
+      "selected_source_id": "harris_dc_court_records",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "District Clerk civil dockets live."
+    },
+    {
+      "lead_type": "Abstract of Judgment",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County District Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties"], "operator_verified": true, "notes": "Abstract of judgment filings in civil dockets."}
+      ],
+      "selected_source_id": "harris_dc_court_records",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "District Clerk civil dockets (CivilOnly)."
+    },
+    {
+      "lead_type": "Mechanic Lien",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties"], "operator_verified": true, "notes": "Mechanic/construction liens recorded in Clerk real property."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk recorded liens live."
+    },
+    {
+      "lead_type": "Construction Lien",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties"], "operator_verified": true, "notes": "Construction liens recorded in Clerk real property."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk recorded liens live."
+    },
+    {
+      "lead_type": "Federal Tax Lien",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk", "IRS"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties"], "operator_verified": true, "notes": "Federal tax liens recorded in Clerk real property."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk recorded federal tax liens live."
+    },
+    {
+      "lead_type": "State Tax Lien",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk", "Texas Comptroller"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties"], "operator_verified": true, "notes": "State tax liens recorded in Clerk real property."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk recorded state tax liens live."
+    },
+    {
+      "lead_type": "Probate",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County District Clerk", "Harris County Probate Court"],
+      "candidate_sources": [
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties"], "operator_verified": true, "notes": "Probate dockets via CivilOnly filter (Guardian ad Litem party present)."}
+      ],
+      "selected_source_id": "harris_dc_court_records",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "District Clerk probate dockets live."
+    },
+    {
+      "lead_type": "Affidavit of Heirship",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties"], "operator_verified": true, "notes": "Affidavits of heirship recorded in Clerk real property."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk recorded affidavits live."
+    },
+    {
+      "lead_type": "Executor Deed",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties"], "operator_verified": true, "notes": "Executor's deeds recorded in Clerk real property."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk recorded executor deeds live."
+    },
+    {
+      "lead_type": "Administrator Deed",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties"], "operator_verified": true, "notes": "Administrator's deeds recorded in Clerk real property."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Clerk recorded administrator deeds live."
+    },
+    {
+      "lead_type": "Code Lien",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Code Enforcement", "Harris County Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_clerk_real_property", "official_url": "https://www.cclerk.hctx.net/applications/websearch/RP.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "SEARCH_ONLY_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "POSSIBLE", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["doc_type", "parties"], "operator_verified": false, "notes": "Code-lien recordings may appear in Clerk real property; code-enforcement portal not pinned."}
+      ],
+      "selected_source_id": "harris_clerk_real_property",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Via Clerk; code-enforcement portal not independently verified."
+    },
+    {
+      "lead_type": "Demolition",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Code Enforcement"],
+      "candidate_sources": [
+        {"source_id": "harris_code_enforcement", "official_url": "", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "UNKNOWN", "bulk_availability": "UNKNOWN", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "POSSIBLE", "access": "UNKNOWN", "extractability": "UNKNOWN", "refresh_provenance": "UNKNOWN"}, "sample_record_path_confirmed": false, "sample_document_view_possible": false, "minimum_lead_fields_available": [], "operator_verified": false, "notes": "Code enforcement / demolition notices not pinned in recon."}
+      ],
+      "selected_source_id": "",
+      "status": "SOURCE_NOT_FOUND",
+      "coverage_notes": "No official demolition-source URL pinned this session."
+    },
+    {
+      "lead_type": "Condemnation",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County District Clerk", "Harris County"],
+      "candidate_sources": [
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "POSSIBLE", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties"], "operator_verified": false, "notes": "Condemnation cases may appear in civil dockets."}
+      ],
+      "selected_source_id": "harris_dc_court_records",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Via District Clerk civil dockets (CivilOnly)."
+    },
+    {
+      "lead_type": "Eviction",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County Justice Court", "Harris County District Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties"], "operator_verified": false, "notes": "Eviction dockets in civil court records (CivilOnly)."}
+      ],
+      "selected_source_id": "harris_dc_court_records",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Via District Clerk civil dockets."
+    },
+    {
+      "lead_type": "Divorce",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County District Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "VERIFIED", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties"], "operator_verified": false, "notes": "Divorce dockets in civil/family court (CivilOnly)."}
+      ],
+      "selected_source_id": "harris_dc_court_records",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Via District Clerk civil dockets."
+    },
+    {
+      "lead_type": "Bankruptcy",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["US Bankruptcy Court (SD Texas)", "Harris County District Clerk"],
+      "candidate_sources": [
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "POSSIBLE", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties"], "operator_verified": false, "notes": "Bankruptcy-related dockets may surface in civil records; federal court is separate."}
+      ],
+      "selected_source_id": "harris_dc_court_records",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Via District Clerk; federal bankruptcy court not separately onboarded."
+    },
+    {
+      "lead_type": "Surplus",
+      "state_applicability": "APPLICABLE",
+      "expected_authorities": ["Harris County District Clerk", "Harris County Sheriff"],
+      "candidate_sources": [
+        {"source_id": "harris_dc_court_records", "official_url": "https://www.hcdistrictclerk.com/eDocs/Public/Search.aspx", "authority_type": "GOV", "source_role": "PRIMARY_EVENT_SOURCE", "access_status": "OPEN_PUBLIC", "bulk_availability": "PER_RECORD_ONLY", "verification_layers": {"authority": "VERIFIED", "lead_type_relevance": "POSSIBLE", "access": "VERIFIED", "extractability": "VERIFIED", "refresh_provenance": "VERIFIED"}, "sample_record_path_confirmed": true, "sample_document_view_possible": false, "minimum_lead_fields_available": ["case_number", "parties"], "operator_verified": false, "notes": "Foreclosure-surplus filings may appear in civil dockets post-sale."}
+      ],
+      "selected_source_id": "harris_dc_court_records",
+      "status": "LIVE_SOURCE_FOUND_LIMITED_COVERAGE",
+      "coverage_notes": "Via District Clerk civil dockets."
+    }
+  ]
+}
