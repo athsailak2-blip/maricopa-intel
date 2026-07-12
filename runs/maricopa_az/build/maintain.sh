@@ -16,7 +16,21 @@ echo "[$(date -u)] pipeline done rc=$?" >> "$LOG"
 "$PY" runs/maricopa_az/build/build_deploy.py >> "$LOG" 2>&1
 echo "[$(date -u)] deploy build done rc=$?" >> "$LOG"
 # 3) Commit + push (repo is public; leads.json is public-record data by design)
-git add -A >> "$LOG" 2>&1
+# NEVER use `git add -A` — it would push .venv_hcad/ + scrapers/.tinyfish_key
+# (the API secret) to the PUBLIC repo. Stage only safe, reviewed files.
+git add .gitignore README.md \
+  config/counties/maricopa_az.json \
+  scrapers/maricopa_surplus.py scrapers/maricopa_eviction.py scrapers/maricopa_divorce.py \
+  runs/maricopa_az/build/run_real_sources.py runs/maricopa_az/build/build_deploy.py \
+  dashboard/index.html dashboard/dashboard.css dashboard/dashboard.js \
+  index.html dashboard.css dashboard.js \
+  data/leads.json data/dashboard.json >> "$LOG" 2>&1
+# Safety: abort push if any secret/venv is somehow staged.
+if git diff --cached --name-only | grep -E '\.tinyfish_key|\.venv|parcel\.pkl|\.zip$|records\.zip|real_.*\.json|real_run/'; then
+  echo "[$(date -u)] ABORT: secret/large artifact staged; not pushing" >> "$LOG"
+  git reset -q >> "$LOG" 2>&1
+  exit 2
+fi
 git commit -m "daily refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$LOG" 2>&1
-git push origin main >> "$LOG" 2>&1
+git push origin master >> "$LOG" 2>&1
 echo "[$(date -u)] push done rc=$?" >> "$LOG"
