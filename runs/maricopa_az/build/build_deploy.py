@@ -238,6 +238,40 @@ def build_leads_json(enriched: list, scored: list | None = None) -> dict:
                 "display_source": SOURCE_LABELS.get(src_id, src_id),
             })
 
+    # --- DEDUPE: collapse to one row per (identity, doc_type) ---
+    # The framework emits multiple scored leads per underlying event (one per
+    # pattern). Collapse so each distinct (parcel OR owner, doc_type) appears
+    # once, keeping the highest-tier / most-confident representative.
+    TIER_RANK = {"Hot": 5, "Strong": 4, "Workable": 3, "Low": 2, "Archive": 1}
+    deduped = {}
+    order = []
+    for r in rows:
+        parcel = r.get("primary_parcel_id")
+        owner = (r.get("display_owner") or "").strip()
+        doc = r.get("display_doc_type")
+        # Identity = parcel if we have one, else owner+doc_type (catches the
+        # x8 probate-on-one-parcel and x6 DOT-on-one-parcel repeats).
+        ident = parcel if parcel else f"{owner}||{doc}"
+        key = (ident, doc)
+        if key in deduped:
+            # Keep the stronger representative.
+            prev = deduped[key]
+            if TIER_RANK.get(r["display_tier"], 0) > TIER_RANK.get(prev["display_tier"], 0):
+                deduped[key] = r
+            # Merge evidence ids so nothing is lost.
+            seen = set(prev.get("evidence_ids") or [])
+            for e in (r.get("evidence_ids") or []):
+                if e not in seen:
+                    prev["evidence_ids"].append(e)
+                    seen.add(e)
+        else:
+            deduped[key] = r
+            order.append(key)
+    rows = [deduped[k] for k in order]
+    # Renumber lead_ids cleanly after dedup.
+    for i, r in enumerate(rows, 1):
+        r["lead_id"] = f"MCR-{i:03d}"
+
     # Header aggregates (Two-Truths invariant: re-derived from records).
     tier_dist = Counter(r["display_tier"] for r in rows)
     pat_dist = Counter()

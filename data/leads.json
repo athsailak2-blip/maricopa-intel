@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T11:30:34Z",
+  "generated_at": "2026-07-12T12:04:32Z",
   "build_label": "PARTIAL_BUILD",
   "build_label_reason": "Tax-lien source BLOCKED (RealAuction / arizonataxsale.com login wall; MyMCTO credentials do not cross over). Recorder + Probate leads included with real Assessor situs addresses. NEW sources added (verified live): Divorce (Family Court), Eviction (Justice Court), Surplus (tax-deeded land). Divorce/Eviction party names are redacted by the portals (case number is the verified key); Surplus carries a real parcel_id. Addresses are best-effort owner-name matches — verify before outreach.",
   "mode": "real-limited-sample",
@@ -10,35 +10,35 @@
     "github_org": "athsailak2-blip",
     "github_repo": "maricopa-intel"
   },
-  "lead_total": 125,
-  "total_signals_active": 125,
+  "lead_total": 49,
+  "total_signals_active": 49,
   "total_signals_suppressed": 0,
   "score_tier_distribution": {
-    "Archive": 50,
+    "Archive": 12,
     "Hot": 1,
-    "Low": 21,
-    "Strong": 26,
-    "Workable": 27
+    "Low": 14,
+    "Strong": 18,
+    "Workable": 4
   },
   "pattern_counts": {
-    "estate": 23,
-    "foreclosure": 53,
-    "lien": 7,
-    "litigation": 8,
-    "occupant_distress": 8,
-    "surplus_funds": 7,
-    "tax_deeded": 7,
-    "transfer": 28
+    "estate": 3,
+    "foreclosure": 21,
+    "lien": 2,
+    "litigation": 1,
+    "occupant_distress": 2,
+    "surplus_funds": 6,
+    "tax_deeded": 6,
+    "transfer": 9
   },
   "attribute_counts": {},
   "deal_path_distribution": {
-    "divorce_transfer": 8,
-    "occupant_distress": 8,
-    "probate_estate": 8,
-    "wholesale": 101
+    "divorce_transfer": 1,
+    "occupant_distress": 1,
+    "probate_estate": 1,
+    "wholesale": 46
   },
   "stack_depth_distribution": {
-    "1": 125
+    "1": 49
   },
   "quality_metrics": {},
   "records": [
@@ -83,335 +83,13 @@
         "Probate / Estate — primary distress signal; resolved to DIANNE R WOODS REVOCABLE TRUST @ PO BOX 7822 URBANDALE IA"
       ],
       "evidence_ids": [
-        "PB0000-115373"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Probate / Estate",
-      "display_source": "Superior Court — Probate"
-    },
-    {
-      "lead_id": "MCR-002",
-      "primary_parcel_id": "21816146A",
-      "display_address": "PO BOX 7822 URBANDALE IA",
-      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate"
-      ],
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "probate_estate"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Dianne Woods'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21816146A"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Probate / Estate — primary distress signal; resolved to DIANNE R WOODS REVOCABLE TRUST @ PO BOX 7822 URBANDALE IA"
-      ],
-      "evidence_ids": [
-        "PB0000-115635"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Probate / Estate",
-      "display_source": "Superior Court — Probate"
-    },
-    {
-      "lead_id": "MCR-003",
-      "primary_parcel_id": "21816146A",
-      "display_address": "PO BOX 7822 URBANDALE IA",
-      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate"
-      ],
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "probate_estate"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Dianne Woods'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21816146A"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Probate / Estate — primary distress signal; resolved to DIANNE R WOODS REVOCABLE TRUST @ PO BOX 7822 URBANDALE IA"
-      ],
-      "evidence_ids": [
-        "PB0000-117452"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Probate / Estate",
-      "display_source": "Superior Court — Probate"
-    },
-    {
-      "lead_id": "MCR-004",
-      "primary_parcel_id": "21816146A",
-      "display_address": "PO BOX 7822 URBANDALE IA",
-      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate"
-      ],
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "probate_estate"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Dianne Woods'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21816146A"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Probate / Estate — primary distress signal; resolved to DIANNE R WOODS REVOCABLE TRUST @ PO BOX 7822 URBANDALE IA"
-      ],
-      "evidence_ids": [
-        "PB0000-128979"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Probate / Estate",
-      "display_source": "Superior Court — Probate"
-    },
-    {
-      "lead_id": "MCR-005",
-      "primary_parcel_id": "21816146A",
-      "display_address": "PO BOX 7822 URBANDALE IA",
-      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate"
-      ],
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "probate_estate"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Dianne Woods'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21816146A"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Probate / Estate — primary distress signal; resolved to DIANNE R WOODS REVOCABLE TRUST @ PO BOX 7822 URBANDALE IA"
-      ],
-      "evidence_ids": [
-        "PB0000-129881"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Probate / Estate",
-      "display_source": "Superior Court — Probate"
-    },
-    {
-      "lead_id": "MCR-006",
-      "primary_parcel_id": "21816146A",
-      "display_address": "PO BOX 7822 URBANDALE IA",
-      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate"
-      ],
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "probate_estate"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Dianne Woods'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21816146A"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Probate / Estate — primary distress signal; resolved to DIANNE R WOODS REVOCABLE TRUST @ PO BOX 7822 URBANDALE IA"
-      ],
-      "evidence_ids": [
-        "PB0000-132288"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Probate / Estate",
-      "display_source": "Superior Court — Probate"
-    },
-    {
-      "lead_id": "MCR-007",
-      "primary_parcel_id": "21816146A",
-      "display_address": "PO BOX 7822 URBANDALE IA",
-      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate"
-      ],
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "probate_estate"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Dianne Woods'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21816146A"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Probate / Estate — primary distress signal; resolved to DIANNE R WOODS REVOCABLE TRUST @ PO BOX 7822 URBANDALE IA"
-      ],
-      "evidence_ids": [
-        "PB0000-139852"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Probate / Estate",
-      "display_source": "Superior Court — Probate"
-    },
-    {
-      "lead_id": "MCR-008",
-      "primary_parcel_id": "21816146A",
-      "display_address": "PO BOX 7822 URBANDALE IA",
-      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate"
-      ],
-      "stack_contrib_patterns": [
-        "estate"
-      ],
-      "display_pattern_set": [
-        "estate"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "probate_estate"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Dianne Woods'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21816146A"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Probate / Estate — primary distress signal; resolved to DIANNE R WOODS REVOCABLE TRUST @ PO BOX 7822 URBANDALE IA"
-      ],
-      "evidence_ids": [
+        "PB0000-115373",
+        "PB0000-115635",
+        "PB0000-117452",
+        "PB0000-128979",
+        "PB0000-129881",
+        "PB0000-132288",
+        "PB0000-139852",
         "PB0000-147504"
       ],
       "primary_source_urls": [],
@@ -419,10 +97,10 @@
       "display_source": "Superior Court — Probate"
     },
     {
-      "lead_id": "MCR-009",
-      "primary_parcel_id": "21734371",
-      "display_address": "10510 E BELLA VISTA DR SCOTTSDALE AZ",
-      "display_owner": "SMITH WAYNE/PATRICIA",
+      "lead_id": "MCR-002",
+      "primary_parcel_id": "21855312",
+      "display_address": "6923 E FLOSSMOOR AVE MESA AZ",
+      "display_owner": "SMITH KEITH/ADIRANA",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [
@@ -449,27 +127,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH A WAYNE'",
+      "parcel_master_status_note": "owner-name join from 'SMITH A KEITH'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "21734371"
+        "21855312"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Warranty Deed — primary distress signal; resolved to SMITH WAYNE/PATRICIA @ 10510 E BELLA VISTA DR SCOTTSDALE AZ"
+        "Warranty Deed — primary distress signal; resolved to SMITH KEITH/ADIRANA @ 6923 E FLOSSMOOR AVE MESA AZ"
       ],
       "evidence_ids": [
-        "20240453446"
+        "20260318333"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Warranty Deed",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-010",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
+      "lead_id": "MCR-003",
+      "primary_parcel_id": "21855312",
+      "display_address": "6923 E FLOSSMOOR AVE MESA AZ",
+      "display_owner": "SMITH KEITH/ADIRANA",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [
@@ -496,118 +174,24 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
+      "parcel_master_status_note": "owner-name join from 'SMITH A KEITH'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "21725693"
+        "21855312"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Warranty Deed — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
+        "Release of Deed of Trust — primary distress signal; resolved to SMITH KEITH/ADIRANA @ 6923 E FLOSSMOOR AVE MESA AZ"
       ],
       "evidence_ids": [
-        "20240040386"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Warranty Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-011",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21725693"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "20240046522"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-012",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21725693"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Release of Deed of Trust — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "20240057744"
+        "20260346208"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Release of Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-013",
+      "lead_id": "MCR-004",
       "primary_parcel_id": "21725693",
       "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
       "display_owner": "AARON RUSSEL SMITH TRUST",
@@ -647,202 +231,14 @@
         "Lien — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
       ],
       "evidence_ids": [
-        "20240058453"
+        "20260052244"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Lien",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-014",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "lien"
-      ],
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21725693"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Medical Lien — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "20240069691"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Medical Lien",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-015",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21725693"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "20240101903"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-016",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21725693"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Release of Deed of Trust — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "20240118576"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Release of Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-017",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21725693"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Release — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "20240135925"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-018",
+      "lead_id": "MCR-005",
       "primary_parcel_id": "21725693",
       "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
       "display_owner": "AARON RUSSEL SMITH TRUST",
@@ -873,17 +269,99 @@
       ],
       "review_flags": [],
       "score_reasons": [
-        "LIS PEND — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
+        "MIN ENTRY — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
       ],
       "evidence_ids": [
-        "20240143783"
+        "20260302422"
       ],
       "primary_source_urls": [],
-      "display_doc_type": "LIS PEND",
+      "display_doc_type": "MIN ENTRY",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-019",
+      "lead_id": "MCR-006",
+      "primary_parcel_id": "21725693",
+      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
+      "display_owner": "AARON RUSSEL SMITH TRUST",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved_assessor_parcel",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21725693"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "ORDER — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
+      ],
+      "evidence_ids": [
+        "20260302423"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "ORDER",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-007",
+      "primary_parcel_id": "21725693",
+      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
+      "display_owner": "AARON RUSSEL SMITH TRUST",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved_assessor_parcel",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21725693"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "RENW JDG — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
+      ],
+      "evidence_ids": [
+        "20260398149"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "RENW JDG",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-008",
       "primary_parcel_id": "21725693",
       "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
       "display_owner": "AARON RUSSEL SMITH TRUST",
@@ -913,7 +391,7 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON F'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
         "21725693"
@@ -923,27 +401,27 @@
         "Deed of Trust — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
       ],
       "evidence_ids": [
-        "20240156299"
+        "20260053693"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-020",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
-      "display_score": 61,
-      "display_tier": "Workable",
+      "lead_id": "MCR-009",
+      "primary_parcel_id": "50227106",
+      "display_address": "24244 N 82ND LN PEORIA AZ",
+      "display_owner": "SMITH JAMES AARON/CHRISTINA",
+      "display_score": 40,
+      "display_tier": "Low",
       "display_patterns": [
-        "lien"
+        "transfer"
       ],
       "stack_contrib_patterns": [
-        "lien"
+        "transfer"
       ],
       "display_pattern_set": [
-        "lien"
+        "transfer"
       ],
       "display_attributes": [],
       "display_deal_paths": [
@@ -960,27 +438,75 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON JAMES'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "21725693"
+        "50227106"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Medical Lien — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
+        "Release — primary distress signal; resolved to SMITH JAMES AARON/CHRISTINA @ 24244 N 82ND LN PEORIA AZ"
       ],
       "evidence_ids": [
-        "20240208756"
+        "20260342776"
       ],
       "primary_source_urls": [],
-      "display_doc_type": "Medical Lien",
+      "display_doc_type": "Release",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-021",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
+      "lead_id": "MCR-010",
+      "primary_parcel_id": "30428707",
+      "display_address": "3065 E TAMARISK ST GILBERT AZ",
+      "display_owner": "SMITH ABIGAIL ANNA/BURHANS BRANDON ROBERT",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved_assessor_parcel",
+      "parcel_master_status_note": "owner-name join from 'SMITH ABIGAIL'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "30428707"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal; resolved to SMITH ABIGAIL ANNA/BURHANS BRANDON ROBERT @ 3065 E TAMARISK ST GILBERT AZ"
+      ],
+      "evidence_ids": [
+        "20260150916",
+        "20260387923"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-011",
+      "primary_parcel_id": "30428707",
+      "display_address": "3065 E TAMARISK ST GILBERT AZ",
+      "display_owner": "SMITH ABIGAIL ANNA/BURHANS BRANDON ROBERT",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1007,27 +533,28 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
+      "parcel_master_status_note": "owner-name join from 'SMITH ABIGAIL'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "21725693"
+        "30428707"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
+        "Deed of Trust — primary distress signal; resolved to SMITH ABIGAIL ANNA/BURHANS BRANDON ROBERT @ 3065 E TAMARISK ST GILBERT AZ"
       ],
       "evidence_ids": [
-        "20240046522"
+        "20260150917",
+        "20260387924"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-022",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
+      "lead_id": "MCR-012",
+      "primary_parcel_id": "30704534",
+      "display_address": "4456 E VERBENA DR PHOENIX AZ",
+      "display_owner": "GARCIA ABBY ABENHAY",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1054,212 +581,24 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
+      "parcel_master_status_note": "owner-name join from 'GARCIA ABBY A'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "21725693"
+        "30704534"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
+        "Deed of Trust — primary distress signal; resolved to GARCIA ABBY ABENHAY @ 4456 E VERBENA DR PHOENIX AZ"
       ],
       "evidence_ids": [
-        "20240101903"
+        "20260375796"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-023",
-      "primary_parcel_id": "21725693",
-      "display_address": "9430 E PARADISE DR SCOTTSDALE AZ",
-      "display_owner": "AARON RUSSEL SMITH TRUST",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'SMITH AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21725693"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to AARON RUSSEL SMITH TRUST @ 9430 E PARADISE DR SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "20240156299"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-024",
-      "primary_parcel_id": "30013544",
-      "display_address": "6427 W BEVERLY RD LAVEEN AZ",
-      "display_owner": "GARCIA AARON C",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'GARCIA AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "30013544"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to GARCIA AARON C @ 6427 W BEVERLY RD LAVEEN AZ"
-      ],
-      "evidence_ids": [
-        "20240536594"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-025",
-      "primary_parcel_id": "21837081",
-      "display_address": "321 N 87TH PL MESA AZ",
-      "display_owner": "GARCIA ABEL",
-      "display_score": 92,
-      "display_tier": "Hot",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'GARCIA ABEL'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21837081"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Notice of Trustee Sale — primary distress signal; resolved to GARCIA ABEL @ 321 N 87TH PL MESA AZ"
-      ],
-      "evidence_ids": [
-        "20240001833"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Notice of Trustee Sale",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-026",
-      "primary_parcel_id": "30165129",
-      "display_address": "3982 W CINDY ST CHANDLER AZ",
-      "display_owner": "CHARNICK BRANDON AARON/LOPEZ SANELY DERAS",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'LOPEZ AARON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "30165129"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to CHARNICK BRANDON AARON/LOPEZ SANELY DERAS @ 3982 W CINDY ST CHANDLER AZ"
-      ],
-      "evidence_ids": [
-        "20240652150"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-027",
+      "lead_id": "MCR-013",
       "primary_parcel_id": "30489048M",
       "display_address": "25523 S 188TH WAY QUEEN CREEK AZ",
       "display_owner": "LOPEZ ABBY A/RAY LORENZO JR",
@@ -1299,17 +638,17 @@
         "Deed of Trust — primary distress signal; resolved to LOPEZ ABBY A/RAY LORENZO JR @ 25523 S 188TH WAY QUEEN CREEK AZ"
       ],
       "evidence_ids": [
-        "20250310862"
+        "20260191370"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-028",
-      "primary_parcel_id": "30249525",
-      "display_address": "2804 W CURRY ST CHANDLER AZ",
-      "display_owner": "MARTINEZ AARON",
+      "lead_id": "MCR-014",
+      "primary_parcel_id": "30006357",
+      "display_address": "5113 W STARGAZER PL LAVEEN AZ",
+      "display_owner": "RODRIGUEZ OMAR ABEL CASTRO/LOPEZ MARTHA ELVA PALAZUELOS",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1336,27 +675,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'MARTINEZ AARON'",
+      "parcel_master_status_note": "owner-name join from 'LOPEZ ABEL'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "30249525"
+        "30006357"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to MARTINEZ AARON @ 2804 W CURRY ST CHANDLER AZ"
+        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ OMAR ABEL CASTRO/LOPEZ MARTHA ELVA PALAZUELOS @ 5113 W STARGAZER PL LAVEEN AZ"
       ],
       "evidence_ids": [
-        "20240170351"
+        "20260330170"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-029",
-      "primary_parcel_id": "30249525",
-      "display_address": "2804 W CURRY ST CHANDLER AZ",
-      "display_owner": "MARTINEZ AARON",
+      "lead_id": "MCR-015",
+      "primary_parcel_id": "22010108",
+      "display_address": "519 N 111TH PL MESA AZ",
+      "display_owner": "GUADARRAMA LUIS VICENTE LOPEZ",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1383,27 +722,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'MARTINEZ AARON'",
+      "parcel_master_status_note": "owner-name join from 'LOPEZ ADA K'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "30249525"
+        "22010108"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to MARTINEZ AARON @ 2804 W CURRY ST CHANDLER AZ"
+        "Deed of Trust — primary distress signal; resolved to GUADARRAMA LUIS VICENTE LOPEZ @ 519 N 111TH PL MESA AZ"
       ],
       "evidence_ids": [
-        "20250202571"
+        "20260245897"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-030",
-      "primary_parcel_id": "30249525",
-      "display_address": "2804 W CURRY ST CHANDLER AZ",
-      "display_owner": "MARTINEZ AARON",
+      "lead_id": "MCR-016",
+      "primary_parcel_id": "50445138",
+      "display_address": "4190 S 242ND  LN BUCKEYE AZ",
+      "display_owner": "MARTINEZ-PRUNEDA JUAN ANTONIO/MARTINEZ ABBYGALE NEVAEH",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1430,24 +769,120 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'MARTINEZ AARON'",
+      "parcel_master_status_note": "owner-name join from 'MARTINEZ ABBYGALE NEVAEH'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "30249525"
+        "50445138"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to MARTINEZ AARON @ 2804 W CURRY ST CHANDLER AZ"
+        "Deed of Trust — primary distress signal; resolved to MARTINEZ-PRUNEDA JUAN ANTONIO/MARTINEZ ABBYGALE NEVAEH @ 4190 S 242ND  LN BUCKEYE AZ"
       ],
       "evidence_ids": [
-        "20250539974"
+        "20260184602"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-031",
+      "lead_id": "MCR-017",
+      "primary_parcel_id": "23002020",
+      "display_address": "3924 FRANDON CT SIMI VALLEY CA",
+      "display_owner": "WRIGHT ROBIN RAE/MARTINEZ MARIA ISABEL",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved_assessor_parcel",
+      "parcel_master_status_note": "owner-name join from 'MARTINEZ ABEL'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "23002020"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to WRIGHT ROBIN RAE/MARTINEZ MARIA ISABEL @ 3924 FRANDON CT SIMI VALLEY CA"
+      ],
+      "evidence_ids": [
+        "20260035276",
+        "20260035277",
+        "20260040783"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-018",
+      "primary_parcel_id": "30436379",
+      "display_address": "21477 E TIMBERLINE RD QUEEN CREEK AZ",
+      "display_owner": "AGUILA AARON JOHN CAYANAN/NGUYEN NANCY MINH",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved_assessor_parcel",
+      "parcel_master_status_note": "owner-name join from 'NGUYEN AARON'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "30436379"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to AGUILA AARON JOHN CAYANAN/NGUYEN NANCY MINH @ 21477 E TIMBERLINE RD QUEEN CREEK AZ"
+      ],
+      "evidence_ids": [
+        "20260087236"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-019",
       "primary_parcel_id": "30106374",
       "display_address": "6370 S COLONIAL WAY TEMPE AZ",
       "display_owner": "NGUYEN AI",
@@ -1487,17 +922,17 @@
         "Deed of Trust — primary distress signal; resolved to NGUYEN AI @ 6370 S COLONIAL WAY TEMPE AZ"
       ],
       "evidence_ids": [
-        "20240542240"
+        "20260362221"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-032",
-      "primary_parcel_id": "30106374",
-      "display_address": "6370 S COLONIAL WAY TEMPE AZ",
-      "display_owner": "NGUYEN AI",
+      "lead_id": "MCR-020",
+      "primary_parcel_id": "30507135",
+      "display_address": "1348 W MEDINA AVE MESA AZ",
+      "display_owner": "NGUYEN AIMEE",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1524,27 +959,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'NGUYEN AI'",
+      "parcel_master_status_note": "owner-name join from 'NGUYEN AIMEE'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "30106374"
+        "30507135"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to NGUYEN AI @ 6370 S COLONIAL WAY TEMPE AZ"
+        "Deed of Trust — primary distress signal; resolved to NGUYEN AIMEE @ 1348 W MEDINA AVE MESA AZ"
       ],
       "evidence_ids": [
-        "20250183098"
+        "20260082675"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-033",
-      "primary_parcel_id": "21579070",
-      "display_address": "16602 N 63RD ST SCOTTSDALE AZ",
-      "display_owner": "JADE HEATHER JOHNSON LIVING TRUST",
+      "lead_id": "MCR-021",
+      "primary_parcel_id": "30101469",
+      "display_address": "3920 PROSPECT AVE LOS ANGELES CA",
+      "display_owner": "NGUYEN PHUC VINH TRUONG/BROWNE DAVID ALEXANDER",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1571,27 +1006,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'JOHNSON A D JR'",
+      "parcel_master_status_note": "owner-name join from 'NGUYEN ALEXANDER'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "21579070"
+        "30101469"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to JADE HEATHER JOHNSON LIVING TRUST @ 16602 N 63RD ST SCOTTSDALE AZ"
+        "Deed of Trust — primary distress signal; resolved to NGUYEN PHUC VINH TRUONG/BROWNE DAVID ALEXANDER @ 3920 PROSPECT AVE LOS ANGELES CA"
       ],
       "evidence_ids": [
-        "20250241814"
+        "20260097430"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-034",
-      "primary_parcel_id": "31331087",
-      "display_address": "3720 E BOOT TRACK TRL GILBERT AZ",
-      "display_owner": "JOHNSON AARON",
+      "lead_id": "MCR-022",
+      "primary_parcel_id": "50172307",
+      "display_address": "12642 W VERDE LN AVONDALE AZ",
+      "display_owner": "JOHNSON SHAE/ABRAHAM",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1618,27 +1053,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'JOHNSON AARON'",
+      "parcel_master_status_note": "owner-name join from 'JOHNSON ABRAHAM'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "31331087"
+        "50172307"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to JOHNSON AARON @ 3720 E BOOT TRACK TRL GILBERT AZ"
+        "Deed of Trust — primary distress signal; resolved to JOHNSON SHAE/ABRAHAM @ 12642 W VERDE LN AVONDALE AZ"
       ],
       "evidence_ids": [
-        "20240003923"
+        "20260119818"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-035",
-      "primary_parcel_id": "31331087",
-      "display_address": "3720 E BOOT TRACK TRL GILBERT AZ",
-      "display_owner": "JOHNSON AARON",
+      "lead_id": "MCR-023",
+      "primary_parcel_id": "21759491",
+      "display_address": "8164 E DEL CUARZO DR SCOTTSDALE AZ",
+      "display_owner": "JOHNSON ADAM",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1665,27 +1100,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'JOHNSON AARON'",
+      "parcel_master_status_note": "owner-name join from 'JOHNSON ADAM'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "31331087"
+        "21759491"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to JOHNSON AARON @ 3720 E BOOT TRACK TRL GILBERT AZ"
+        "Deed of Trust — primary distress signal; resolved to JOHNSON ADAM @ 8164 E DEL CUARZO DR SCOTTSDALE AZ"
       ],
       "evidence_ids": [
-        "20240028633"
+        "20260186377"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-036",
-      "primary_parcel_id": "31331087",
-      "display_address": "3720 E BOOT TRACK TRL GILBERT AZ",
-      "display_owner": "JOHNSON AARON",
+      "lead_id": "MCR-024",
+      "primary_parcel_id": "21651485",
+      "display_address": "7280 E CALLE PRIMERA VISTA SCOTTSDALE AZ",
+      "display_owner": "DOLBY ADAM HEATH/JOHNSON SHEILA RENEE",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1712,165 +1147,24 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'JOHNSON AARON'",
+      "parcel_master_status_note": "owner-name join from 'JOHNSON ADAM D'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "31331087"
+        "21651485"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to JOHNSON AARON @ 3720 E BOOT TRACK TRL GILBERT AZ"
+        "Deed of Trust — primary distress signal; resolved to DOLBY ADAM HEATH/JOHNSON SHEILA RENEE @ 7280 E CALLE PRIMERA VISTA SCOTTSDALE AZ"
       ],
       "evidence_ids": [
-        "20250131908"
+        "20260223300"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-037",
-      "primary_parcel_id": "50172339",
-      "display_address": "12735 W VERDE LN AVONDALE AZ",
-      "display_owner": "RODRIGUEZ AARON F",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON F'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "50172339"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ AARON F @ 12735 W VERDE LN AVONDALE AZ"
-      ],
-      "evidence_ids": [
-        "20240521946"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-038",
-      "primary_parcel_id": "50041480",
-      "display_address": "828 E AGUA FRIA LN AVONDALE AZ",
-      "display_owner": "RODRIGUEZ AARON FERNANDO",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON FERNANDO'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "50041480"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ AARON FERNANDO @ 828 E AGUA FRIA LN AVONDALE AZ"
-      ],
-      "evidence_ids": [
-        "20250072852"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-039",
-      "primary_parcel_id": "50041480",
-      "display_address": "828 E AGUA FRIA LN AVONDALE AZ",
-      "display_owner": "RODRIGUEZ AARON FERNANDO",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON FERNANDO'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "50041480"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ AARON FERNANDO @ 828 E AGUA FRIA LN AVONDALE AZ"
-      ],
-      "evidence_ids": [
-        "20250072853"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-040",
+      "lead_id": "MCR-025",
       "primary_parcel_id": "21712752",
       "display_address": "9056 E NITTANY DR SCOTTSDALE AZ",
       "display_owner": "RODRIGUEZ AARON F/SARAH S TR",
@@ -1900,7 +1194,7 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON L'",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON R'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
         "21712752"
@@ -1910,17 +1204,17 @@
         "Deed of Trust — primary distress signal; resolved to RODRIGUEZ AARON F/SARAH S TR @ 9056 E NITTANY DR SCOTTSDALE AZ"
       ],
       "evidence_ids": [
-        "20250506547"
+        "20260204447"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-041",
-      "primary_parcel_id": "30016372",
-      "display_address": "9606 S 23RD DR PHOENIX AZ",
-      "display_owner": "HERNANDEZ AARON DOSTEN",
+      "lead_id": "MCR-026",
+      "primary_parcel_id": "50814826",
+      "display_address": "15697 W CORONADO RD GOODYEAR AZ",
+      "display_owner": "RODRIGUEZ ABELARDO",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1947,27 +1241,74 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'HERNANDEZ AARON'",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ABELARDO'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "30016372"
+        "50814826"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to HERNANDEZ AARON DOSTEN @ 9606 S 23RD DR PHOENIX AZ"
+        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ ABELARDO @ 15697 W CORONADO RD GOODYEAR AZ"
       ],
       "evidence_ids": [
-        "20240215985"
+        "20260363645"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-042",
-      "primary_parcel_id": "30016372",
-      "display_address": "9606 S 23RD DR PHOENIX AZ",
-      "display_owner": "HERNANDEZ AARON DOSTEN",
+      "lead_id": "MCR-027",
+      "primary_parcel_id": "23110361",
+      "display_address": "7926 W SWEETWATER AVE PEORIA AZ",
+      "display_owner": "ABELARDO & LYDIA RODRIGUEZ FAMILY TRUST",
+      "display_score": 92,
+      "display_tier": "Hot",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved_assessor_parcel",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ABELARDO Q'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "23110361"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Notice of Trustee Sale — primary distress signal; resolved to ABELARDO & LYDIA RODRIGUEZ FAMILY TRUST @ 7926 W SWEETWATER AVE PEORIA AZ"
+      ],
+      "evidence_ids": [
+        "20260030457"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Notice of Trustee Sale",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-028",
+      "primary_parcel_id": "50443787",
+      "display_address": "25443 W GRAHAM TRL BUCKEYE AZ",
+      "display_owner": "HERNANDEZ MONICA ABIGAIL MORA",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1994,118 +1335,24 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'HERNANDEZ AARON'",
+      "parcel_master_status_note": "owner-name join from 'HERNANDEZ ABIGAIL'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "30016372"
+        "50443787"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to HERNANDEZ AARON DOSTEN @ 9606 S 23RD DR PHOENIX AZ"
+        "Deed of Trust — primary distress signal; resolved to HERNANDEZ MONICA ABIGAIL MORA @ 25443 W GRAHAM TRL BUCKEYE AZ"
       ],
       "evidence_ids": [
-        "20250749193"
+        "20260334231"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-043",
-      "primary_parcel_id": "30016372",
-      "display_address": "9606 S 23RD DR PHOENIX AZ",
-      "display_owner": "HERNANDEZ AARON DOSTEN",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'HERNANDEZ AARON C'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "30016372"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to HERNANDEZ AARON DOSTEN @ 9606 S 23RD DR PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20250515947"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-044",
-      "primary_parcel_id": "30016372",
-      "display_address": "9606 S 23RD DR PHOENIX AZ",
-      "display_owner": "HERNANDEZ AARON DOSTEN",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'HERNANDEZ AARON D'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "30016372"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to HERNANDEZ AARON DOSTEN @ 9606 S 23RD DR PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20250122279"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-045",
+      "lead_id": "MCR-029",
       "primary_parcel_id": "21665308",
       "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
       "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
@@ -2148,356 +1395,13 @@
         "Divorce / Dissolution — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
       ],
       "evidence_ids": [
-        "DR1992-010100"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-046",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "divorce_transfer"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Divorce / Dissolution — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "DR1994-004597"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-047",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "divorce_transfer"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Divorce / Dissolution — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "DR1994-014786"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-048",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "divorce_transfer"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Divorce / Dissolution — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "DR1994-018758"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-049",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "divorce_transfer"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Divorce / Dissolution — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "DR1994-019375"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-050",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "divorce_transfer"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Divorce / Dissolution — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "DR1994-020753"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-051",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "divorce_transfer"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Divorce / Dissolution — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "DR1995-005896"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-052",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "divorce_transfer"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Divorce / Dissolution — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
+        "DR1992-010100",
+        "DR1994-004597",
+        "DR1994-014786",
+        "DR1994-018758",
+        "DR1994-019375",
+        "DR1994-020753",
+        "DR1995-005896",
         "DR1995-014680"
       ],
       "primary_source_urls": [],
@@ -2505,7 +1409,7 @@
       "display_source": "Superior Court — Civil / Family"
     },
     {
-      "lead_id": "MCR-053",
+      "lead_id": "MCR-030",
       "primary_parcel_id": "21665308",
       "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
       "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
@@ -2545,335 +1449,13 @@
         "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
       ],
       "evidence_ids": [
-        "0703TR9302084"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Eviction / Forcible Detainer",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-054",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "occupant_distress"
-      ],
-      "stack_contrib_patterns": [
-        "occupant_distress"
-      ],
-      "display_pattern_set": [
-        "occupant_distress"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "occupant_distress"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "0705CR9400023A"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Eviction / Forcible Detainer",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-055",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "occupant_distress"
-      ],
-      "stack_contrib_patterns": [
-        "occupant_distress"
-      ],
-      "display_pattern_set": [
-        "occupant_distress"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "occupant_distress"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "0705TR0202850"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Eviction / Forcible Detainer",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-056",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "occupant_distress"
-      ],
-      "stack_contrib_patterns": [
-        "occupant_distress"
-      ],
-      "display_pattern_set": [
-        "occupant_distress"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "occupant_distress"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "0710TR9306790"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Eviction / Forcible Detainer",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-057",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "occupant_distress"
-      ],
-      "stack_contrib_patterns": [
-        "occupant_distress"
-      ],
-      "display_pattern_set": [
-        "occupant_distress"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "occupant_distress"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "0710TR9306791"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Eviction / Forcible Detainer",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-058",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "occupant_distress"
-      ],
-      "stack_contrib_patterns": [
-        "occupant_distress"
-      ],
-      "display_pattern_set": [
-        "occupant_distress"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "occupant_distress"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "0713TR0303430"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Eviction / Forcible Detainer",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-059",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "occupant_distress"
-      ],
-      "stack_contrib_patterns": [
-        "occupant_distress"
-      ],
-      "display_pattern_set": [
-        "occupant_distress"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "occupant_distress"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "0716TR9302658"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Eviction / Forcible Detainer",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-060",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
-      "display_score": 61,
-      "display_tier": "Workable",
-      "display_patterns": [
-        "occupant_distress"
-      ],
-      "stack_contrib_patterns": [
-        "occupant_distress"
-      ],
-      "display_pattern_set": [
-        "occupant_distress"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "occupant_distress"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "21665308"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
+        "0703TR9302084",
+        "0705CR9400023A",
+        "0705TR0202850",
+        "0710TR9306790",
+        "0710TR9306791",
+        "0713TR0303430",
+        "0716TR9302658",
         "0716TR9302659"
       ],
       "primary_source_urls": [],
@@ -2881,7 +1463,7 @@
       "display_source": "Superior Court — Civil / Family"
     },
     {
-      "lead_id": "MCR-061",
+      "lead_id": "MCR-031",
       "primary_parcel_id": "21735916",
       "display_address": "10023 E SUNNYSLOPE LN SCOTTSDALE AZ",
       "display_owner": "DIAZ RODOLFO/MARIA",
@@ -2931,7 +1513,7 @@
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
     {
-      "lead_id": "MCR-062",
+      "lead_id": "MCR-032",
       "primary_parcel_id": "50315019A",
       "display_address": "38232 N 251ST AVE MORRISTOWN AZ",
       "display_owner": "GEORGE WELDON L",
@@ -2981,57 +1563,7 @@
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
     {
-      "lead_id": "MCR-063",
-      "primary_parcel_id": "50315019A",
-      "display_address": "38232 N 251ST AVE MORRISTOWN AZ",
-      "display_owner": "GEORGE WELDON L",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "tax_deeded",
-        "surplus_funds"
-      ],
-      "stack_contrib_patterns": [
-        "tax_deeded",
-        "surplus_funds"
-      ],
-      "display_pattern_set": [
-        "tax_deeded",
-        "surplus_funds"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'WELDON L GEORGE'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [
-        "50315019A"
-      ],
-      "review_flags": [],
-      "score_reasons": [
-        "Surplus / Tax-Deeded Land — primary distress signal; resolved to GEORGE WELDON L @ 38232 N 251ST AVE MORRISTOWN AZ"
-      ],
-      "evidence_ids": [
-        ""
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Surplus / Tax-Deeded Land",
-      "display_source": "Maricopa County — Tax Deed / Surplus"
-    },
-    {
-      "lead_id": "MCR-064",
+      "lead_id": "MCR-033",
       "primary_parcel_id": "30335530",
       "display_address": "20410 N 19th AVE STE 100 PHOENIX AZ",
       "display_owner": "CHI CONSTRUCTION COMPANY",
@@ -3081,7 +1613,7 @@
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
     {
-      "lead_id": "MCR-065",
+      "lead_id": "MCR-034",
       "primary_parcel_id": "30150696",
       "display_address": "1859 E VINEDO LN TEMPE AZ",
       "display_owner": "LIGGETT BRUCE RONALD/JODI ROBBINS",
@@ -3131,7 +1663,7 @@
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
     {
-      "lead_id": "MCR-066",
+      "lead_id": "MCR-035",
       "primary_parcel_id": "21808624",
       "display_address": "557 N OVERLAND MESA AZ",
       "display_owner": "EDWARDS RICHARD MICHAEL/SHIRLEY",
@@ -3181,7 +1713,7 @@
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
     {
-      "lead_id": "MCR-067",
+      "lead_id": "MCR-036",
       "primary_parcel_id": "21755066",
       "display_address": "PO BOX 200 FOX ISLAND WA",
       "display_owner": "WAGNER DEVELOPMENT LAND LLC",
@@ -3231,7 +1763,56 @@
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
     {
-      "lead_id": "MCR-068",
+      "lead_id": "MCR-037",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "Unknown (portal redacted)",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "1-07-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [
+        "portal_redacted"
+      ],
+      "score_reasons": [
+        "Release — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_21",
+        "ev_real_rec_22",
+        "ev_real_rec_28"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Release",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-038",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
@@ -3258,7 +1839,84 @@
       "display_year_built": null,
       "display_match_confidence": 0.3,
       "stack_depth": 1,
-      "primary_event_date": "1-03-2024",
+      "primary_event_date": "1-16-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [
+        "portal_redacted"
+      ],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_56",
+        "ev_real_recd_47",
+        "ev_real_recd_48",
+        "ev_real_recd_49",
+        "ev_real_rec_27",
+        "ev_real_recd_38",
+        "ev_real_recd_54",
+        "ev_real_recd_51",
+        "ev_real_recd_55",
+        "ev_real_recd_57",
+        "ev_real_rec_33",
+        "ev_real_recd_40",
+        "ev_real_recd_46",
+        "ev_real_recd_58",
+        "ev_real_recd_43",
+        "ev_real_recd_60",
+        "ev_real_recd_59",
+        "ev_real_recd_45",
+        "ev_real_recd_52",
+        "ev_real_recd_44",
+        "ev_real_recd_63",
+        "ev_real_recd_53",
+        "ev_real_recd_61",
+        "ev_real_recd_42",
+        "ev_real_rec_31",
+        "ev_real_recd_39",
+        "ev_real_recd_50",
+        "ev_real_rec_35",
+        "ev_real_recd_41",
+        "ev_real_rec_17",
+        "ev_real_recd_37"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-039",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "Unknown (portal redacted)",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "1-16-2026",
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
       "parcel_master_status_note": "portal redacted party; no parcel join",
@@ -3271,297 +1929,14 @@
         "Notice of Trustee Sale — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_recd_42"
+        "ev_real_recd_62"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Notice of Trustee Sale",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-069",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "1-03-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_52"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-070",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "1-19-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_53"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-071",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "1-22-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Warranty Deed — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_17"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Warranty Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-072",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "1-25-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Warranty Deed — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_26"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Warranty Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-073",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "1-30-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_27",
-        "ev_real_recd_37"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-074",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "2-05-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Release of Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_28"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Release of Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-075",
+      "lead_id": "MCR-040",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
@@ -3588,7 +1963,7 @@
       "display_year_built": null,
       "display_match_confidence": 0.3,
       "stack_depth": 1,
-      "primary_event_date": "2-05-2024",
+      "primary_event_date": "1-28-2026",
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
       "parcel_master_status_note": "portal redacted party; no parcel join",
@@ -3601,850 +1976,15 @@
         "Lien — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_rec_29"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Lien",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-076",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "lien"
-      ],
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "2-12-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Medical Lien — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_30"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Medical Lien",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-077",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "2-20-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "AHCCCS LN — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_21"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "AHCCCS LN",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-078",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "2-28-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_31",
-        "ev_real_recd_38"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-079",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "3-07-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Release of Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_32"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Release of Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-080",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "3-15-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Release — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_33"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-081",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "3-20-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "LIS PEND — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_34"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "LIS PEND",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-082",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "3-27-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_35",
-        "ev_real_recd_39"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-083",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "4-02-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_46"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-084",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "lien"
-      ],
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "4-22-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Medical Lien — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_36"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Medical Lien",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-085",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "4-25-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_59"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-086",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "5-31-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_41"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-087",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "8-26-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Warranty Deed — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
+        "ev_real_rec_23",
         "ev_real_rec_20"
       ],
       "primary_source_urls": [],
-      "display_doc_type": "Warranty Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-088",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "lien"
-      ],
-      "stack_contrib_patterns": [
-        "lien"
-      ],
-      "display_pattern_set": [
-        "lien"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "9-11-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Lien — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_24"
-      ],
-      "primary_source_urls": [],
       "display_doc_type": "Lien",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-089",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "10-01-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_55"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-090",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "10-09-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_40"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-091",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "10-11-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_49"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-092",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "11-19-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_44"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-093",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "12-09-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_43"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-094",
+      "lead_id": "MCR-041",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
@@ -4465,653 +2005,7 @@
       "display_year_built": null,
       "display_match_confidence": 0.3,
       "stack_depth": 1,
-      "primary_event_date": "12-23-2024",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "RES LIEN — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_23"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "RES LIEN",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-095",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "2-11-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_56"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-096",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "2-11-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_57"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-097",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "3-06-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_62"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-098",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "3-11-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_54"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-099",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "4-02-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_50"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-100",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "4-11-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_47"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-101",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "4-29-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_51"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-102",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "5-30-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_45"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-103",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "7-30-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "AHCCCS LN — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_25"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "AHCCCS LN",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-104",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "9-02-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Release — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_rec_22"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-105",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "9-03-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_58"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-106",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "9-08-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_61"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-107",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "9-18-2025",
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_recd_48"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-108",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": "10-13-2025",
+      "primary_event_date": "2-10-2026",
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
       "parcel_master_status_note": "portal redacted party; no parcel join",
@@ -5124,14 +2018,14 @@
         "SPECIAL_WARRANTY_DEED — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_rec_19"
+        "ev_real_rec_36"
       ],
       "primary_source_urls": [],
       "display_doc_type": "SPECIAL_WARRANTY_DEED",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-109",
+      "lead_id": "MCR-042",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
@@ -5158,7 +2052,7 @@
       "display_year_built": null,
       "display_match_confidence": 0.3,
       "stack_depth": 1,
-      "primary_event_date": "12-12-2025",
+      "primary_event_date": "3-16-2026",
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
       "parcel_master_status_note": "portal redacted party; no parcel join",
@@ -5171,27 +2065,113 @@
         "Warranty Deed — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_rec_18"
+        "ev_real_rec_32",
+        "ev_real_rec_18",
+        "ev_real_rec_29",
+        "ev_real_rec_30",
+        "ev_real_rec_34"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Warranty Deed",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-110",
+      "lead_id": "MCR-043",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "Unknown (portal redacted)",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "5-19-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [
+        "portal_redacted"
+      ],
+      "score_reasons": [
+        "MIN ENTRY — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_24"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "MIN ENTRY",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-044",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "Unknown (portal redacted)",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "5-19-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [
+        "portal_redacted"
+      ],
+      "score_reasons": [
+        "ORDER — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_25"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "ORDER",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-045",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [
-        "foreclosure"
+        "transfer"
       ],
       "stack_contrib_patterns": [
-        "foreclosure"
+        "transfer"
       ],
       "display_pattern_set": [
-        "foreclosure"
+        "transfer"
       ],
       "display_attributes": [],
       "display_deal_paths": [
@@ -5205,7 +2185,7 @@
       "display_year_built": null,
       "display_match_confidence": 0.3,
       "stack_depth": 1,
-      "primary_event_date": "12-30-2025",
+      "primary_event_date": "6-09-2026",
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
       "parcel_master_status_note": "portal redacted party; no parcel join",
@@ -5215,31 +2195,25 @@
         "portal_redacted"
       ],
       "score_reasons": [
-        "Deed of Trust — event only; no address (free source redacts)"
+        "Release of Deed of Trust — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_recd_60"
+        "ev_real_rec_19"
       ],
       "primary_source_urls": [],
-      "display_doc_type": "Deed of Trust",
+      "display_doc_type": "Release of Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-111",
+      "lead_id": "MCR-046",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "litigation"
-      ],
-      "stack_contrib_patterns": [
-        "litigation"
-      ],
-      "display_pattern_set": [
-        "litigation"
-      ],
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
       "display_attributes": [],
       "display_deal_paths": [
         "wholesale"
@@ -5252,7 +2226,7 @@
       "display_year_built": null,
       "display_match_confidence": 0.3,
       "stack_depth": 1,
-      "primary_event_date": null,
+      "primary_event_date": "7-02-2026",
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
       "parcel_master_status_note": "portal redacted party; no parcel join",
@@ -5262,17 +2236,17 @@
         "portal_redacted"
       ],
       "score_reasons": [
-        "Lis Pendens — event only; no address (free source redacts)"
+        "RENW JDG — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_civ_10"
+        "ev_real_rec_26"
       ],
       "primary_source_urls": [],
-      "display_doc_type": "Lis Pendens",
-      "display_source": "Superior Court — Civil / Family"
+      "display_doc_type": "RENW JDG",
+      "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-112",
+      "lead_id": "MCR-047",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
@@ -5312,288 +2286,13 @@
         "Lis Pendens — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_civ_11"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Lis Pendens",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-113",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "litigation"
-      ],
-      "stack_contrib_patterns": [
-        "litigation"
-      ],
-      "display_pattern_set": [
-        "litigation"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Lis Pendens — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_civ_12"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Lis Pendens",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-114",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "litigation"
-      ],
-      "stack_contrib_patterns": [
-        "litigation"
-      ],
-      "display_pattern_set": [
-        "litigation"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Lis Pendens — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_civ_13"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Lis Pendens",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-115",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "litigation"
-      ],
-      "stack_contrib_patterns": [
-        "litigation"
-      ],
-      "display_pattern_set": [
-        "litigation"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Lis Pendens — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_civ_14"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Lis Pendens",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-116",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "litigation"
-      ],
-      "stack_contrib_patterns": [
-        "litigation"
-      ],
-      "display_pattern_set": [
-        "litigation"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Lis Pendens — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_civ_15"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Lis Pendens",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-117",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "litigation"
-      ],
-      "stack_contrib_patterns": [
-        "litigation"
-      ],
-      "display_pattern_set": [
-        "litigation"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Lis Pendens — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_civ_16"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Lis Pendens",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-118",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "litigation"
-      ],
-      "stack_contrib_patterns": [
-        "litigation"
-      ],
-      "display_pattern_set": [
-        "litigation"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Lis Pendens — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
+        "ev_real_civ_10",
+        "ev_real_civ_11",
+        "ev_real_civ_12",
+        "ev_real_civ_13",
+        "ev_real_civ_14",
+        "ev_real_civ_15",
+        "ev_real_civ_16",
         "ev_real_civ_9"
       ],
       "primary_source_urls": [],
@@ -5601,7 +2300,7 @@
       "display_source": "Superior Court — Civil / Family"
     },
     {
-      "lead_id": "MCR-119",
+      "lead_id": "MCR-048",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
@@ -5644,30 +2343,34 @@
         "Divorce / Dissolution — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_div_63"
+        "ev_real_div_64",
+        "ev_real_div_65",
+        "ev_real_div_66",
+        "ev_real_div_67",
+        "ev_real_div_68",
+        "ev_real_div_69",
+        "ev_real_div_70",
+        "ev_real_div_71"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Divorce / Dissolution",
       "display_source": "Superior Court — Civil / Family"
     },
     {
-      "lead_id": "MCR-120",
+      "lead_id": "MCR-049",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [
-        "estate",
-        "transfer"
+        "occupant_distress"
       ],
       "stack_contrib_patterns": [
-        "estate",
-        "transfer"
+        "occupant_distress"
       ],
       "display_pattern_set": [
-        "estate",
-        "transfer"
+        "occupant_distress"
       ],
       "display_attributes": [],
       "display_deal_paths": [
@@ -5691,263 +2394,13 @@
         "portal_redacted"
       ],
       "score_reasons": [
-        "Divorce / Dissolution — event only; no address (free source redacts)"
+        "Eviction / Forcible Detainer — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_div_64"
+        "ev_real_evc_72"
       ],
       "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-121",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Divorce / Dissolution — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_div_65"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-122",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Divorce / Dissolution — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_div_66"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-123",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Divorce / Dissolution — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_div_67"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-124",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Divorce / Dissolution — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_div_68"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
-      "display_source": "Superior Court — Civil / Family"
-    },
-    {
-      "lead_id": "MCR-125",
-      "primary_parcel_id": null,
-      "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
-      "display_score": 30,
-      "display_tier": "Archive",
-      "display_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "estate",
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "estate",
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "NEEDS_REVIEW",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.3,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
-      "parcel_master_match_method": "none",
-      "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
-      "score_reasons": [
-        "Divorce / Dissolution — event only; no address (free source redacts)"
-      ],
-      "evidence_ids": [
-        "ev_real_div_69"
-      ],
-      "primary_source_urls": [],
-      "display_doc_type": "Divorce / Dissolution",
+      "display_doc_type": "Eviction / Forcible Detainer",
       "display_source": "Superior Court — Civil / Family"
     }
   ]

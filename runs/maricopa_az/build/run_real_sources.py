@@ -37,8 +37,13 @@ import sys
 import zipfile
 import io
 import re
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
+
+
+def _today_str() -> str:
+    """ISO date (YYYY-MM-DD) for 'now' — keeps the 2026 window current on cron."""
+    return date.today().isoformat()
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 if str(REPO_ROOT) not in sys.path:
@@ -196,8 +201,8 @@ def collect_real_raw_events(limit_per_source: int = 8) -> list[dict]:
 
     # --- recorder (live public API) ---
     try:
-        for r in search_recorder("Smith", begin_date="2024-01-01",
-                                 end_date="2025-12-31"):
+        for r in search_recorder("Smith", begin_date="2026-01-01",
+                                 end_date=_today_str()):
             p = r["raw_payload"]
             ev_seq += 1
             events.append({
@@ -380,7 +385,7 @@ def collect_new_sources(events: list, *, ev_seq_start: int = 0,
 
 def collect_recorder_distress_batch(events: list, *, ev_seq_start: int = 0,
                                     surnames=None,
-                                    begin="2024-01-01", end="2025-12-31",
+                                    begin="2026-01-01", end=_today_str(),
                                     cap_per_surname: int = 6) -> int:
     """Append recorder distress-doc raw_events across surnames. Returns count.
 
