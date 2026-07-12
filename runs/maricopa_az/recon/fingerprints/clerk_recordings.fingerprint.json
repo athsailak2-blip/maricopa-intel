@@ -1,0 +1,18 @@
+{
+  "source_id": "clerk_recordings",
+  "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+  "portal_type": "County Recorder land-records document search (Cloudflare-protected)",
+  "server_signals": [
+    "Cloudflare"
+  ],
+  "waf_detected": true,
+  "waf_vendor": "Cloudflare",
+  "auth_required": false,
+  "search_form_confirmed": true,
+  "sample_record_path_confirmed": true,
+  "access_method": "PUBLIC_BUT_WAF_PROTECTED",
+  "waf_bypass_tool": "camoufox (Firefox 135 anti-detect, MPL-2.0, free/open-source) - Cloudflare challenge solved in Phase 0.5",
+  "recommended_adapter": "stealth_browser (camoufox) document-search scraper",
+  "verified_at": "2026-07-11T13:10:20Z",
+  "notes": "Real document-search page confirmed loading past Cloudflare via camoufox; name/parcel inputs present."
+}

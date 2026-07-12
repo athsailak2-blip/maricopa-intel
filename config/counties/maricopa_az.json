@@ -1,0 +1,610 @@
+{
+  "county_id": "maricopa_az",
+  "county_name": "Maricopa County",
+  "state": "AZ",
+  "subject_state_full": "Arizona",
+  "fips_code": "04013",
+  "timezone": "America/Phoenix",
+  "operator_market_priority": "primary",
+  "state_rule_family": "AZ_non_judicial_foreclosure",
+  "geography": {
+    "municipalities": [
+      {
+        "name": "Phoenix",
+        "code": "PHX",
+        "fips_place": "04550"
+      },
+      {
+        "name": "Mesa",
+        "code": "MSA",
+        "fips_place": "04450"
+      },
+      {
+        "name": "Chandler",
+        "code": "CHD",
+        "fips_place": "01220"
+      },
+      {
+        "name": "Gilbert",
+        "code": "GLT",
+        "fips_place": "02830"
+      },
+      {
+        "name": "Glendale",
+        "code": "GLN",
+        "fips_place": "02900"
+      },
+      {
+        "name": "Scottsdale",
+        "code": "SCO",
+        "fips_place": "06500"
+      },
+      {
+        "name": "Tempe",
+        "code": "TMP",
+        "fips_place": "07200"
+      },
+      {
+        "name": "Peoria",
+        "code": "PEO",
+        "fips_place": "05350"
+      },
+      {
+        "name": "Surprise",
+        "code": "SUP",
+        "fips_place": "07040"
+      },
+      {
+        "name": "Goodyear",
+        "code": "GOY",
+        "fips_place": "02900"
+      },
+      {
+        "name": "Avondale",
+        "code": "AVD",
+        "fips_place": "00590"
+      },
+      {
+        "name": "Buckeye",
+        "code": "BUC",
+        "fips_place": "00850"
+      },
+      {
+        "name": "Queen Creek",
+        "code": "QCK",
+        "fips_place": "05910"
+      },
+      {
+        "name": "El Mirage",
+        "code": "ELM",
+        "fips_place": "02230"
+      },
+      {
+        "name": "Tolleson",
+        "code": "TOL",
+        "fips_place": "07300"
+      },
+      {
+        "name": "Apache Junction",
+        "code": "AJX",
+        "fips_place": "02550"
+      },
+      {
+        "name": "Fountain Hills",
+        "code": "FTH",
+        "fips_place": "02500"
+      },
+      {
+        "name": "Anthem",
+        "code": "ANT",
+        "fips_place": ""
+      },
+      {
+        "name": "Cave Creek",
+        "code": "CAV",
+        "fips_place": "01170"
+      },
+      {
+        "name": "Carefree",
+        "code": "CAR",
+        "fips_place": "01060"
+      },
+      {
+        "name": "Wickenburg",
+        "code": "WKB",
+        "fips_place": "08150"
+      },
+      {
+        "name": "Litchfield Park",
+        "code": "LTP",
+        "fips_place": "04130"
+      },
+      {
+        "name": "Youngtown",
+        "code": "YNG",
+        "fips_place": "08570"
+      },
+      {
+        "name": "Paradise Valley",
+        "code": "PVL",
+        "fips_place": "05130"
+      },
+      {
+        "name": "Guadalupe",
+        "code": "GUA",
+        "fips_place": "03000"
+      }
+    ],
+    "parcel_id_format": "^[A-Z0-9-]+$",
+    "parcel_id_normalization": "strip-dashes",
+    "address_format_notes": "Maricopa County Assessor uses APN-based parcel IDs (e.g. 123-45-678). Street addresses are situs-based."
+  },
+  "sources": {
+    "probate_court": {
+      "category": "lead",
+      "subtype": "court_probate",
+      "url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/Index.asp",
+      "access_pattern": "static_html",
+      "official_status": "OFFICIAL_COURT",
+      "lead_value": "LEAD_GENERATING",
+      "operator_override": false,
+      "source_reliability_grade": "A",
+      "source_priority": "P0",
+      "build_priority": "mvp_required",
+      "enabled": true,
+      "allowed_to_export": true,
+      "auth_required": false,
+      "rate_limit_rpm": 30,
+      "scraper_module": "scrapers/maricopa_probate.py",
+      "refresh_cadence": "daily",
+      "ttl_days": 365,
+      "blocked_unblock_paths": [],
+      "notes": "Superior Court of Arizona in Maricopa County - Probate Court case search. Public, searchable by name/date.",
+      "verification_method": "court_portal",
+      "verified_from_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/Index.asp",
+      "official_entity": "Superior Court of Arizona in Maricopa County",
+      "portal_type": "Probate court case docket search",
+      "records_available": [
+        "probate_estate",
+        "guardianship",
+        "conservatorship",
+        "trust"
+      ],
+      "search_fields": [
+        "party_name",
+        "case_number",
+        "filing_date"
+      ],
+      "access_method": "SEARCHABLE_PUBLIC_PORTAL",
+      "public_access_status": "PUBLIC_SEARCH_ONLY",
+      "document_access_status": "DOCUMENTS_PUBLIC_WITH_CAPTCHA",
+      "source_role": "PRIMARY_LEAD_SOURCE",
+      "verification_confidence": "HIGH",
+      "sample_record_path_confirmed": true,
+      "sample_record_type": "docket_list",
+      "sample_search_possible": true,
+      "sample_document_view_possible": true,
+      "blocker": "",
+      "next_access_strategy": "use_stealth_browser",
+      "blocker_type": "",
+      "auto_resolve_status": "RESOLVED",
+      "final_resolution_status": "",
+      "auto_resolve_attempts": [],
+      "quarantine_status": "NOT_QUARANTINED",
+      "estimated_cost_category": "FREE",
+      "credentials_declared": false,
+      "translator": "custom",
+      "translator_config": {
+        "emit_canonical_doc_type": "PROBATE",
+        "lead_type": "probate_estate",
+        "source_specific_doc_type": "probate_case",
+        "party_field": "party_name",
+        "case_ref_field": "case_number"
+      },
+      "doc_type_synonyms": {
+        "PROBATE": "PROBATE",
+        "probate_case": "PROBATE"
+      },
+      "search_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseSearchResults.asp"
+    },
+    "civil_court": {
+      "category": "lead",
+      "subtype": "court_civil",
+      "url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+      "access_pattern": "static_html",
+      "official_status": "OFFICIAL_COURT",
+      "lead_value": "LEAD_GENERATING",
+      "operator_override": false,
+      "source_reliability_grade": "A",
+      "source_priority": "P0",
+      "build_priority": "mvp_required",
+      "enabled": true,
+      "allowed_to_export": true,
+      "auth_required": false,
+      "rate_limit_rpm": 30,
+      "scraper_module": "scrapers/maricopa_civil.py",
+      "refresh_cadence": "daily",
+      "ttl_days": 365,
+      "blocked_unblock_paths": [],
+      "notes": "Civil court docket - includes foreclosure (trustee sale notices), judgments, lis pendens. Primary foreclosure signal for AZ non-judicial state.",
+      "verification_method": "court_portal",
+      "verified_from_url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+      "official_entity": "Superior Court of Arizona in Maricopa County",
+      "portal_type": "Civil court case docket search",
+      "records_available": [
+        "foreclosure",
+        "judgment",
+        "lis_pendens",
+        "lien",
+        "tax_lien"
+      ],
+      "search_fields": [
+        "party_name",
+        "case_number",
+        "filing_date",
+        "document_type"
+      ],
+      "access_method": "SEARCHABLE_PUBLIC_PORTAL",
+      "public_access_status": "PUBLIC_SEARCH_ONLY",
+      "document_access_status": "DOCUMENTS_PUBLIC_WITH_CAPTCHA",
+      "source_role": "PRIMARY_LEAD_SOURCE",
+      "verification_confidence": "HIGH",
+      "sample_record_path_confirmed": true,
+      "sample_record_type": "docket_list",
+      "sample_search_possible": true,
+      "sample_document_view_possible": true,
+      "blocker": "",
+      "next_access_strategy": "use_stealth_browser",
+      "blocker_type": "",
+      "auto_resolve_status": "RESOLVED",
+      "final_resolution_status": "",
+      "auto_resolve_attempts": [],
+      "quarantine_status": "NOT_QUARANTINED",
+      "estimated_cost_category": "FREE",
+      "credentials_declared": false,
+      "translator": "custom",
+      "translator_config": {
+        "emit_canonical_doc_type": "CIVIL",
+        "lead_type": "civil_case",
+        "source_specific_doc_type": "civil_case",
+        "party_field": "party_name",
+        "case_ref_field": "case_number",
+        "doc_type_classification": "NEEDS_DETAIL_FETCH",
+        "note": "Civil results list does not expose case type; foreclosure/lis_pendens/judgment require caseInfo.asp detail fetch (separate pass)."
+      },
+      "doc_type_synonyms": {
+        "CIVIL": "CIVIL",
+        "civil_case": "CIVIL"
+      },
+      "search_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseSearchResults.asp"
+    },
+    "tax_lien": {
+      "category": "lead",
+      "subtype": "tax_delinquency",
+      "url": "https://treasurer.maricopa.gov/TaxLienInformation/",
+      "access_pattern": "static_html",
+      "official_status": "OFFICIAL_COUNTY",
+      "lead_value": "LEAD_GENERATING",
+      "operator_override": false,
+      "source_reliability_grade": "A",
+      "source_priority": "P0",
+      "build_priority": "mvp_required",
+      "enabled": true,
+      "allowed_to_export": true,
+      "auth_required": false,
+      "rate_limit_rpm": 30,
+      "scraper_module": "scrapers/tax_lien.py",
+      "refresh_cadence": "monthly",
+      "ttl_days": 365,
+      "blocked_unblock_paths": [
+        "operator_login"
+      ],
+      "notes": "Factual 2026-07-11: portal reachable via camoufox (403 beaten) but certificate search is login-gated. Not publicly scrapeable without operator credentials. Source verified to EXIST; access BLOCKED pending operator login.",
+      "verification_method": "official_domain",
+      "verified_from_url": "https://treasurer.maricopa.gov/TaxLienInformation/",
+      "official_entity": "Maricopa County Treasurer",
+      "portal_type": "Tax lien / delinquency information portal",
+      "records_available": [
+        "tax_lien",
+        "delinquent_tax",
+        "tax_certificate"
+      ],
+      "search_fields": [
+        "parcel_id",
+        "owner_name",
+        "year"
+      ],
+      "access_method": "OPEN_PUBLIC_PORTAL",
+      "public_access_status": "FULL_PUBLIC_ACCESS",
+      "document_access_status": "DOCUMENTS_PUBLIC",
+      "source_role": "PRIMARY_LEAD_SOURCE",
+      "verification_confidence": "HIGH",
+      "sample_record_path_confirmed": true,
+      "sample_record_type": "search_form",
+      "sample_search_possible": true,
+      "sample_document_view_possible": true,
+      "blocker": "Maricopa tax-lien certificates are behind the RealAuction/arizonataxsale.com login wall (loginName/password/vendorID form). No anonymous certificate list exposed. Requires operator-provided credentials to search/bid.",
+      "next_access_strategy": "use_operator_login",
+      "blocker_type": "PERMISSION_BLOCKER",
+      "auto_resolve_status": "REQUIRES_CREDENTIALS",
+      "final_resolution_status": "",
+      "auto_resolve_attempts": [],
+      "quarantine_status": "NOT_QUARANTINED",
+      "estimated_cost_category": "REQUIRES_OPERATOR_APPROVAL",
+      "credentials_declared": false
+    },
+    "clerk_recordings": {
+      "category": "lead",
+      "subtype": "clerk_recordings",
+      "url": "https://recorder.maricopa.gov/recording/document-search.html",
+      "access_pattern": "spa_recaptcha",
+      "official_status": "OFFICIAL_COUNTY",
+      "lead_value": "LEAD_GENERATING",
+      "operator_override": false,
+      "source_reliability_grade": "A",
+      "source_priority": "P0",
+      "build_priority": "mvp_required",
+      "enabled": true,
+      "allowed_to_export": true,
+      "auth_required": false,
+      "rate_limit_rpm": 60,
+      "scraper_module": "scrapers/maricopa_recorder.py",
+      "refresh_cadence": "daily",
+      "ttl_days": 1095,
+      "blocked_unblock_paths": [
+        "stealth_browser"
+      ],
+      "notes": "Factual 2026-07-11: recorder has a PUBLIC data API (publicapi.recorder.maricopa.gov) reachable without WAF. Name search GET /documents/search returns JSON. WAF on recorder.maricopa.gov site only; API host clean.",
+      "verification_method": "official_domain",
+      "verified_from_url": "https://recorder.maricopa.gov/recording/document-search.html",
+      "official_entity": "Maricopa County Recorder",
+      "portal_type": "Land records document search (deeds, mortgages, liens, lis pendens)",
+      "records_available": [
+        "deeds",
+        "mortgages",
+        "liens",
+        "lis_pendens",
+        "trustee_deeds",
+        "notices"
+      ],
+      "search_fields": [
+        "name",
+        "parcel_id",
+        "document_type",
+        "date_range",
+        "reception_number"
+      ],
+      "access_method": "PUBLIC_BUT_WAF_PROTECTED",
+      "public_access_status": "PUBLIC_SEARCH_ONLY",
+      "document_access_status": "DOCUMENTS_PUBLIC",
+      "source_role": "PRIMARY_LEAD_SOURCE",
+      "verification_confidence": "MEDIUM",
+      "sample_record_path_confirmed": true,
+      "sample_record_type": "search_form",
+      "sample_search_possible": true,
+      "sample_document_view_possible": true,
+      "blocker": "Cloudflare WAF on recorder.maricopa.gov - RESOLVED via camoufox stealth browser (free).",
+      "next_access_strategy": "use_stealth_browser",
+      "blocker_type": "TECHNICAL_BLOCKER",
+      "auto_resolve_status": "RESOLVED",
+      "final_resolution_status": "RESOLVED",
+      "auto_resolve_attempts": [
+        {
+          "attempt_order": 1,
+          "timestamp": "2026-07-11T12:53:21Z",
+          "strategy": "use_stealth_browser",
+          "status": "SUCCESS",
+          "result": "camoufox (Firefox 135 anti-detect, MPL-2.0) loaded recorder document-search page past Cloudflare. Form present, name/parcel inputs confirmed.",
+          "evidence": "camoufox headless loaded https://recorder.maricopa.gov/recording/document-search.html (CF challenge: False, has_search_form: True, html_len: 672436).",
+          "files_created": [],
+          "files_modified": [],
+          "next_step": "Build scraper using camoufox stealth browser launch."
+        }
+      ],
+      "quarantine_status": "NOT_QUARANTINED",
+      "estimated_cost_category": "FREE",
+      "credentials_declared": false,
+      "translator": "custom",
+      "translator_config": {
+        "emit_canonical_doc_type_from": "document_type_raw",
+        "source_specific_doc_type": "recorder_document",
+        "names_field": "names",
+        "recording_number_field": "recording_number",
+        "note": "Recorder data API is public (publicapi.recorder.maricopa.gov, no WAF). Name search = GET /documents/search?lastNames=&beginDate=&endDate=. Returns {searchResults:[...], totalResults:N}; 20/page, pagination pending."
+      },
+      "doc_type_synonyms": {
+        "WAR DEED": "WARRANTY_DEED",
+        "QUIT CLAIM DEED": "QUITCLAIM_DEED",
+        "DEED OF TRUST": "DEED_OF_TRUST",
+        "TRUSTEE DEED": "TRUSTEE_DEED",
+        "NOTICE OF TRUSTEE SALE": "NOTICE_OF_TRUSTEE_SALE",
+        "LIS PENDENS": "LIS_PENDENS",
+        "MECHANICS LIEN": "MECHANICS_LIEN",
+        "FEDERAL TAX LIEN": "FEDERAL_TAX_LIEN",
+        "STATE TAX LIEN": "STATE_TAX_LIEN",
+        "EXECUTORS DEED": "EXECUTORS_DEED",
+        "ADMINISTRATORS DEED": "ADMINISTRATORS_DEED",
+        "AFFIDAVIT OF HEIRSHIP": "AFFIDAVIT_OF_HEIRSHIP"
+      },
+      "search_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+    },
+    "parcel_master": {
+      "category": "enrichment",
+      "subtype": "parcel_master",
+      "url": "https://mcassessor.maricopa.gov/",
+      "access_pattern": "open_api",
+      "official_status": "OFFICIAL_COUNTY",
+      "lead_value": "ENRICHMENT",
+      "operator_override": false,
+      "source_reliability_grade": "B",
+      "source_priority": "P2",
+      "build_priority": "enrichment",
+      "enabled": true,
+      "allowed_to_export": false,
+      "auth_required": false,
+      "rate_limit_rpm": 60,
+      "scraper_module": "scrapers/maricopa_parcel_master.py",
+      "refresh_cadence": "weekly",
+      "ttl_days": 9999,
+      "blocked_unblock_paths": [],
+      "notes": "Factual 2026-07-11: UNBLOCKED via Maricopa Assessor OPEN DATA (no auth/Cloudflare/key). ArcGIS Online item e22983d41d91490d90965544b718a120 (Residential Master) returns a ZIP with pipe-delimited .txt (1.4M+ parcels: owner, situs addr, city, zip, class, values). Scraper downloads + parses. Enrichment only. Apartment/Commercial Masters cover remaining parcels.",
+      "verification_method": "official_domain",
+      "verified_from_url": "https://mcassessor.maricopa.gov/",
+      "official_entity": "Maricopa County Assessor",
+      "portal_type": "Assessor parcel master lookup",
+      "records_available": [
+        "parcel",
+        "owner",
+        "valuation",
+        "property_class"
+      ],
+      "search_fields": [
+        "parcel_id",
+        "address"
+      ],
+      "access_method": "SEARCHABLE_PUBLIC_PORTAL",
+      "public_access_status": "FULL_PUBLIC_ACCESS",
+      "document_access_status": "DOCUMENTS_NOT_AVAILABLE",
+      "source_role": "ENRICHMENT_SOURCE",
+      "verification_confidence": "MEDIUM",
+      "sample_record_path_confirmed": true,
+      "sample_record_type": "search_form",
+      "sample_search_possible": true,
+      "sample_document_view_possible": false,
+      "blocker": "",
+      "next_access_strategy": "try_open_public_portal",
+      "blocker_type": "",
+      "auto_resolve_status": "RESOLVED",
+      "final_resolution_status": "",
+      "auto_resolve_attempts": [],
+      "quarantine_status": "NOT_QUARANTINED",
+      "estimated_cost_category": "FREE",
+      "credentials_declared": false,
+      "translator": "custom",
+      "source_url": "https://data-maricopa.opendata.arcgis.com/datasets/e22983d41d91490d90965544b718a120/about"
+    },
+    "gis_parcels": {
+      "category": "enrichment",
+      "subtype": "gis_parcels",
+      "url": "http://maps.mcassessor.maricopa.gov/",
+      "access_pattern": "spa_with_api",
+      "official_status": "OFFICIAL_COUNTY",
+      "lead_value": "ENRICHMENT",
+      "operator_override": false,
+      "source_reliability_grade": "B",
+      "source_priority": "P2",
+      "build_priority": "enrichment",
+      "enabled": true,
+      "allowed_to_export": false,
+      "auth_required": false,
+      "rate_limit_rpm": 60,
+      "scraper_module": "scrapers/maricopa_parcel_master.py",
+      "refresh_cadence": "weekly",
+      "ttl_days": 9999,
+      "blocked_unblock_paths": [],
+      "notes": "Factual 2026-07-11: parcel geometry/GIS available via same Maricopa Open Data portal (data-maricopa.opendata.arcgis.com). Enrichment (parcel centroid/polygon) decorates leads; reuses parcel_master open-data download. Not separately scraped yet (geometry layer TBD).",
+      "verification_method": "official_domain",
+      "verified_from_url": "http://maps.mcassessor.maricopa.gov/",
+      "official_entity": "Maricopa County Assessor",
+      "portal_type": "GIS parcel map viewer",
+      "records_available": [
+        "parcel_geometry",
+        "boundary",
+        "zoning"
+      ],
+      "search_fields": [
+        "parcel_id",
+        "address"
+      ],
+      "access_method": "MAP_LAYER",
+      "public_access_status": "FULL_PUBLIC_ACCESS",
+      "document_access_status": "DOCUMENTS_NOT_AVAILABLE",
+      "source_role": "ENRICHMENT_SOURCE",
+      "verification_confidence": "MEDIUM",
+      "sample_record_path_confirmed": true,
+      "sample_record_type": "map_layer",
+      "sample_search_possible": true,
+      "sample_document_view_possible": false,
+      "blocker": "",
+      "next_access_strategy": "try_open_public_portal",
+      "blocker_type": "",
+      "auto_resolve_status": "RESOLVED",
+      "final_resolution_status": "",
+      "auto_resolve_attempts": [],
+      "quarantine_status": "NOT_QUARANTINED",
+      "estimated_cost_category": "FREE",
+      "credentials_declared": false,
+      "translator": "custom"
+    }
+  },
+  "scoring_overrides": {
+    "match_confidence_floor": 80,
+    "review_queue_ratio_alert_threshold": 0.5,
+    "high_equity_assessed_to_sale_ratio": 2.0,
+    "long_term_owned_years": 15,
+    "senior_owner_proxy_years": 25,
+    "favorable_loan_era_start": "2020-01-01",
+    "favorable_loan_era_end": "2022-06-30"
+  },
+  "storage": {
+    "mode": "STATIC_JSON_MODE",
+    "supabase_enabled": false,
+    "dashboard_payload": "data/leads.json",
+    "retain_raw_records_days": 30,
+    "retain_source_runs_days": 365
+  },
+  "dashboard": {
+    "title": "Maricopa County Distress Signals",
+    "subtitle": "Daily-refreshed real estate distress signals - Phoenix metro",
+    "primary_color": "#0F172A",
+    "accent_color": "#3B82F6",
+    "default_view": "all_leads",
+    "precanned_views": [
+      {
+        "id": "probate",
+        "label": "Probate Estates",
+        "filter": "source=probate_court"
+      },
+      {
+        "id": "foreclosure",
+        "label": "Foreclosure / Civil",
+        "filter": "source=civil_court"
+      },
+      {
+        "id": "tax_lien",
+        "label": "Tax Lien",
+        "filter": "source=tax_lien"
+      },
+      {
+        "id": "recorder",
+        "label": "Recorder Filings",
+        "filter": "source=clerk_recordings"
+      }
+    ],
+    "view_modes": [
+      "CLIENT_VIEW",
+      "OPERATOR_VIEW"
+    ],
+    "build_label": "FULL_BUILD",
+    "build_label_reason": "4 verified primary lead sources (probate, civil/foreclosure, tax lien, recorder) + 2 enrichment sources. All accessible without paid credentials."
+  },
+  "deployment": {
+    "github_org": "athsailak2-blip",
+    "github_repo": "maricopa-leads",
+    "live_url": "",
+    "scheduled_task_name": "",
+    "watchdog_task_name": "",
+    "scheduler_runtime_class": "SCHEDULER_NOT_CONFIGURED",
+    "production_verification_status": "NOT_RUN"
+  },
+  "build_verdict": "AUTO_RESOLVED_READY_TO_BUILD",
+  "build_verdict_reason": "4 verified primary event lead sources (Superior Court Probate docket, Superior Court Civil/foreclosure docket, Treasurer Tax Lien, County Recorder land records) + 2 enrichment sources (Assessor parcel master, GIS). The only blocker (Cloudflare WAF on Recorder) was auto-resolved in Phase 0.5 via free open-source camoufox stealth browser - no paid proxy or credential required. Dashboard will contain real event-based leads, not enrichment-only data.",
+  "build_verdict_at": "2026-07-11T12:53:21Z",
+  "auto_resolve_status": "RESOLVED",
+  "final_resolution_status": "RESOLVED",
+  "operator_override_audit": [],
+  "source_of_record_matrix": null,
+  "source_coverage_map": null,
+  "api_discovery": null,
+  "enrichment_index_strategy": null
+}

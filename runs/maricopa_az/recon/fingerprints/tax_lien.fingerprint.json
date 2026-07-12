@@ -1,0 +1,16 @@
+{
+  "source_id": "tax_lien",
+  "official_url": "https://treasurer.maricopa.gov/TaxLienInformation/",
+  "portal_type": "County Treasurer tax lien / delinquency info portal",
+  "server_signals": [
+    "Azure / IIS"
+  ],
+  "waf_detected": false,
+  "auth_required": false,
+  "search_form_confirmed": true,
+  "sample_record_path_confirmed": true,
+  "access_method": "OPEN_PUBLIC_PORTAL",
+  "recommended_adapter": "static_html / open_api",
+  "verified_at": "2026-07-11T13:10:20Z",
+  "notes": "Public tax-lien sale data. Confirmed accessible in Phase 0."
+}

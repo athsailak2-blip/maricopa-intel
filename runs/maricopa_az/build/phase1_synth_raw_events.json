@@ -1,0 +1,662 @@
+[
+  {
+    "raw_event_id": "r01",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "PROBATE",
+    "raw_doc_type": "PROBATE",
+    "instrument_number": "I-PROB-1001",
+    "recorded_date": "2026-06-01",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-PROB-1001",
+    "parties": [
+      {
+        "name": "ESTATE OF HELEN KIM",
+        "name_type": "GR",
+        "raw_role": "GR"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-004",
+      "situs_address": "2200 E Main St",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev01"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r02",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "PROBATE",
+    "raw_doc_type": "PROBATE",
+    "instrument_number": "I-PROB-1002",
+    "recorded_date": "2026-06-10",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-PROB-1002",
+    "parties": [
+      {
+        "name": "ESTATE OF GEORGE PATEL",
+        "name_type": "GR",
+        "raw_role": "GR"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-008",
+      "situs_address": "1500 N 40th St",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev02"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r03",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "EXECUTORS_DEED",
+    "raw_doc_type": "EXECUTORS_DEED",
+    "instrument_number": "I-ED-2001",
+    "recorded_date": "2026-06-15",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-ED-2001",
+    "parties": [
+      {
+        "name": "ESTATE OF HELEN KIM",
+        "name_type": "GR",
+        "raw_role": "GR"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-004",
+      "situs_address": "2200 E Main St",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev03"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r04",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "ADMINISTRATORS_DEED",
+    "raw_doc_type": "ADMINISTRATORS_DEED",
+    "instrument_number": "I-AD-2002",
+    "recorded_date": "2026-06-18",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-AD-2002",
+    "parties": [
+      {
+        "name": "ESTATE OF GEORGE PATEL",
+        "name_type": "GR",
+        "raw_role": "GR"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-008",
+      "situs_address": "1500 N 40th St",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev04"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r05",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "AFFIDAVIT_OF_HEIRSHIP",
+    "raw_doc_type": "AFFIDAVIT_OF_HEIRSHIP",
+    "instrument_number": "I-AH-2003",
+    "recorded_date": "2026-06-20",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-AH-2003",
+    "parties": [
+      {
+        "name": "WILLIAM THOMAS",
+        "name_type": "GR",
+        "raw_role": "GR"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-010",
+      "situs_address": "2750 S Val Vista Dr",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev05"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r06",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+    "raw_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+    "instrument_number": "I-NTS-3001",
+    "recorded_date": "2026-06-05",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-NTS-3001",
+    "parties": [
+      {
+        "name": "JOHN A SMITH",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": "NOTICE OF SUBSTITUTE TRUSTEE SALE\nMORTGAGOR: JOHN A SMITH\n",
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-001",
+      "situs_address": "1234 W Camelback Rd",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev06"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r07",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+    "raw_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+    "instrument_number": "I-NTS-3002",
+    "recorded_date": "2026-06-08",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-NTS-3002",
+    "parties": [
+      {
+        "name": "MARIA GONZALEZ",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": "NOTICE OF SUBSTITUTE TRUSTEE SALE\nMORTGAGOR: MARIA GONZALEZ\n",
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-002",
+      "situs_address": "88 S Mill Ave",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev07"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r08",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+    "raw_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+    "instrument_number": "I-NTS-3003",
+    "recorded_date": "2026-06-12",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-NTS-3003",
+    "parties": [
+      {
+        "name": "ROBERT LEE",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": "NOTICE OF SUBSTITUTE TRUSTEE SALE\nMORTGAGOR: ROBERT LEE\n",
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-003",
+      "situs_address": "450 N Scottsdale Rd",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev08"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r09",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+    "raw_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+    "instrument_number": "I-NTS-3004",
+    "recorded_date": "2026-06-22",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-NTS-3004",
+    "parties": [
+      {
+        "name": "JAMES BROWN",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": "NOTICE OF SUBSTITUTE TRUSTEE SALE\nMORTGAGOR: JAMES BROWN\n",
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-005",
+      "situs_address": "900 W Glendale Ave",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev09"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r10",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "LIS_PENDENS",
+    "raw_doc_type": "LIS_PENDENS",
+    "instrument_number": "I-LP-4001",
+    "recorded_date": "2026-06-03",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-LP-4001",
+    "parties": [
+      {
+        "name": "PATRICIA DAVIS",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-006",
+      "situs_address": "310 S Alma School Rd",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev10"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r11",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "LIS_PENDENS",
+    "raw_doc_type": "LIS_PENDENS",
+    "instrument_number": "I-LP-4002",
+    "recorded_date": "2026-06-14",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-LP-4002",
+    "parties": [
+      {
+        "name": "MICHAEL WILSON",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-007",
+      "situs_address": "77 E University Dr",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev11"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r12",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "JUDGMENT_LIEN",
+    "raw_doc_type": "JUDGMENT_LIEN",
+    "instrument_number": "I-CJ-5001",
+    "recorded_date": "2026-05-28",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-CJ-5001",
+    "parties": [
+      {
+        "name": "JOHN A SMITH",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-001",
+      "situs_address": "1234 W Camelback Rd",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev12"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r13",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "JUDGMENT_LIEN",
+    "raw_doc_type": "JUDGMENT_LIEN",
+    "instrument_number": "I-AJ-5002",
+    "recorded_date": "2026-06-02",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-AJ-5002",
+    "parties": [
+      {
+        "name": "LINDA MARTINEZ",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-009",
+      "situs_address": "640 W Warner Rd",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev13"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r14",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "STATE_TAX_LIEN",
+    "raw_doc_type": "STATE_TAX_LIEN",
+    "instrument_number": "I-TL-6001",
+    "recorded_date": "2026-06-01",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-TL-6001",
+    "parties": [
+      {
+        "name": "MARIA GONZALEZ",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-002",
+      "situs_address": "88 S Mill Ave",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev14"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r15",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "STATE_TAX_LIEN",
+    "raw_doc_type": "STATE_TAX_LIEN",
+    "instrument_number": "I-TD-6002",
+    "recorded_date": "2026-06-04",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-TD-6002",
+    "parties": [
+      {
+        "name": "ROBERT LEE",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-003",
+      "situs_address": "450 N Scottsdale Rd",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev15"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r16",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "STATE_TAX_LIEN",
+    "raw_doc_type": "STATE_TAX_LIEN",
+    "instrument_number": "I-TL-6003",
+    "recorded_date": "2026-06-09",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-TL-6003",
+    "parties": [
+      {
+        "name": "JAMES BROWN",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-005",
+      "situs_address": "900 W Glendale Ave",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev16"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r17",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "STATE_TAX_LIEN",
+    "raw_doc_type": "STATE_TAX_LIEN",
+    "instrument_number": "I-TD-6004",
+    "recorded_date": "2026-06-11",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-TD-6004",
+    "parties": [
+      {
+        "name": "PATRICIA DAVIS",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-006",
+      "situs_address": "310 S Alma School Rd",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev17"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r18",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "TAX_SALE_CERTIFICATE",
+    "raw_doc_type": "TAX_SALE_CERTIFICATE",
+    "instrument_number": "I-TL-6005",
+    "recorded_date": "2026-06-19",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-TL-6005",
+    "parties": [
+      {
+        "name": "WILLIAM THOMAS",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-010",
+      "situs_address": "2750 S Val Vista Dr",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev18"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r19",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "MECHANICS_LIEN",
+    "raw_doc_type": "MECHANICS_LIEN",
+    "instrument_number": "I-ML-7001",
+    "recorded_date": "2026-06-07",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-ML-7001",
+    "parties": [
+      {
+        "name": "MICHAEL WILSON",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-007",
+      "situs_address": "77 E University Dr",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev19"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  },
+  {
+    "raw_event_id": "r20",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "canonical_doc_type": "MECHANICS_LIEN",
+    "raw_doc_type": "MECHANICS_LIEN",
+    "instrument_number": "I-ML-7002",
+    "recorded_date": "2026-06-16",
+    "event_date": null,
+    "source_url": "https://recorder.maricopa.gov/synthetic/I-ML-7002",
+    "parties": [
+      {
+        "name": "LINDA MARTINEZ",
+        "name_type": "TP",
+        "raw_role": "TP"
+      }
+    ],
+    "document_body_text": null,
+    "property_refs": {
+      "parcel_id": "PARCEL-MC-009",
+      "situs_address": "640 W Warner Rd",
+      "legal_description": null,
+      "case_number": null
+    },
+    "amounts": [],
+    "evidence_ids": [
+      "ev20"
+    ],
+    "parser_name": "maricopa_phase1_synth",
+    "parser_version": "1.0.0",
+    "parser_confidence": 95,
+    "captured_at": "2026-07-11T12:00:00Z"
+  }
+]

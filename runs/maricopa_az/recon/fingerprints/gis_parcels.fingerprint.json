@@ -1,0 +1,16 @@
+{
+  "source_id": "gis_parcels",
+  "official_url": "http://maps.mcassessor.maricopa.gov/",
+  "portal_type": "County Assessor GIS map viewer",
+  "server_signals": [
+    "IIS"
+  ],
+  "waf_detected": false,
+  "auth_required": false,
+  "search_form_confirmed": true,
+  "sample_record_path_confirmed": true,
+  "access_method": "MAP_LAYER",
+  "recommended_adapter": "gis_parcels (enrichment only)",
+  "verified_at": "2026-07-11T13:10:20Z",
+  "notes": "Enrichment only. GIS parcel geometry viewer."
+}

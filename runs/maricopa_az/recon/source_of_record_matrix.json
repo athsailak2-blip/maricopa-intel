@@ -1,0 +1,892 @@
+{
+  "county_slug": "maricopa_az",
+  "county_name": "Maricopa County",
+  "state": "AZ",
+  "framework_version": "v5.3.1",
+  "generated_at": "2026-07-11T13:09:52Z",
+  "county_build_status": "READY_TO_BUILD",
+  "lead_types": [
+    {
+      "lead_type": "Foreclosure",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "civil_court",
+          "official_url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+          "authority_type": "court",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "SEARCHABLE_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Civil docket carries foreclosure (trustee sale notices), judgments, lis pendens, liens. Primary foreclosure signal for AZ non-judicial state."
+        },
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "civil_court",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "AZ non-judicial foreclosure: notice of sale recorded (recorder) + civil docket."
+    },
+    {
+      "lead_type": "Trustee Sale",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "civil_court",
+          "official_url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+          "authority_type": "court",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "SEARCHABLE_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Civil docket carries foreclosure (trustee sale notices), judgments, lis pendens, liens. Primary foreclosure signal for AZ non-judicial state."
+        },
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "civil_court",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Trustee sale notices posted via Civil docket + recorded at Recorder."
+    },
+    {
+      "lead_type": "Notice of Trustee Sale",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "civil_court",
+          "official_url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+          "authority_type": "court",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "SEARCHABLE_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Civil docket carries foreclosure (trustee sale notices), judgments, lis pendens, liens. Primary foreclosure signal for AZ non-judicial state."
+        },
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "civil_court",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Notice of Substitute Trustee Sale",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "civil_court",
+          "official_url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+          "authority_type": "court",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "SEARCHABLE_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Civil docket carries foreclosure (trustee sale notices), judgments, lis pendens, liens. Primary foreclosure signal for AZ non-judicial state."
+        }
+      ],
+      "selected_source_id": "civil_court",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Sheriff Sale",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "NOT_APPLICABLE_IN_STATE",
+      "state_applicability": "NOT_APPLICABLE_IN_STATE",
+      "coverage_notes": "AZ is trustee-sale (non-judicial); sheriff real-estate sales do not apply."
+    },
+    {
+      "lead_type": "Tax Lien Foreclosure",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "tax_lien",
+          "official_url": "https://treasurer.maricopa.gov/TaxLienInformation/",
+          "authority_type": "tax",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "OPEN_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "OPEN_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Treasurer tax lien / delinquency portal. Public, no login."
+        }
+      ],
+      "selected_source_id": "tax_lien",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Tax Sale",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "tax_lien",
+          "official_url": "https://treasurer.maricopa.gov/TaxLienInformation/",
+          "authority_type": "tax",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "OPEN_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "OPEN_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Treasurer tax lien / delinquency portal. Public, no login."
+        }
+      ],
+      "selected_source_id": "tax_lien",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Tax Sale Certificate",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "tax_lien",
+          "official_url": "https://treasurer.maricopa.gov/TaxLienInformation/",
+          "authority_type": "tax",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "OPEN_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "OPEN_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Treasurer tax lien / delinquency portal. Public, no login."
+        }
+      ],
+      "selected_source_id": "tax_lien",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Tax Delinquency",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "tax_lien",
+          "official_url": "https://treasurer.maricopa.gov/TaxLienInformation/",
+          "authority_type": "tax",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "OPEN_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "OPEN_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Treasurer tax lien / delinquency portal. Public, no login."
+        }
+      ],
+      "selected_source_id": "tax_lien",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Lis Pendens",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "civil_court",
+          "official_url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+          "authority_type": "court",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "SEARCHABLE_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Civil docket carries foreclosure (trustee sale notices), judgments, lis pendens, liens. Primary foreclosure signal for AZ non-judicial state."
+        },
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "civil_court",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Civil Judgment",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "civil_court",
+          "official_url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+          "authority_type": "court",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "SEARCHABLE_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Civil docket carries foreclosure (trustee sale notices), judgments, lis pendens, liens. Primary foreclosure signal for AZ non-judicial state."
+        }
+      ],
+      "selected_source_id": "civil_court",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Abstract of Judgment",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "civil_court",
+          "official_url": "http://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/Index.asp",
+          "authority_type": "court",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "SEARCHABLE_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Civil docket carries foreclosure (trustee sale notices), judgments, lis pendens, liens. Primary foreclosure signal for AZ non-judicial state."
+        }
+      ],
+      "selected_source_id": "civil_court",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Mechanic Lien",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "clerk_recordings",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Recorded at Recorder."
+    },
+    {
+      "lead_type": "Construction Lien",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "clerk_recordings",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Federal Tax Lien",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "clerk_recordings",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "State Tax Lien",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "clerk_recordings",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Probate",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "probate_court",
+          "official_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/Index.asp",
+          "authority_type": "court",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "BATCH_QUERY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "SEARCHABLE_PUBLIC",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "PORTAL_SEARCH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Superior Court of Arizona in Maricopa County - Probate docket. Public search by party name / case number."
+        }
+      ],
+      "selected_source_id": "probate_court",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Affidavit of Heirship",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "clerk_recordings",
+      "status": "LIVE_SOURCE_FOUND",
+      "coverage_notes": "Recorded at Recorder."
+    },
+    {
+      "lead_type": "Executor Deed",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "clerk_recordings",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Administrator Deed",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [
+        {
+          "source_id": "clerk_recordings",
+          "official_url": "https://recorder.maricopa.gov/recording/document-search.html",
+          "authority_type": "county_recorder",
+          "source_role": "PRIMARY_EVENT_SOURCE",
+          "access_status": "SEARCH_ONLY_PUBLIC",
+          "bulk_availability": "PER_RECORD_ONLY",
+          "verification_layers": {
+            "authority": "VERIFIED_OFFICIAL",
+            "lead_type_relevance": "DIRECT",
+            "access": "WAF_RESOLVED_STEALTH_BROWSER",
+            "extractability": "METADATA_OK",
+            "refresh_provenance": "CAMOUFOX_STEALTH"
+          },
+          "sample_record_path_confirmed": true,
+          "sample_document_view_possible": true,
+          "minimum_lead_fields_available": [
+            "parcel_id_or_address",
+            "party_name",
+            "event_date"
+          ],
+          "operator_verified": false,
+          "notes": "Maricopa County Recorder land records. Cloudflare WAF bypassed in Phase 0.5 via free camoufox (MPL-2.0). Real document-search form confirmed (name/parcel inputs)."
+        }
+      ],
+      "selected_source_id": "clerk_recordings",
+      "status": "LIVE_SOURCE_FOUND"
+    },
+    {
+      "lead_type": "Code Lien",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "SOURCE_NOT_FOUND",
+      "coverage_notes": "No verified Maricopa code-enforcement lien portal in recon."
+    },
+    {
+      "lead_type": "Demolition",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "SOURCE_NOT_FOUND",
+      "coverage_notes": "No verified demolition-event portal in recon."
+    },
+    {
+      "lead_type": "Condemnation",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "SOURCE_NOT_FOUND",
+      "coverage_notes": "No verified condemnation portal in recon."
+    },
+    {
+      "lead_type": "Eviction",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "SOURCE_NOT_FOUND",
+      "coverage_notes": "Eviction records not in verified primary set for this recon."
+    },
+    {
+      "lead_type": "Divorce",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "SOURCE_NOT_FOUND",
+      "coverage_notes": "Divorce dissolutions are family-court; not a distress lead source here."
+    },
+    {
+      "lead_type": "Bankruptcy",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "NOT_APPLICABLE_IN_STATE",
+      "state_applicability": "NOT_APPLICABLE_IN_STATE",
+      "coverage_notes": "Bankruptcy is federal; out of county recon scope."
+    },
+    {
+      "lead_type": "Surplus",
+      "expected_authorities": [
+        "county_recorder",
+        "superior_court",
+        "county_treasurer"
+      ],
+      "candidate_sources": [],
+      "selected_source_id": "",
+      "status": "SOURCE_NOT_FOUND",
+      "coverage_notes": "Surplus funds follow foreclosure; not separately verified."
+    }
+  ]
+}

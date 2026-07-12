@@ -1,0 +1,394 @@
+[
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "PROBATE",
+      "parcel_id": null,
+      "signal_type": "Probate Estate"
+    },
+    "base_record_id": "base_real_prob_1",
+    "canonical_doc_type": "PROBATE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_prob_1"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "property_refs": {
+      "case_number": "PB0000-115373",
+      "legal_description": null,
+      "parcel_id": "21816146A",
+      "situs_address": "PO BOX 7822"
+    },
+    "raw_event_id": "real_prob_1",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Probate Estate",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-115373"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "PROBATE",
+      "parcel_id": null,
+      "signal_type": "Probate Estate"
+    },
+    "base_record_id": "base_real_prob_2",
+    "canonical_doc_type": "PROBATE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_prob_2"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "property_refs": {
+      "case_number": "PB0000-115635",
+      "legal_description": null,
+      "parcel_id": "21816146A",
+      "situs_address": "PO BOX 7822"
+    },
+    "raw_event_id": "real_prob_2",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Probate Estate",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-115635"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "PROBATE",
+      "parcel_id": null,
+      "signal_type": "Probate Estate"
+    },
+    "base_record_id": "base_real_prob_3",
+    "canonical_doc_type": "PROBATE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_prob_3"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "property_refs": {
+      "case_number": "PB0000-117452",
+      "legal_description": null,
+      "parcel_id": "21816146A",
+      "situs_address": "PO BOX 7822"
+    },
+    "raw_event_id": "real_prob_3",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Probate Estate",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-117452"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "PROBATE",
+      "parcel_id": null,
+      "signal_type": "Probate Estate"
+    },
+    "base_record_id": "base_real_prob_4",
+    "canonical_doc_type": "PROBATE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_prob_4"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "property_refs": {
+      "case_number": "PB0000-128979",
+      "legal_description": null,
+      "parcel_id": "21816146A",
+      "situs_address": "PO BOX 7822"
+    },
+    "raw_event_id": "real_prob_4",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Probate Estate",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-128979"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "PROBATE",
+      "parcel_id": null,
+      "signal_type": "Probate Estate"
+    },
+    "base_record_id": "base_real_prob_5",
+    "canonical_doc_type": "PROBATE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_prob_5"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "property_refs": {
+      "case_number": "PB0000-129881",
+      "legal_description": null,
+      "parcel_id": "21816146A",
+      "situs_address": "PO BOX 7822"
+    },
+    "raw_event_id": "real_prob_5",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Probate Estate",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-129881"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "PROBATE",
+      "parcel_id": null,
+      "signal_type": "Probate Estate"
+    },
+    "base_record_id": "base_real_prob_6",
+    "canonical_doc_type": "PROBATE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_prob_6"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "property_refs": {
+      "case_number": "PB0000-132288",
+      "legal_description": null,
+      "parcel_id": "21816146A",
+      "situs_address": "PO BOX 7822"
+    },
+    "raw_event_id": "real_prob_6",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Probate Estate",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-132288"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "PROBATE",
+      "parcel_id": null,
+      "signal_type": "Probate Estate"
+    },
+    "base_record_id": "base_real_prob_7",
+    "canonical_doc_type": "PROBATE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_prob_7"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "property_refs": {
+      "case_number": "PB0000-139852",
+      "legal_description": null,
+      "parcel_id": "21816146A",
+      "situs_address": "PO BOX 7822"
+    },
+    "raw_event_id": "real_prob_7",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Probate Estate",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-139852"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "PROBATE",
+      "parcel_id": null,
+      "signal_type": "Probate Estate"
+    },
+    "base_record_id": "base_real_prob_8",
+    "canonical_doc_type": "PROBATE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_prob_8"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "property_refs": {
+      "case_number": "PB0000-147504",
+      "legal_description": null,
+      "parcel_id": "21816146A",
+      "situs_address": "PO BOX 7822"
+    },
+    "raw_event_id": "real_prob_8",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Probate Estate",
+    "source_id": "probate_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-147504"
+  }
+]

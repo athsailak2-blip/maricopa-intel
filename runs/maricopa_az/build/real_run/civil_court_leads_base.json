@@ -1,0 +1,394 @@
+[
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS_PENDENS",
+      "parcel_id": null,
+      "signal_type": "Lis Pendens"
+    },
+    "base_record_id": "base_real_civ_10",
+    "canonical_doc_type": "LIS_PENDENS",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_civ_10"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "property_refs": {
+      "case_number": "CV1993-002421",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_civ_10",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pendens",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1993-002421"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS_PENDENS",
+      "parcel_id": null,
+      "signal_type": "Lis Pendens"
+    },
+    "base_record_id": "base_real_civ_11",
+    "canonical_doc_type": "LIS_PENDENS",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_civ_11"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "property_refs": {
+      "case_number": "CV1993-002421",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_civ_11",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pendens",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1993-002421"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS_PENDENS",
+      "parcel_id": null,
+      "signal_type": "Lis Pendens"
+    },
+    "base_record_id": "base_real_civ_12",
+    "canonical_doc_type": "LIS_PENDENS",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_civ_12"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "property_refs": {
+      "case_number": "CV1995-012484",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_civ_12",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pendens",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1995-012484"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS_PENDENS",
+      "parcel_id": null,
+      "signal_type": "Lis Pendens"
+    },
+    "base_record_id": "base_real_civ_13",
+    "canonical_doc_type": "LIS_PENDENS",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_civ_13"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "property_refs": {
+      "case_number": "CV1993-010354",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_civ_13",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pendens",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1993-010354"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS_PENDENS",
+      "parcel_id": null,
+      "signal_type": "Lis Pendens"
+    },
+    "base_record_id": "base_real_civ_14",
+    "canonical_doc_type": "LIS_PENDENS",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_civ_14"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "property_refs": {
+      "case_number": "CV1994-001793",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_civ_14",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pendens",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1994-001793"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS_PENDENS",
+      "parcel_id": null,
+      "signal_type": "Lis Pendens"
+    },
+    "base_record_id": "base_real_civ_15",
+    "canonical_doc_type": "LIS_PENDENS",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_civ_15"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "property_refs": {
+      "case_number": "CV1993-015718",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_civ_15",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pendens",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1993-015718"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS_PENDENS",
+      "parcel_id": null,
+      "signal_type": "Lis Pendens"
+    },
+    "base_record_id": "base_real_civ_16",
+    "canonical_doc_type": "LIS_PENDENS",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_civ_16"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "property_refs": {
+      "case_number": "CV1995-008947",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_civ_16",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pendens",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1995-008947"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS_PENDENS",
+      "parcel_id": null,
+      "signal_type": "Lis Pendens"
+    },
+    "base_record_id": "base_real_civ_9",
+    "canonical_doc_type": "LIS_PENDENS",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_civ_9"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "property_refs": {
+      "case_number": "LC1991-000260",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_civ_9",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pendens",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=LC1991-000260"
+  }
+]

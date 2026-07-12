@@ -1,0 +1,3634 @@
+[
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_42"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240001833",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "NOTICE_OF_TRUSTEE_SALE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "NOTICE_OF_TRUSTEE_SALE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "NOTICE_OF_TRUSTEE_SALE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "NOTICE_OF_TRUSTEE_SALE",
+          "parcel_id": null,
+          "signal_type": "Notice Of Trustee Sale"
+        },
+        "canonical_doc_type": "NOTICE_OF_TRUSTEE_SALE",
+        "count": 1,
+        "earliest_recorded_date": "1-03-2024",
+        "evidence_ids": [
+          "ev_real_recd_42"
+        ],
+        "instrument_numbers": [
+          "20240001833"
+        ],
+        "latest_recorded_date": "1-03-2024",
+        "recorded_date_range": [
+          "1-03-2024",
+          "1-03-2024"
+        ],
+        "signal_type": "Notice Of Trustee Sale",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_52"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240003923",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "1-03-2024",
+        "evidence_ids": [
+          "ev_real_recd_52"
+        ],
+        "instrument_numbers": [
+          "20240003923"
+        ],
+        "latest_recorded_date": "1-03-2024",
+        "recorded_date_range": [
+          "1-03-2024",
+          "1-03-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_53"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240028633",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "1-19-2024",
+        "evidence_ids": [
+          "ev_real_recd_53"
+        ],
+        "instrument_numbers": [
+          "20240028633"
+        ],
+        "latest_recorded_date": "1-19-2024",
+        "recorded_date_range": [
+          "1-19-2024",
+          "1-19-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_17"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240031579",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "WARRANTY_DEED against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "WARRANTY_DEED",
+          "parcel_id": null,
+          "signal_type": "Warranty Deed"
+        },
+        "canonical_doc_type": "WARRANTY_DEED",
+        "count": 1,
+        "earliest_recorded_date": "1-22-2024",
+        "evidence_ids": [
+          "ev_real_rec_17"
+        ],
+        "instrument_numbers": [
+          "20240031579"
+        ],
+        "latest_recorded_date": "1-22-2024",
+        "recorded_date_range": [
+          "1-22-2024",
+          "1-22-2024"
+        ],
+        "signal_type": "Warranty Deed",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_26"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240040386",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "WARRANTY_DEED against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "WARRANTY_DEED",
+          "parcel_id": null,
+          "signal_type": "Warranty Deed"
+        },
+        "canonical_doc_type": "WARRANTY_DEED",
+        "count": 1,
+        "earliest_recorded_date": "1-25-2024",
+        "evidence_ids": [
+          "ev_real_rec_26"
+        ],
+        "instrument_numbers": [
+          "20240040386"
+        ],
+        "latest_recorded_date": "1-25-2024",
+        "recorded_date_range": [
+          "1-25-2024",
+          "1-25-2024"
+        ],
+        "signal_type": "Warranty Deed",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_27",
+      "ev_real_recd_37"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240046522",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "1-30-2024",
+        "evidence_ids": [
+          "ev_real_rec_27",
+          "ev_real_recd_37"
+        ],
+        "instrument_numbers": [
+          "20240046522"
+        ],
+        "latest_recorded_date": "1-30-2024",
+        "recorded_date_range": [
+          "1-30-2024",
+          "1-30-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_28"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240057744",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "REL D/T against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "REL D/T against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "REL D/T against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "REL D/T",
+          "parcel_id": null,
+          "signal_type": "Rel D/T"
+        },
+        "canonical_doc_type": "REL D/T",
+        "count": 1,
+        "earliest_recorded_date": "2-05-2024",
+        "evidence_ids": [
+          "ev_real_rec_28"
+        ],
+        "instrument_numbers": [
+          "20240057744"
+        ],
+        "latest_recorded_date": "2-05-2024",
+        "recorded_date_range": [
+          "2-05-2024",
+          "2-05-2024"
+        ],
+        "signal_type": "Rel D/T",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_29"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240058453",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIEN against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIEN",
+          "parcel_id": null,
+          "signal_type": "Lien"
+        },
+        "canonical_doc_type": "LIEN",
+        "count": 1,
+        "earliest_recorded_date": "2-05-2024",
+        "evidence_ids": [
+          "ev_real_rec_29"
+        ],
+        "instrument_numbers": [
+          "20240058453"
+        ],
+        "latest_recorded_date": "2-05-2024",
+        "recorded_date_range": [
+          "2-05-2024",
+          "2-05-2024"
+        ],
+        "signal_type": "Lien",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_30"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240069691",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "MED LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "MED LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "MED LIEN against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "MED LIEN",
+          "parcel_id": null,
+          "signal_type": "Med Lien"
+        },
+        "canonical_doc_type": "MED LIEN",
+        "count": 1,
+        "earliest_recorded_date": "2-12-2024",
+        "evidence_ids": [
+          "ev_real_rec_30"
+        ],
+        "instrument_numbers": [
+          "20240069691"
+        ],
+        "latest_recorded_date": "2-12-2024",
+        "recorded_date_range": [
+          "2-12-2024",
+          "2-12-2024"
+        ],
+        "signal_type": "Med Lien",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_21"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240082658",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "AHCCCS LN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "AHCCCS LN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "AHCCCS LN against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "AHCCCS LN",
+          "parcel_id": null,
+          "signal_type": "Ahcccs Ln"
+        },
+        "canonical_doc_type": "AHCCCS LN",
+        "count": 1,
+        "earliest_recorded_date": "2-20-2024",
+        "evidence_ids": [
+          "ev_real_rec_21"
+        ],
+        "instrument_numbers": [
+          "20240082658"
+        ],
+        "latest_recorded_date": "2-20-2024",
+        "recorded_date_range": [
+          "2-20-2024",
+          "2-20-2024"
+        ],
+        "signal_type": "Ahcccs Ln",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_31",
+      "ev_real_recd_38"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240101903",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "2-28-2024",
+        "evidence_ids": [
+          "ev_real_rec_31",
+          "ev_real_recd_38"
+        ],
+        "instrument_numbers": [
+          "20240101903"
+        ],
+        "latest_recorded_date": "2-28-2024",
+        "recorded_date_range": [
+          "2-28-2024",
+          "2-28-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_32"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240118576",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "REL D/T against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "REL D/T against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "REL D/T against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "REL D/T",
+          "parcel_id": null,
+          "signal_type": "Rel D/T"
+        },
+        "canonical_doc_type": "REL D/T",
+        "count": 1,
+        "earliest_recorded_date": "3-07-2024",
+        "evidence_ids": [
+          "ev_real_rec_32"
+        ],
+        "instrument_numbers": [
+          "20240118576"
+        ],
+        "latest_recorded_date": "3-07-2024",
+        "recorded_date_range": [
+          "3-07-2024",
+          "3-07-2024"
+        ],
+        "signal_type": "Rel D/T",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_33"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240135925",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "RELEASE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "RELEASE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "RELEASE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "RELEASE",
+          "parcel_id": null,
+          "signal_type": "Release"
+        },
+        "canonical_doc_type": "RELEASE",
+        "count": 1,
+        "earliest_recorded_date": "3-15-2024",
+        "evidence_ids": [
+          "ev_real_rec_33"
+        ],
+        "instrument_numbers": [
+          "20240135925"
+        ],
+        "latest_recorded_date": "3-15-2024",
+        "recorded_date_range": [
+          "3-15-2024",
+          "3-15-2024"
+        ],
+        "signal_type": "Release",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_34"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240143783",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS PEND against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS PEND against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS PEND against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS PEND",
+          "parcel_id": null,
+          "signal_type": "Lis Pend"
+        },
+        "canonical_doc_type": "LIS PEND",
+        "count": 1,
+        "earliest_recorded_date": "3-20-2024",
+        "evidence_ids": [
+          "ev_real_rec_34"
+        ],
+        "instrument_numbers": [
+          "20240143783"
+        ],
+        "latest_recorded_date": "3-20-2024",
+        "recorded_date_range": [
+          "3-20-2024",
+          "3-20-2024"
+        ],
+        "signal_type": "Lis Pend",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_35",
+      "ev_real_recd_39"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240156299",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "3-27-2024",
+        "evidence_ids": [
+          "ev_real_rec_35",
+          "ev_real_recd_39"
+        ],
+        "instrument_numbers": [
+          "20240156299"
+        ],
+        "latest_recorded_date": "3-27-2024",
+        "recorded_date_range": [
+          "3-27-2024",
+          "3-27-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_46"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240170351",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "4-02-2024",
+        "evidence_ids": [
+          "ev_real_recd_46"
+        ],
+        "instrument_numbers": [
+          "20240170351"
+        ],
+        "latest_recorded_date": "4-02-2024",
+        "recorded_date_range": [
+          "4-02-2024",
+          "4-02-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_36"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240208756",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "MED LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "MED LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "MED LIEN against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "MED LIEN",
+          "parcel_id": null,
+          "signal_type": "Med Lien"
+        },
+        "canonical_doc_type": "MED LIEN",
+        "count": 1,
+        "earliest_recorded_date": "4-22-2024",
+        "evidence_ids": [
+          "ev_real_rec_36"
+        ],
+        "instrument_numbers": [
+          "20240208756"
+        ],
+        "latest_recorded_date": "4-22-2024",
+        "recorded_date_range": [
+          "4-22-2024",
+          "4-22-2024"
+        ],
+        "signal_type": "Med Lien",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_59"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240215985",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "4-25-2024",
+        "evidence_ids": [
+          "ev_real_recd_59"
+        ],
+        "instrument_numbers": [
+          "20240215985"
+        ],
+        "latest_recorded_date": "4-25-2024",
+        "recorded_date_range": [
+          "4-25-2024",
+          "4-25-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_41"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240290028",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "5-31-2024",
+        "evidence_ids": [
+          "ev_real_recd_41"
+        ],
+        "instrument_numbers": [
+          "20240290028"
+        ],
+        "latest_recorded_date": "5-31-2024",
+        "recorded_date_range": [
+          "5-31-2024",
+          "5-31-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_20"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240453446",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "WARRANTY_DEED against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "WARRANTY_DEED",
+          "parcel_id": null,
+          "signal_type": "Warranty Deed"
+        },
+        "canonical_doc_type": "WARRANTY_DEED",
+        "count": 1,
+        "earliest_recorded_date": "8-26-2024",
+        "evidence_ids": [
+          "ev_real_rec_20"
+        ],
+        "instrument_numbers": [
+          "20240453446"
+        ],
+        "latest_recorded_date": "8-26-2024",
+        "recorded_date_range": [
+          "8-26-2024",
+          "8-26-2024"
+        ],
+        "signal_type": "Warranty Deed",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_24"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240483948",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIEN against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIEN",
+          "parcel_id": null,
+          "signal_type": "Lien"
+        },
+        "canonical_doc_type": "LIEN",
+        "count": 1,
+        "earliest_recorded_date": "9-11-2024",
+        "evidence_ids": [
+          "ev_real_rec_24"
+        ],
+        "instrument_numbers": [
+          "20240483948"
+        ],
+        "latest_recorded_date": "9-11-2024",
+        "recorded_date_range": [
+          "9-11-2024",
+          "9-11-2024"
+        ],
+        "signal_type": "Lien",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_55"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240521946",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "10-01-2024",
+        "evidence_ids": [
+          "ev_real_recd_55"
+        ],
+        "instrument_numbers": [
+          "20240521946"
+        ],
+        "latest_recorded_date": "10-01-2024",
+        "recorded_date_range": [
+          "10-01-2024",
+          "10-01-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_40"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240536594",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "10-09-2024",
+        "evidence_ids": [
+          "ev_real_recd_40"
+        ],
+        "instrument_numbers": [
+          "20240536594"
+        ],
+        "latest_recorded_date": "10-09-2024",
+        "recorded_date_range": [
+          "10-09-2024",
+          "10-09-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_49"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240542240",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "10-11-2024",
+        "evidence_ids": [
+          "ev_real_recd_49"
+        ],
+        "instrument_numbers": [
+          "20240542240"
+        ],
+        "latest_recorded_date": "10-11-2024",
+        "recorded_date_range": [
+          "10-11-2024",
+          "10-11-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_44"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240620054",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "11-19-2024",
+        "evidence_ids": [
+          "ev_real_recd_44"
+        ],
+        "instrument_numbers": [
+          "20240620054"
+        ],
+        "latest_recorded_date": "11-19-2024",
+        "recorded_date_range": [
+          "11-19-2024",
+          "11-19-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_43"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240652150",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "12-09-2024",
+        "evidence_ids": [
+          "ev_real_recd_43"
+        ],
+        "instrument_numbers": [
+          "20240652150"
+        ],
+        "latest_recorded_date": "12-09-2024",
+        "recorded_date_range": [
+          "12-09-2024",
+          "12-09-2024"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_23"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20240684758",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "RES LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "RES LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "RES LIEN against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "RES LIEN",
+          "parcel_id": null,
+          "signal_type": "Res Lien"
+        },
+        "canonical_doc_type": "RES LIEN",
+        "count": 1,
+        "earliest_recorded_date": "12-23-2024",
+        "evidence_ids": [
+          "ev_real_rec_23"
+        ],
+        "instrument_numbers": [
+          "20240684758"
+        ],
+        "latest_recorded_date": "12-23-2024",
+        "recorded_date_range": [
+          "12-23-2024",
+          "12-23-2024"
+        ],
+        "signal_type": "Res Lien",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_56"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250072852",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "2-11-2025",
+        "evidence_ids": [
+          "ev_real_recd_56"
+        ],
+        "instrument_numbers": [
+          "20250072852"
+        ],
+        "latest_recorded_date": "2-11-2025",
+        "recorded_date_range": [
+          "2-11-2025",
+          "2-11-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_57"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250072853",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "2-11-2025",
+        "evidence_ids": [
+          "ev_real_recd_57"
+        ],
+        "instrument_numbers": [
+          "20250072853"
+        ],
+        "latest_recorded_date": "2-11-2025",
+        "recorded_date_range": [
+          "2-11-2025",
+          "2-11-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_62"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250122279",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "3-06-2025",
+        "evidence_ids": [
+          "ev_real_recd_62"
+        ],
+        "instrument_numbers": [
+          "20250122279"
+        ],
+        "latest_recorded_date": "3-06-2025",
+        "recorded_date_range": [
+          "3-06-2025",
+          "3-06-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_54"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250131908",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "3-11-2025",
+        "evidence_ids": [
+          "ev_real_recd_54"
+        ],
+        "instrument_numbers": [
+          "20250131908"
+        ],
+        "latest_recorded_date": "3-11-2025",
+        "recorded_date_range": [
+          "3-11-2025",
+          "3-11-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_50"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250183098",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "4-02-2025",
+        "evidence_ids": [
+          "ev_real_recd_50"
+        ],
+        "instrument_numbers": [
+          "20250183098"
+        ],
+        "latest_recorded_date": "4-02-2025",
+        "recorded_date_range": [
+          "4-02-2025",
+          "4-02-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_47"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250202571",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "4-11-2025",
+        "evidence_ids": [
+          "ev_real_recd_47"
+        ],
+        "instrument_numbers": [
+          "20250202571"
+        ],
+        "latest_recorded_date": "4-11-2025",
+        "recorded_date_range": [
+          "4-11-2025",
+          "4-11-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_51"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250241814",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "4-29-2025",
+        "evidence_ids": [
+          "ev_real_recd_51"
+        ],
+        "instrument_numbers": [
+          "20250241814"
+        ],
+        "latest_recorded_date": "4-29-2025",
+        "recorded_date_range": [
+          "4-29-2025",
+          "4-29-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_45"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250310862",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "5-30-2025",
+        "evidence_ids": [
+          "ev_real_recd_45"
+        ],
+        "instrument_numbers": [
+          "20250310862"
+        ],
+        "latest_recorded_date": "5-30-2025",
+        "recorded_date_range": [
+          "5-30-2025",
+          "5-30-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_25"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250436900",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "AHCCCS LN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "AHCCCS LN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "AHCCCS LN against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "AHCCCS LN",
+          "parcel_id": null,
+          "signal_type": "Ahcccs Ln"
+        },
+        "canonical_doc_type": "AHCCCS LN",
+        "count": 1,
+        "earliest_recorded_date": "7-30-2025",
+        "evidence_ids": [
+          "ev_real_rec_25"
+        ],
+        "instrument_numbers": [
+          "20250436900"
+        ],
+        "latest_recorded_date": "7-30-2025",
+        "recorded_date_range": [
+          "7-30-2025",
+          "7-30-2025"
+        ],
+        "signal_type": "Ahcccs Ln",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_22"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250503676",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "RELEASE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "RELEASE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "RELEASE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "RELEASE",
+          "parcel_id": null,
+          "signal_type": "Release"
+        },
+        "canonical_doc_type": "RELEASE",
+        "count": 1,
+        "earliest_recorded_date": "9-02-2025",
+        "evidence_ids": [
+          "ev_real_rec_22"
+        ],
+        "instrument_numbers": [
+          "20250503676"
+        ],
+        "latest_recorded_date": "9-02-2025",
+        "recorded_date_range": [
+          "9-02-2025",
+          "9-02-2025"
+        ],
+        "signal_type": "Release",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_58"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250506547",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "9-03-2025",
+        "evidence_ids": [
+          "ev_real_recd_58"
+        ],
+        "instrument_numbers": [
+          "20250506547"
+        ],
+        "latest_recorded_date": "9-03-2025",
+        "recorded_date_range": [
+          "9-03-2025",
+          "9-03-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_61"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250515947",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "9-08-2025",
+        "evidence_ids": [
+          "ev_real_recd_61"
+        ],
+        "instrument_numbers": [
+          "20250515947"
+        ],
+        "latest_recorded_date": "9-08-2025",
+        "recorded_date_range": [
+          "9-08-2025",
+          "9-08-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_48"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250539974",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "9-18-2025",
+        "evidence_ids": [
+          "ev_real_recd_48"
+        ],
+        "instrument_numbers": [
+          "20250539974"
+        ],
+        "latest_recorded_date": "9-18-2025",
+        "recorded_date_range": [
+          "9-18-2025",
+          "9-18-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_19"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250590012",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SPECIAL_WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SPECIAL_WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SPECIAL_WARRANTY_DEED against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "SPECIAL_WARRANTY_DEED",
+          "parcel_id": null,
+          "signal_type": "Special Warranty Deed"
+        },
+        "canonical_doc_type": "SPECIAL_WARRANTY_DEED",
+        "count": 1,
+        "earliest_recorded_date": "10-13-2025",
+        "evidence_ids": [
+          "ev_real_rec_19"
+        ],
+        "instrument_numbers": [
+          "20250590012"
+        ],
+        "latest_recorded_date": "10-13-2025",
+        "recorded_date_range": [
+          "10-13-2025",
+          "10-13-2025"
+        ],
+        "signal_type": "Special Warranty Deed",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_rec_18"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250718093",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "WARRANTY_DEED against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "WARRANTY_DEED",
+          "parcel_id": null,
+          "signal_type": "Warranty Deed"
+        },
+        "canonical_doc_type": "WARRANTY_DEED",
+        "count": 1,
+        "earliest_recorded_date": "12-12-2025",
+        "evidence_ids": [
+          "ev_real_rec_18"
+        ],
+        "instrument_numbers": [
+          "20250718093"
+        ],
+        "latest_recorded_date": "12-12-2025",
+        "recorded_date_range": [
+          "12-12-2025",
+          "12-12-2025"
+        ],
+        "signal_type": "Warranty Deed",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_recd_60"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_20250749193",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "DEED_OF_TRUST",
+          "parcel_id": null,
+          "signal_type": "Deed of Trust"
+        },
+        "canonical_doc_type": "DEED_OF_TRUST",
+        "count": 1,
+        "earliest_recorded_date": "12-30-2025",
+        "evidence_ids": [
+          "ev_real_recd_60"
+        ],
+        "instrument_numbers": [
+          "20250749193"
+        ],
+        "latest_recorded_date": "12-30-2025",
+        "recorded_date_range": [
+          "12-30-2025",
+          "12-30-2025"
+        ],
+        "signal_type": "Deed of Trust",
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "source_urls": [
+          "https://publicapi.recorder.maricopa.gov/documents/search"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_civ_10"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_civ_10",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS_PENDENS",
+          "parcel_id": null,
+          "signal_type": "Lis Pendens"
+        },
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_civ_10"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Lis Pendens",
+        "source_ids": [
+          "civil_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1993-002421"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_civ_11"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_civ_11",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS_PENDENS",
+          "parcel_id": null,
+          "signal_type": "Lis Pendens"
+        },
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_civ_11"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Lis Pendens",
+        "source_ids": [
+          "civil_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1993-002421"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_civ_12"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_civ_12",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS_PENDENS",
+          "parcel_id": null,
+          "signal_type": "Lis Pendens"
+        },
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_civ_12"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Lis Pendens",
+        "source_ids": [
+          "civil_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1995-012484"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_civ_13"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_civ_13",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS_PENDENS",
+          "parcel_id": null,
+          "signal_type": "Lis Pendens"
+        },
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_civ_13"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Lis Pendens",
+        "source_ids": [
+          "civil_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1993-010354"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_civ_14"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_civ_14",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS_PENDENS",
+          "parcel_id": null,
+          "signal_type": "Lis Pendens"
+        },
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_civ_14"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Lis Pendens",
+        "source_ids": [
+          "civil_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1994-001793"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_civ_15"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_civ_15",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS_PENDENS",
+          "parcel_id": null,
+          "signal_type": "Lis Pendens"
+        },
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_civ_15"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Lis Pendens",
+        "source_ids": [
+          "civil_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1993-015718"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_civ_16"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_civ_16",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS_PENDENS",
+          "parcel_id": null,
+          "signal_type": "Lis Pendens"
+        },
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_civ_16"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Lis Pendens",
+        "source_ids": [
+          "civil_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=CV1995-008947"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_civ_9"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_civ_9",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "LIS_PENDENS",
+          "parcel_id": null,
+          "signal_type": "Lis Pendens"
+        },
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_civ_9"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Lis Pendens",
+        "source_ids": [
+          "civil_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=LC1991-000260"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_prob_1"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_prob_1",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "PROBATE",
+          "parcel_id": null,
+          "signal_type": "Probate Estate"
+        },
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_prob_1"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Probate Estate",
+        "source_ids": [
+          "probate_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-115373"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_prob_2"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_prob_2",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "PROBATE",
+          "parcel_id": null,
+          "signal_type": "Probate Estate"
+        },
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_prob_2"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Probate Estate",
+        "source_ids": [
+          "probate_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-115635"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_prob_3"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_prob_3",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "PROBATE",
+          "parcel_id": null,
+          "signal_type": "Probate Estate"
+        },
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_prob_3"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Probate Estate",
+        "source_ids": [
+          "probate_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-117452"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_prob_4"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_prob_4",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "PROBATE",
+          "parcel_id": null,
+          "signal_type": "Probate Estate"
+        },
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_prob_4"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Probate Estate",
+        "source_ids": [
+          "probate_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-128979"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_prob_5"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_prob_5",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "PROBATE",
+          "parcel_id": null,
+          "signal_type": "Probate Estate"
+        },
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_prob_5"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Probate Estate",
+        "source_ids": [
+          "probate_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-129881"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_prob_6"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_prob_6",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "PROBATE",
+          "parcel_id": null,
+          "signal_type": "Probate Estate"
+        },
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_prob_6"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Probate Estate",
+        "source_ids": [
+          "probate_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-132288"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_prob_7"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_prob_7",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "PROBATE",
+          "parcel_id": null,
+          "signal_type": "Probate Estate"
+        },
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_prob_7"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Probate Estate",
+        "source_ids": [
+          "probate_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-139852"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ]
+  },
+  {
+    "additional_owner_names": [],
+    "enrichment_status": "UNENRICHED",
+    "evidence_ids": [
+      "ev_real_prob_8"
+    ],
+    "filer_entity": null,
+    "lead_id": "lead_unresolved_real_prob_8",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "PROBATE against unidentified party",
+    "primary_parcel_id": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signals": [
+      {
+        "aggregation_key": {
+          "canonical_doc_type": "PROBATE",
+          "parcel_id": null,
+          "signal_type": "Probate Estate"
+        },
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "earliest_recorded_date": null,
+        "evidence_ids": [
+          "ev_real_prob_8"
+        ],
+        "instrument_numbers": [],
+        "latest_recorded_date": null,
+        "recorded_date_range": [
+          null,
+          null
+        ],
+        "signal_type": "Probate Estate",
+        "source_ids": [
+          "probate_court"
+        ],
+        "source_urls": [
+          "https://www.superiorcourt.maricopa.gov/docket/ProbateCourtCases/caseInfo.asp?caseNumber=PB0000-147504"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ]
+  }
+]

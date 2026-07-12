@@ -1,0 +1,2395 @@
+{
+  "generated_at": "2026-07-11T19:15:58Z",
+  "build_label": "REAL_RUN_1",
+  "mode": "real-limited-sample",
+  "county": "Maricopa",
+  "state": "AZ",
+  "semantic_verdict": "NEEDS_OPERATOR_REVIEW",
+  "lead_total": 59,
+  "enrichment_breakdown": {
+    "ENRICHED": 0,
+    "UNENRICHED": 59
+  },
+  "pattern_counts": {
+    "estate": 8,
+    "foreclosure": 8,
+    "transfer": 5
+  },
+  "attribute_counts": {},
+  "stack_depth_distribution": {
+    "0": 38,
+    "1": 21
+  },
+  "score_tier_distribution": {
+    "Archive": 43,
+    "Low": 8,
+    "Workable": 8
+  },
+  "deal_path_distribution": {
+    "wholesale": 21
+  },
+  "records": [
+    {
+      "lead_id": "lead_unresolved_20240001833",
+      "scored_lead_id": "scored_598d6e6779c9a35a",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "NOTICE_OF_TRUSTEE_SALE against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_42"
+      ],
+      "primary_event_date": "1-03-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240003923",
+      "scored_lead_id": "scored_d2c854836c8e4c9f",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_52"
+      ],
+      "primary_event_date": "1-03-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240028633",
+      "scored_lead_id": "scored_3251947b002c7dad",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_53"
+      ],
+      "primary_event_date": "1-19-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240031579",
+      "scored_lead_id": "scored_802e1c10e7dcb699",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "WARRANTY_DEED against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "low",
+          "rationale": "Single-pattern transfer signal; weak wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_17"
+      ],
+      "primary_event_date": "1-22-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240040386",
+      "scored_lead_id": "scored_66b2eca618a670a2",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "WARRANTY_DEED against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "low",
+          "rationale": "Single-pattern transfer signal; weak wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_26"
+      ],
+      "primary_event_date": "1-25-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240046522",
+      "scored_lead_id": "scored_2234a5011ddb137f",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_27",
+        "ev_real_recd_37"
+      ],
+      "primary_event_date": "1-30-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240057744",
+      "scored_lead_id": "scored_e232010f15c84c89",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "REL D/T against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_28"
+      ],
+      "primary_event_date": "2-05-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240058453",
+      "scored_lead_id": "scored_504f272d295afb88",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIEN against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_29"
+      ],
+      "primary_event_date": "2-05-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240069691",
+      "scored_lead_id": "scored_49372aa2fe2171c9",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "MED LIEN against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_30"
+      ],
+      "primary_event_date": "2-12-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240082658",
+      "scored_lead_id": "scored_47e2e03de3277b9a",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "AHCCCS LN against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_21"
+      ],
+      "primary_event_date": "2-20-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240101903",
+      "scored_lead_id": "scored_00be8e824cd1d3f6",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_31",
+        "ev_real_recd_38"
+      ],
+      "primary_event_date": "2-28-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240118576",
+      "scored_lead_id": "scored_2f69823a8f6006dd",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "REL D/T against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_32"
+      ],
+      "primary_event_date": "3-07-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240135925",
+      "scored_lead_id": "scored_5454cb54babbd894",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "RELEASE against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_33"
+      ],
+      "primary_event_date": "3-15-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240143783",
+      "scored_lead_id": "scored_e3da81247eb7f161",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS PEND against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_34"
+      ],
+      "primary_event_date": "3-20-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240156299",
+      "scored_lead_id": "scored_c0698c1c020bd614",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_35",
+        "ev_real_recd_39"
+      ],
+      "primary_event_date": "3-27-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240170351",
+      "scored_lead_id": "scored_c21d317655d47ec0",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_46"
+      ],
+      "primary_event_date": "4-02-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240208756",
+      "scored_lead_id": "scored_46f4d81d5d4479c7",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "MED LIEN against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_36"
+      ],
+      "primary_event_date": "4-22-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240215985",
+      "scored_lead_id": "scored_08281867999a8dd6",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_59"
+      ],
+      "primary_event_date": "4-25-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240290028",
+      "scored_lead_id": "scored_ab690f7543cf0d19",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_41"
+      ],
+      "primary_event_date": "5-31-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240453446",
+      "scored_lead_id": "scored_4b76395e3f2d97eb",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "WARRANTY_DEED against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "low",
+          "rationale": "Single-pattern transfer signal; weak wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_20"
+      ],
+      "primary_event_date": "8-26-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240483948",
+      "scored_lead_id": "scored_d72f66afacc74194",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIEN against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_24"
+      ],
+      "primary_event_date": "9-11-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240521946",
+      "scored_lead_id": "scored_367b9520966e8f32",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_55"
+      ],
+      "primary_event_date": "10-01-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240536594",
+      "scored_lead_id": "scored_43da3a0e672d9d55",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_40"
+      ],
+      "primary_event_date": "10-09-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240542240",
+      "scored_lead_id": "scored_eb930043e2b1a9cf",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_49"
+      ],
+      "primary_event_date": "10-11-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240620054",
+      "scored_lead_id": "scored_ed3e00576e51c69d",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_44"
+      ],
+      "primary_event_date": "11-19-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240652150",
+      "scored_lead_id": "scored_2fd1bdf27e2c7452",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_43"
+      ],
+      "primary_event_date": "12-09-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20240684758",
+      "scored_lead_id": "scored_1ee34cce0b49e30d",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "RES LIEN against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_23"
+      ],
+      "primary_event_date": "12-23-2024",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250072852",
+      "scored_lead_id": "scored_89b0dcfb0705d4e4",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_56"
+      ],
+      "primary_event_date": "2-11-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250072853",
+      "scored_lead_id": "scored_e4f7b8a7810525d3",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_57"
+      ],
+      "primary_event_date": "2-11-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250122279",
+      "scored_lead_id": "scored_4b4103504578a1fa",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_62"
+      ],
+      "primary_event_date": "3-06-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250131908",
+      "scored_lead_id": "scored_7242dcdcb3a9401f",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_54"
+      ],
+      "primary_event_date": "3-11-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250183098",
+      "scored_lead_id": "scored_73c42e4a356d5b4b",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_50"
+      ],
+      "primary_event_date": "4-02-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250202571",
+      "scored_lead_id": "scored_19ee03850ce6426a",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_47"
+      ],
+      "primary_event_date": "4-11-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250241814",
+      "scored_lead_id": "scored_e97860fffb55642a",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_51"
+      ],
+      "primary_event_date": "4-29-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250310862",
+      "scored_lead_id": "scored_d1d32e79d79c54ad",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_45"
+      ],
+      "primary_event_date": "5-30-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250436900",
+      "scored_lead_id": "scored_fce52fdbe6f12bb8",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "AHCCCS LN against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_25"
+      ],
+      "primary_event_date": "7-30-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250503676",
+      "scored_lead_id": "scored_617014852869f351",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "RELEASE against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_22"
+      ],
+      "primary_event_date": "9-02-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250506547",
+      "scored_lead_id": "scored_20d5f1dcd3214ccb",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_58"
+      ],
+      "primary_event_date": "9-03-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250515947",
+      "scored_lead_id": "scored_3287354499cd45c6",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_61"
+      ],
+      "primary_event_date": "9-08-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250539974",
+      "scored_lead_id": "scored_8dd6e7d9f78a8011",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_48"
+      ],
+      "primary_event_date": "9-18-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250590012",
+      "scored_lead_id": "scored_10aa61f10d26aaad",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SPECIAL_WARRANTY_DEED against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "low",
+          "rationale": "Single-pattern transfer signal; weak wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_19"
+      ],
+      "primary_event_date": "10-13-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250718093",
+      "scored_lead_id": "scored_b6cd9b8c4bb664f5",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "WARRANTY_DEED against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "low",
+          "rationale": "Single-pattern transfer signal; weak wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_rec_18"
+      ],
+      "primary_event_date": "12-12-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_20250749193",
+      "scored_lead_id": "scored_e0803b2067138bee",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "DEED_OF_TRUST against unidentified party",
+      "display_score": 0,
+      "display_tier": "Archive",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [],
+      "display_deal_path_details": [],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 0,
+      "score_reasons": [],
+      "evidence_ids": [
+        "ev_real_recd_60"
+      ],
+      "primary_event_date": "12-30-2025",
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type",
+        "no_pattern_fired"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_civ_10",
+      "scored_lead_id": "scored_8f6f18f32a084ef5",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS_PENDENS against unidentified party",
+      "display_score": 35,
+      "display_tier": "Low",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LIS_PENDENS",
+          "delta": 35
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_civ_10"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_civ_11",
+      "scored_lead_id": "scored_8b1a6a21e5ac0b41",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS_PENDENS against unidentified party",
+      "display_score": 35,
+      "display_tier": "Low",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LIS_PENDENS",
+          "delta": 35
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_civ_11"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_civ_12",
+      "scored_lead_id": "scored_8364b8fe82d7dd6e",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS_PENDENS against unidentified party",
+      "display_score": 35,
+      "display_tier": "Low",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LIS_PENDENS",
+          "delta": 35
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_civ_12"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_civ_13",
+      "scored_lead_id": "scored_b726a01b27212064",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS_PENDENS against unidentified party",
+      "display_score": 35,
+      "display_tier": "Low",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LIS_PENDENS",
+          "delta": 35
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_civ_13"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_civ_14",
+      "scored_lead_id": "scored_016380a0b6f41ae2",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS_PENDENS against unidentified party",
+      "display_score": 35,
+      "display_tier": "Low",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LIS_PENDENS",
+          "delta": 35
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_civ_14"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_civ_15",
+      "scored_lead_id": "scored_dd6c50ea07b02518",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS_PENDENS against unidentified party",
+      "display_score": 35,
+      "display_tier": "Low",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LIS_PENDENS",
+          "delta": 35
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_civ_15"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_civ_16",
+      "scored_lead_id": "scored_4b0f7047ece85c58",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS_PENDENS against unidentified party",
+      "display_score": 35,
+      "display_tier": "Low",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LIS_PENDENS",
+          "delta": 35
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_civ_16"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_civ_9",
+      "scored_lead_id": "scored_f9c0375be820d38e",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LIS_PENDENS against unidentified party",
+      "display_score": 35,
+      "display_tier": "Low",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LIS_PENDENS",
+          "delta": 35
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_civ_9"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_prob_1",
+      "scored_lead_id": "scored_fd231bd2a307f340",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "PROBATE against unidentified party",
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LETTERS_TESTAMENTARY",
+          "delta": 55
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_prob_1"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_prob_2",
+      "scored_lead_id": "scored_10aa6cbfd671ff24",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "PROBATE against unidentified party",
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LETTERS_TESTAMENTARY",
+          "delta": 55
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_prob_2"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_prob_3",
+      "scored_lead_id": "scored_33843c69b3a4feda",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "PROBATE against unidentified party",
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LETTERS_TESTAMENTARY",
+          "delta": 55
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_prob_3"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_prob_4",
+      "scored_lead_id": "scored_d0d15372363f4732",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "PROBATE against unidentified party",
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LETTERS_TESTAMENTARY",
+          "delta": 55
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_prob_4"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_prob_5",
+      "scored_lead_id": "scored_419175108ad2f871",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "PROBATE against unidentified party",
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LETTERS_TESTAMENTARY",
+          "delta": 55
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_prob_5"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_prob_6",
+      "scored_lead_id": "scored_440b59048da193e0",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "PROBATE against unidentified party",
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LETTERS_TESTAMENTARY",
+          "delta": 55
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_prob_6"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_prob_7",
+      "scored_lead_id": "scored_e1151127ede768d5",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "PROBATE against unidentified party",
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LETTERS_TESTAMENTARY",
+          "delta": 55
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_prob_7"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    },
+    {
+      "lead_id": "lead_unresolved_real_prob_8",
+      "scored_lead_id": "scored_4d9411593fc62046",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "PROBATE against unidentified party",
+      "display_score": 55,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_deal_path_details": [
+        {
+          "path": "wholesale",
+          "confidence": "moderate",
+          "rationale": "Single-signal distress; lower-conviction wholesale candidate."
+        }
+      ],
+      "display_title_complexity_tier": "None",
+      "display_lead_status": "REVIEW_REQUIRED",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0,
+      "stack_depth": 1,
+      "score_reasons": [
+        {
+          "factor": "base_LETTERS_TESTAMENTARY",
+          "delta": 55
+        }
+      ],
+      "evidence_ids": [
+        "ev_real_prob_8"
+      ],
+      "primary_event_date": null,
+      "review_flags": [
+        "parcel_resolution_review_required",
+        "matched_lead_review_reason:no_debtor_rule_for_doc_type"
+      ],
+      "enrichment_status": "UNENRICHED"
+    }
+  ]
+}

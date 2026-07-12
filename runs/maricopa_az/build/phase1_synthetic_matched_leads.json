@@ -1,0 +1,1242 @@
+[
+  {
+    "lead_id": "lead_unresolved_I-AD-2002",
+    "primary_parcel_id": null,
+    "owner_name": "ADMINISTRATORS_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "ADMINISTRATORS_DEED",
+          "signal_type": "Administrator's Deed"
+        },
+        "signal_type": "Administrator's Deed",
+        "canonical_doc_type": "ADMINISTRATORS_DEED",
+        "count": 1,
+        "instrument_numbers": [
+          "I-AD-2002"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-AD-2002"
+        ],
+        "evidence_ids": [
+          "ev04"
+        ],
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "earliest_recorded_date": "2026-06-18",
+        "latest_recorded_date": "2026-06-18",
+        "recorded_date_range": [
+          "2026-06-18",
+          "2026-06-18"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ],
+    "evidence_ids": [
+      "ev04"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "ADMINISTRATORS_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "ADMINISTRATORS_DEED against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-AH-2003",
+    "primary_parcel_id": null,
+    "owner_name": "AFFIDAVIT_OF_HEIRSHIP against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "AFFIDAVIT_OF_HEIRSHIP",
+          "signal_type": "Affidavit of Heirship"
+        },
+        "signal_type": "Affidavit of Heirship",
+        "canonical_doc_type": "AFFIDAVIT_OF_HEIRSHIP",
+        "count": 1,
+        "instrument_numbers": [
+          "I-AH-2003"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-AH-2003"
+        ],
+        "evidence_ids": [
+          "ev05"
+        ],
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "earliest_recorded_date": "2026-06-20",
+        "latest_recorded_date": "2026-06-20",
+        "recorded_date_range": [
+          "2026-06-20",
+          "2026-06-20"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ],
+    "evidence_ids": [
+      "ev05"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "AFFIDAVIT_OF_HEIRSHIP against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "AFFIDAVIT_OF_HEIRSHIP against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-AJ-5002",
+    "primary_parcel_id": null,
+    "owner_name": "JUDGMENT_LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "JUDGMENT_LIEN",
+          "signal_type": "Judgment Lien"
+        },
+        "signal_type": "Judgment Lien",
+        "canonical_doc_type": "JUDGMENT_LIEN",
+        "count": 1,
+        "instrument_numbers": [
+          "I-AJ-5002"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-AJ-5002"
+        ],
+        "evidence_ids": [
+          "ev13"
+        ],
+        "source_ids": [
+          "civil_court"
+        ],
+        "earliest_recorded_date": "2026-06-02",
+        "latest_recorded_date": "2026-06-02",
+        "recorded_date_range": [
+          "2026-06-02",
+          "2026-06-02"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ],
+    "evidence_ids": [
+      "ev13"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "JUDGMENT_LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "JUDGMENT_LIEN against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-CJ-5001",
+    "primary_parcel_id": null,
+    "owner_name": "JUDGMENT_LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "JUDGMENT_LIEN",
+          "signal_type": "Judgment Lien"
+        },
+        "signal_type": "Judgment Lien",
+        "canonical_doc_type": "JUDGMENT_LIEN",
+        "count": 1,
+        "instrument_numbers": [
+          "I-CJ-5001"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-CJ-5001"
+        ],
+        "evidence_ids": [
+          "ev12"
+        ],
+        "source_ids": [
+          "civil_court"
+        ],
+        "earliest_recorded_date": "2026-05-28",
+        "latest_recorded_date": "2026-05-28",
+        "recorded_date_range": [
+          "2026-05-28",
+          "2026-05-28"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ],
+    "evidence_ids": [
+      "ev12"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "JUDGMENT_LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "JUDGMENT_LIEN against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-ED-2001",
+    "primary_parcel_id": null,
+    "owner_name": "EXECUTORS_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "EXECUTORS_DEED",
+          "signal_type": "Executor's Deed"
+        },
+        "signal_type": "Executor's Deed",
+        "canonical_doc_type": "EXECUTORS_DEED",
+        "count": 1,
+        "instrument_numbers": [
+          "I-ED-2001"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-ED-2001"
+        ],
+        "evidence_ids": [
+          "ev03"
+        ],
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "earliest_recorded_date": "2026-06-15",
+        "latest_recorded_date": "2026-06-15",
+        "recorded_date_range": [
+          "2026-06-15",
+          "2026-06-15"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ],
+    "evidence_ids": [
+      "ev03"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EXECUTORS_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "EXECUTORS_DEED against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-LP-4001",
+    "primary_parcel_id": null,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "LIS_PENDENS",
+          "signal_type": "Lis Pendens"
+        },
+        "signal_type": "Lis Pendens",
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "instrument_numbers": [
+          "I-LP-4001"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-LP-4001"
+        ],
+        "evidence_ids": [
+          "ev10"
+        ],
+        "source_ids": [
+          "civil_court"
+        ],
+        "earliest_recorded_date": "2026-06-03",
+        "latest_recorded_date": "2026-06-03",
+        "recorded_date_range": [
+          "2026-06-03",
+          "2026-06-03"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ],
+    "evidence_ids": [
+      "ev10"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-LP-4002",
+    "primary_parcel_id": null,
+    "owner_name": "LIS_PENDENS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "LIS_PENDENS",
+          "signal_type": "Lis Pendens"
+        },
+        "signal_type": "Lis Pendens",
+        "canonical_doc_type": "LIS_PENDENS",
+        "count": 1,
+        "instrument_numbers": [
+          "I-LP-4002"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-LP-4002"
+        ],
+        "evidence_ids": [
+          "ev11"
+        ],
+        "source_ids": [
+          "civil_court"
+        ],
+        "earliest_recorded_date": "2026-06-14",
+        "latest_recorded_date": "2026-06-14",
+        "recorded_date_range": [
+          "2026-06-14",
+          "2026-06-14"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ],
+    "evidence_ids": [
+      "ev11"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS_PENDENS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "LIS_PENDENS against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-ML-7001",
+    "primary_parcel_id": null,
+    "owner_name": "MECHANICS_LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "MECHANICS_LIEN",
+          "signal_type": "Mechanic Lien"
+        },
+        "signal_type": "Mechanic Lien",
+        "canonical_doc_type": "MECHANICS_LIEN",
+        "count": 1,
+        "instrument_numbers": [
+          "I-ML-7001"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-ML-7001"
+        ],
+        "evidence_ids": [
+          "ev19"
+        ],
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "earliest_recorded_date": "2026-06-07",
+        "latest_recorded_date": "2026-06-07",
+        "recorded_date_range": [
+          "2026-06-07",
+          "2026-06-07"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ],
+    "evidence_ids": [
+      "ev19"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "MECHANICS_LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "MECHANICS_LIEN against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-ML-7002",
+    "primary_parcel_id": null,
+    "owner_name": "MECHANICS_LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "MECHANICS_LIEN",
+          "signal_type": "Mechanic Lien"
+        },
+        "signal_type": "Mechanic Lien",
+        "canonical_doc_type": "MECHANICS_LIEN",
+        "count": 1,
+        "instrument_numbers": [
+          "I-ML-7002"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-ML-7002"
+        ],
+        "evidence_ids": [
+          "ev20"
+        ],
+        "source_ids": [
+          "clerk_recordings"
+        ],
+        "earliest_recorded_date": "2026-06-16",
+        "latest_recorded_date": "2026-06-16",
+        "recorded_date_range": [
+          "2026-06-16",
+          "2026-06-16"
+        ]
+      }
+    ],
+    "source_ids": [
+      "clerk_recordings"
+    ],
+    "evidence_ids": [
+      "ev20"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "MECHANICS_LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "MECHANICS_LIEN against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-NTS-3001",
+    "primary_parcel_id": null,
+    "owner_name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+          "signal_type": "Notice of Substitute Trustee Sale"
+        },
+        "signal_type": "Notice of Substitute Trustee Sale",
+        "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+        "count": 1,
+        "instrument_numbers": [
+          "I-NTS-3001"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-NTS-3001"
+        ],
+        "evidence_ids": [
+          "ev06"
+        ],
+        "source_ids": [
+          "civil_court"
+        ],
+        "earliest_recorded_date": "2026-06-05",
+        "latest_recorded_date": "2026-06-05",
+        "recorded_date_range": [
+          "2026-06-05",
+          "2026-06-05"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ],
+    "evidence_ids": [
+      "ev06"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-NTS-3002",
+    "primary_parcel_id": null,
+    "owner_name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+          "signal_type": "Notice of Substitute Trustee Sale"
+        },
+        "signal_type": "Notice of Substitute Trustee Sale",
+        "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+        "count": 1,
+        "instrument_numbers": [
+          "I-NTS-3002"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-NTS-3002"
+        ],
+        "evidence_ids": [
+          "ev07"
+        ],
+        "source_ids": [
+          "civil_court"
+        ],
+        "earliest_recorded_date": "2026-06-08",
+        "latest_recorded_date": "2026-06-08",
+        "recorded_date_range": [
+          "2026-06-08",
+          "2026-06-08"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ],
+    "evidence_ids": [
+      "ev07"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-NTS-3003",
+    "primary_parcel_id": null,
+    "owner_name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+          "signal_type": "Notice of Substitute Trustee Sale"
+        },
+        "signal_type": "Notice of Substitute Trustee Sale",
+        "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+        "count": 1,
+        "instrument_numbers": [
+          "I-NTS-3003"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-NTS-3003"
+        ],
+        "evidence_ids": [
+          "ev08"
+        ],
+        "source_ids": [
+          "civil_court"
+        ],
+        "earliest_recorded_date": "2026-06-12",
+        "latest_recorded_date": "2026-06-12",
+        "recorded_date_range": [
+          "2026-06-12",
+          "2026-06-12"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ],
+    "evidence_ids": [
+      "ev08"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-NTS-3004",
+    "primary_parcel_id": null,
+    "owner_name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+          "signal_type": "Notice of Substitute Trustee Sale"
+        },
+        "signal_type": "Notice of Substitute Trustee Sale",
+        "canonical_doc_type": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE",
+        "count": 1,
+        "instrument_numbers": [
+          "I-NTS-3004"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-NTS-3004"
+        ],
+        "evidence_ids": [
+          "ev09"
+        ],
+        "source_ids": [
+          "civil_court"
+        ],
+        "earliest_recorded_date": "2026-06-22",
+        "latest_recorded_date": "2026-06-22",
+        "recorded_date_range": [
+          "2026-06-22",
+          "2026-06-22"
+        ]
+      }
+    ],
+    "source_ids": [
+      "civil_court"
+    ],
+    "evidence_ids": [
+      "ev09"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-PROB-1001",
+    "primary_parcel_id": null,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "PROBATE",
+          "signal_type": "Probate Estate"
+        },
+        "signal_type": "Probate Estate",
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "instrument_numbers": [
+          "I-PROB-1001"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-PROB-1001"
+        ],
+        "evidence_ids": [
+          "ev01"
+        ],
+        "source_ids": [
+          "probate_court"
+        ],
+        "earliest_recorded_date": "2026-06-01",
+        "latest_recorded_date": "2026-06-01",
+        "recorded_date_range": [
+          "2026-06-01",
+          "2026-06-01"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ],
+    "evidence_ids": [
+      "ev01"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "PROBATE against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-PROB-1002",
+    "primary_parcel_id": null,
+    "owner_name": "PROBATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "PROBATE",
+          "signal_type": "Probate Estate"
+        },
+        "signal_type": "Probate Estate",
+        "canonical_doc_type": "PROBATE",
+        "count": 1,
+        "instrument_numbers": [
+          "I-PROB-1002"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-PROB-1002"
+        ],
+        "evidence_ids": [
+          "ev02"
+        ],
+        "source_ids": [
+          "probate_court"
+        ],
+        "earliest_recorded_date": "2026-06-10",
+        "latest_recorded_date": "2026-06-10",
+        "recorded_date_range": [
+          "2026-06-10",
+          "2026-06-10"
+        ]
+      }
+    ],
+    "source_ids": [
+      "probate_court"
+    ],
+    "evidence_ids": [
+      "ev02"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "PROBATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "PROBATE against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-TD-6002",
+    "primary_parcel_id": null,
+    "owner_name": "STATE_TAX_LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "STATE_TAX_LIEN",
+          "signal_type": "State Tax Lien"
+        },
+        "signal_type": "State Tax Lien",
+        "canonical_doc_type": "STATE_TAX_LIEN",
+        "count": 1,
+        "instrument_numbers": [
+          "I-TD-6002"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-TD-6002"
+        ],
+        "evidence_ids": [
+          "ev15"
+        ],
+        "source_ids": [
+          "tax_lien"
+        ],
+        "earliest_recorded_date": "2026-06-04",
+        "latest_recorded_date": "2026-06-04",
+        "recorded_date_range": [
+          "2026-06-04",
+          "2026-06-04"
+        ]
+      }
+    ],
+    "source_ids": [
+      "tax_lien"
+    ],
+    "evidence_ids": [
+      "ev15"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "STATE_TAX_LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "STATE_TAX_LIEN against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-TD-6004",
+    "primary_parcel_id": null,
+    "owner_name": "STATE_TAX_LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "STATE_TAX_LIEN",
+          "signal_type": "State Tax Lien"
+        },
+        "signal_type": "State Tax Lien",
+        "canonical_doc_type": "STATE_TAX_LIEN",
+        "count": 1,
+        "instrument_numbers": [
+          "I-TD-6004"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-TD-6004"
+        ],
+        "evidence_ids": [
+          "ev17"
+        ],
+        "source_ids": [
+          "tax_lien"
+        ],
+        "earliest_recorded_date": "2026-06-11",
+        "latest_recorded_date": "2026-06-11",
+        "recorded_date_range": [
+          "2026-06-11",
+          "2026-06-11"
+        ]
+      }
+    ],
+    "source_ids": [
+      "tax_lien"
+    ],
+    "evidence_ids": [
+      "ev17"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "STATE_TAX_LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "STATE_TAX_LIEN against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-TL-6001",
+    "primary_parcel_id": null,
+    "owner_name": "STATE_TAX_LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "STATE_TAX_LIEN",
+          "signal_type": "State Tax Lien"
+        },
+        "signal_type": "State Tax Lien",
+        "canonical_doc_type": "STATE_TAX_LIEN",
+        "count": 1,
+        "instrument_numbers": [
+          "I-TL-6001"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-TL-6001"
+        ],
+        "evidence_ids": [
+          "ev14"
+        ],
+        "source_ids": [
+          "tax_lien"
+        ],
+        "earliest_recorded_date": "2026-06-01",
+        "latest_recorded_date": "2026-06-01",
+        "recorded_date_range": [
+          "2026-06-01",
+          "2026-06-01"
+        ]
+      }
+    ],
+    "source_ids": [
+      "tax_lien"
+    ],
+    "evidence_ids": [
+      "ev14"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "STATE_TAX_LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "STATE_TAX_LIEN against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-TL-6003",
+    "primary_parcel_id": null,
+    "owner_name": "STATE_TAX_LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "STATE_TAX_LIEN",
+          "signal_type": "State Tax Lien"
+        },
+        "signal_type": "State Tax Lien",
+        "canonical_doc_type": "STATE_TAX_LIEN",
+        "count": 1,
+        "instrument_numbers": [
+          "I-TL-6003"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-TL-6003"
+        ],
+        "evidence_ids": [
+          "ev16"
+        ],
+        "source_ids": [
+          "tax_lien"
+        ],
+        "earliest_recorded_date": "2026-06-09",
+        "latest_recorded_date": "2026-06-09",
+        "recorded_date_range": [
+          "2026-06-09",
+          "2026-06-09"
+        ]
+      }
+    ],
+    "source_ids": [
+      "tax_lien"
+    ],
+    "evidence_ids": [
+      "ev16"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "STATE_TAX_LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "STATE_TAX_LIEN against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  },
+  {
+    "lead_id": "lead_unresolved_I-TL-6005",
+    "primary_parcel_id": null,
+    "owner_name": "TAX_SALE_CERTIFICATE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "filer_entity": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "enrichment_status": "UNENRICHED",
+    "signals": [
+      {
+        "aggregation_key": {
+          "parcel_id": null,
+          "canonical_doc_type": "TAX_SALE_CERTIFICATE",
+          "signal_type": "Tax Sale Certificate"
+        },
+        "signal_type": "Tax Sale Certificate",
+        "canonical_doc_type": "TAX_SALE_CERTIFICATE",
+        "count": 1,
+        "instrument_numbers": [
+          "I-TL-6005"
+        ],
+        "source_urls": [
+          "https://recorder.maricopa.gov/synthetic/I-TL-6005"
+        ],
+        "evidence_ids": [
+          "ev18"
+        ],
+        "source_ids": [
+          "tax_lien"
+        ],
+        "earliest_recorded_date": "2026-06-19",
+        "latest_recorded_date": "2026-06-19",
+        "recorded_date_range": [
+          "2026-06-19",
+          "2026-06-19"
+        ]
+      }
+    ],
+    "source_ids": [
+      "tax_lien"
+    ],
+    "evidence_ids": [
+      "ev18"
+    ],
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "TAX_SALE_CERTIFICATE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "primary_owner_name": "TAX_SALE_CERTIFICATE against unidentified party",
+    "additional_owner_names": [],
+    "owner_count": 1,
+    "multi_owner_status": "SINGLE_OWNER"
+  }
+]

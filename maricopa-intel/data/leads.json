@@ -1,0 +1,2288 @@
+{
+  "generated_at": "2026-07-12T02:42:37Z",
+  "build_label": "PARTIAL_BUILD",
+  "build_label_reason": "Tax-lien source BLOCKED (RealAuction / arizonataxsale.com login wall; MyMCTO credentials do not cross over). Recorder + Probate leads included with real Assessor situs addresses. Addresses are best-effort owner-name matches — verify before outreach.",
+  "mode": "real-limited-sample",
+  "county": "Maricopa",
+  "state": "AZ",
+  "deployment": {
+    "github_org": "xcerebroai",
+    "github_repo": "maricopa-intel"
+  },
+  "lead_total": 48,
+  "total_signals_active": 48,
+  "total_signals_suppressed": 0,
+  "score_tier_distribution": {
+    "Hot": 1,
+    "Low": 7,
+    "Strong": 28,
+    "Workable": 12
+  },
+  "pattern_counts": {
+    "estate": 8,
+    "foreclosure": 29,
+    "lien": 4,
+    "transfer": 6
+  },
+  "attribute_counts": {},
+  "deal_path_distribution": {
+    "probate_estate": 19,
+    "wholesale": 29
+  },
+  "stack_depth_distribution": {
+    "1": 48
+  },
+  "quality_metrics": {},
+  "records": [
+    {
+      "lead_id": "MCR-001",
+      "primary_parcel_id": "21816146A",
+      "display_address": "PO BOX 7822, URBANDALE, IA",
+      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'Dianne Woods' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21816146A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Probate / Estate — primary distress signal"
+      ],
+      "evidence_ids": [
+        "PB0000-115373"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Probate / Estate",
+      "display_source": "Superior Court — Probate"
+    },
+    {
+      "lead_id": "MCR-002",
+      "primary_parcel_id": "21816146A",
+      "display_address": "PO BOX 7822, URBANDALE, IA",
+      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'Dianne Woods' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21816146A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Probate / Estate — primary distress signal"
+      ],
+      "evidence_ids": [
+        "PB0000-115635"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Probate / Estate",
+      "display_source": "Superior Court — Probate"
+    },
+    {
+      "lead_id": "MCR-003",
+      "primary_parcel_id": "21816146A",
+      "display_address": "PO BOX 7822, URBANDALE, IA",
+      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'Dianne Woods' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21816146A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Probate / Estate — primary distress signal"
+      ],
+      "evidence_ids": [
+        "PB0000-117452"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Probate / Estate",
+      "display_source": "Superior Court — Probate"
+    },
+    {
+      "lead_id": "MCR-004",
+      "primary_parcel_id": "21816146A",
+      "display_address": "PO BOX 7822, URBANDALE, IA",
+      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'Dianne Woods' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21816146A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Probate / Estate — primary distress signal"
+      ],
+      "evidence_ids": [
+        "PB0000-128979"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Probate / Estate",
+      "display_source": "Superior Court — Probate"
+    },
+    {
+      "lead_id": "MCR-005",
+      "primary_parcel_id": "21816146A",
+      "display_address": "PO BOX 7822, URBANDALE, IA",
+      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'Dianne Woods' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21816146A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Probate / Estate — primary distress signal"
+      ],
+      "evidence_ids": [
+        "PB0000-129881"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Probate / Estate",
+      "display_source": "Superior Court — Probate"
+    },
+    {
+      "lead_id": "MCR-006",
+      "primary_parcel_id": "21816146A",
+      "display_address": "PO BOX 7822, URBANDALE, IA",
+      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'Dianne Woods' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21816146A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Probate / Estate — primary distress signal"
+      ],
+      "evidence_ids": [
+        "PB0000-132288"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Probate / Estate",
+      "display_source": "Superior Court — Probate"
+    },
+    {
+      "lead_id": "MCR-007",
+      "primary_parcel_id": "21816146A",
+      "display_address": "PO BOX 7822, URBANDALE, IA",
+      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'Dianne Woods' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21816146A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Probate / Estate — primary distress signal"
+      ],
+      "evidence_ids": [
+        "PB0000-139852"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Probate / Estate",
+      "display_source": "Superior Court — Probate"
+    },
+    {
+      "lead_id": "MCR-008",
+      "primary_parcel_id": "21816146A",
+      "display_address": "PO BOX 7822, URBANDALE, IA",
+      "display_owner": "DIANNE R WOODS REVOCABLE TRUST",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "estate"
+      ],
+      "stack_contrib_patterns": [
+        "estate"
+      ],
+      "display_pattern_set": [
+        "estate"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'Dianne Woods' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21816146A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Probate / Estate — primary distress signal"
+      ],
+      "evidence_ids": [
+        "PB0000-147504"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Probate / Estate",
+      "display_source": "Superior Court — Probate"
+    },
+    {
+      "lead_id": "MCR-009",
+      "primary_parcel_id": "20089421",
+      "display_address": "PO BOX 307, BOULDER, WY",
+      "display_owner": "SMITH 396 REVOCABLE TRUST",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH 396 REVOCABLE TRUST' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "20089421"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250718093"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-010",
+      "primary_parcel_id": "10256303",
+      "display_address": "10977 W TAYLOR ST, AVONDALE, AZ",
+      "display_owner": "SMITH JEFFREY WAYNE",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH A WAYNE' (5 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "10256303"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240453446"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-011",
+      "primary_parcel_id": "14166324",
+      "display_address": "2329 N RECKER UNIT 11, MESA, AZ",
+      "display_owner": "SMITH AAREN C",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "lien"
+      ],
+      "stack_contrib_patterns": [
+        "lien"
+      ],
+      "display_pattern_set": [
+        "lien"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AAREN C' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "14166324"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Lien — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240483948"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Lien",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-012",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240040386"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-013",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240046522"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-014",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Release of Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240057744"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Release of Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-015",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "lien"
+      ],
+      "stack_contrib_patterns": [
+        "lien"
+      ],
+      "display_pattern_set": [
+        "lien"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Lien — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240058453"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Lien",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-016",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "lien"
+      ],
+      "stack_contrib_patterns": [
+        "lien"
+      ],
+      "display_pattern_set": [
+        "lien"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Medical Lien — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240069691"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Medical Lien",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-017",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240101903"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-018",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Release of Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240118576"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Release of Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-019",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240135925"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Release",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-020",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "LIS PEND — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240143783"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "LIS PEND",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-021",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240156299"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-022",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 61,
+      "display_tier": "Workable",
+      "display_patterns": [
+        "lien"
+      ],
+      "stack_contrib_patterns": [
+        "lien"
+      ],
+      "display_pattern_set": [
+        "lien"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "probate_estate"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Medical Lien — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240208756"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Medical Lien",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-023",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240046522"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-024",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240101903"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-025",
+      "primary_parcel_id": "13618206",
+      "display_address": "132 W INGRAM ST, MESA, AZ",
+      "display_owner": "SMITH AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'SMITH AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "13618206"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240156299"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-026",
+      "primary_parcel_id": "15935022",
+      "display_address": "9228 N 11TH ST, PHOENIX, AZ",
+      "display_owner": "GARCIA AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'GARCIA AARON' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "15935022"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240536594"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-027",
+      "primary_parcel_id": "10487399",
+      "display_address": "7008 S 77TH LN, LAVEEN, AZ",
+      "display_owner": "GARCIA ABDIEL ALEJANDRO ROJAS",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'GARCIA ABDIEL ALEJANDRO ROJAS' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "10487399"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240290028"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-028",
+      "primary_parcel_id": "10317277A",
+      "display_address": "5329 W VERNON AVE, PHOENIX, AZ",
+      "display_owner": "GARCIA ABEL",
+      "display_score": 92,
+      "display_tier": "Hot",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'GARCIA ABEL' (5 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "10317277A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Notice of Trustee Sale — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240001833"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Notice of Trustee Sale",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-029",
+      "primary_parcel_id": "10127308",
+      "display_address": "9129 W MIAMI ST, TOLLESON, AZ",
+      "display_owner": "LOPEZ AARON/PIERSON LINDSEY",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'LOPEZ AARON' (5 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "10127308"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240652150"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-030",
+      "primary_parcel_id": "21406153",
+      "display_address": "17844 N 26TH ST, PHOENIX, AZ",
+      "display_owner": "LOPEZ AARON SILVA/MONTES SANDRA J GONZALEZ",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'LOPEZ AARON SILVA' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21406153"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240620054"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-031",
+      "primary_parcel_id": "30489048M",
+      "display_address": "25523 S 188TH WAY, QUEEN CREEK, AZ",
+      "display_owner": "LOPEZ ABBY A/RAY LORENZO JR",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'LOPEZ ABBY A' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "30489048M"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250310862"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-032",
+      "primary_parcel_id": "30249525",
+      "display_address": "2804 W CURRY ST, CHANDLER, AZ",
+      "display_owner": "MARTINEZ AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'MARTINEZ AARON' (4 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "30249525"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240170351"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-033",
+      "primary_parcel_id": "30249525",
+      "display_address": "2804 W CURRY ST, CHANDLER, AZ",
+      "display_owner": "MARTINEZ AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'MARTINEZ AARON' (4 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "30249525"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250202571"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-034",
+      "primary_parcel_id": "30249525",
+      "display_address": "2804 W CURRY ST, CHANDLER, AZ",
+      "display_owner": "MARTINEZ AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'MARTINEZ AARON' (4 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "30249525"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250539974"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-035",
+      "primary_parcel_id": "30106374",
+      "display_address": "6370 S COLONIAL WAY, TEMPE, AZ",
+      "display_owner": "NGUYEN AI",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'NGUYEN AI' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "30106374"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240542240"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-036",
+      "primary_parcel_id": "30106374",
+      "display_address": "6370 S COLONIAL WAY, TEMPE, AZ",
+      "display_owner": "NGUYEN AI",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'NGUYEN AI' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "30106374"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250183098"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-037",
+      "primary_parcel_id": "15106086",
+      "display_address": "4124 W AUGUSTA AVE, PHOENIX, AZ",
+      "display_owner": "JOHNSON A D JR",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'JOHNSON A D JR' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "15106086"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250241814"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-038",
+      "primary_parcel_id": "21173026A",
+      "display_address": "39640 N 7TH ST, PHOENIX, AZ",
+      "display_owner": "JOHNSON AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'JOHNSON AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21173026A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240003923"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-039",
+      "primary_parcel_id": "21173026A",
+      "display_address": "39640 N 7TH ST, PHOENIX, AZ",
+      "display_owner": "JOHNSON AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'JOHNSON AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21173026A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240028633"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-040",
+      "primary_parcel_id": "21173026A",
+      "display_address": "39640 N 7TH ST, PHOENIX, AZ",
+      "display_owner": "JOHNSON AARON",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'JOHNSON AARON' (2 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "21173026A"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250131908"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-041",
+      "primary_parcel_id": "50172339",
+      "display_address": "12735 W VERDE LN, AVONDALE, AZ",
+      "display_owner": "RODRIGUEZ AARON F",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON F' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "50172339"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240521946"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-042",
+      "primary_parcel_id": "50041480",
+      "display_address": "828 E AGUA FRIA LN, AVONDALE, AZ",
+      "display_owner": "RODRIGUEZ AARON FERNANDO",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON FERNANDO' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "50041480"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250072852"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-043",
+      "primary_parcel_id": "50041480",
+      "display_address": "828 E AGUA FRIA LN, AVONDALE, AZ",
+      "display_owner": "RODRIGUEZ AARON FERNANDO",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON FERNANDO' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "50041480"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250072853"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-044",
+      "primary_parcel_id": "14275171",
+      "display_address": "10714 W MORTEN AVE, GLENDALE, AZ",
+      "display_owner": "RODRIGUEZ AARON L",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ AARON L' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "14275171"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250506547"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-045",
+      "primary_parcel_id": "10313510",
+      "display_address": "5901 W BERKELEY RD, PHOENIX, AZ",
+      "display_owner": "CORTEZ AARON VIGIL JR/HERNANDEZ MAGALY J",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'HERNANDEZ AARON' (5 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "10313510"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20240215985"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-046",
+      "primary_parcel_id": "10313510",
+      "display_address": "5901 W BERKELEY RD, PHOENIX, AZ",
+      "display_owner": "CORTEZ AARON VIGIL JR/HERNANDEZ MAGALY J",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'HERNANDEZ AARON' (5 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "10313510"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250749193"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-047",
+      "primary_parcel_id": "10313510",
+      "display_address": "5901 W BERKELEY RD, PHOENIX, AZ",
+      "display_owner": "CORTEZ AARON VIGIL JR/HERNANDEZ MAGALY J",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'HERNANDEZ AARON C' (5 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "10313510"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250515947"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-048",
+      "primary_parcel_id": "10474610",
+      "display_address": "5108 W GRENADINE RD, LAVEEN, AZ",
+      "display_owner": "HERNANDEZ AARON D",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.6,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "matched_owner_name",
+      "parcel_master_status_note": "owner-name join from 'HERNANDEZ AARON D' (1 candidate parcels)",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [
+        "10474610"
+      ],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal"
+      ],
+      "evidence_ids": [
+        "20250122279"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    }
+  ]
+}

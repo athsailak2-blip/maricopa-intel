@@ -1,0 +1,2256 @@
+[
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "WARRANTY_DEED",
+      "parcel_id": null,
+      "signal_type": "Warranty Deed"
+    },
+    "base_record_id": "base_real_rec_17",
+    "canonical_doc_type": "WARRANTY_DEED",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_17"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240031579",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "WARRANTY_DEED against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_rec_17",
+    "recorded_date": "1-22-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Warranty Deed",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "WARRANTY_DEED",
+      "parcel_id": null,
+      "signal_type": "Warranty Deed"
+    },
+    "base_record_id": "base_real_rec_18",
+    "canonical_doc_type": "WARRANTY_DEED",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_18"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250718093",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "WARRANTY_DEED against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "20089421",
+      "situs_address": "PO BOX 307"
+    },
+    "raw_event_id": "real_rec_18",
+    "recorded_date": "12-12-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Warranty Deed",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SPECIAL_WARRANTY_DEED",
+      "parcel_id": null,
+      "signal_type": "Special Warranty Deed"
+    },
+    "base_record_id": "base_real_rec_19",
+    "canonical_doc_type": "SPECIAL_WARRANTY_DEED",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_19"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250590012",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SPECIAL_WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SPECIAL_WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SPECIAL_WARRANTY_DEED against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_rec_19",
+    "recorded_date": "10-13-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Special Warranty Deed",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "WARRANTY_DEED",
+      "parcel_id": null,
+      "signal_type": "Warranty Deed"
+    },
+    "base_record_id": "base_real_rec_20",
+    "canonical_doc_type": "WARRANTY_DEED",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_20"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240453446",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "WARRANTY_DEED against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "10256303",
+      "situs_address": "10977 W TAYLOR ST"
+    },
+    "raw_event_id": "real_rec_20",
+    "recorded_date": "8-26-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Warranty Deed",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "AHCCCS LN",
+      "parcel_id": null,
+      "signal_type": "Ahcccs Ln"
+    },
+    "base_record_id": "base_real_rec_21",
+    "canonical_doc_type": "AHCCCS LN",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_21"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240082658",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "AHCCCS LN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "AHCCCS LN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "AHCCCS LN against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_rec_21",
+    "recorded_date": "2-20-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Ahcccs Ln",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "RELEASE",
+      "parcel_id": null,
+      "signal_type": "Release"
+    },
+    "base_record_id": "base_real_rec_22",
+    "canonical_doc_type": "RELEASE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_22"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250503676",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "RELEASE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "RELEASE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "RELEASE against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_rec_22",
+    "recorded_date": "9-02-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Release",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "RES LIEN",
+      "parcel_id": null,
+      "signal_type": "Res Lien"
+    },
+    "base_record_id": "base_real_rec_23",
+    "canonical_doc_type": "RES LIEN",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_23"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240684758",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "RES LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "RES LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "RES LIEN against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_rec_23",
+    "recorded_date": "12-23-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Res Lien",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIEN",
+      "parcel_id": null,
+      "signal_type": "Lien"
+    },
+    "base_record_id": "base_real_rec_24",
+    "canonical_doc_type": "LIEN",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_24"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240483948",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIEN against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "14166324",
+      "situs_address": "2329 N RECKER UNIT 11"
+    },
+    "raw_event_id": "real_rec_24",
+    "recorded_date": "9-11-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lien",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "AHCCCS LN",
+      "parcel_id": null,
+      "signal_type": "Ahcccs Ln"
+    },
+    "base_record_id": "base_real_rec_25",
+    "canonical_doc_type": "AHCCCS LN",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_25"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250436900",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "AHCCCS LN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "AHCCCS LN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "AHCCCS LN against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_rec_25",
+    "recorded_date": "7-30-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Ahcccs Ln",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "WARRANTY_DEED",
+      "parcel_id": null,
+      "signal_type": "Warranty Deed"
+    },
+    "base_record_id": "base_real_rec_26",
+    "canonical_doc_type": "WARRANTY_DEED",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_26"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240040386",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "WARRANTY_DEED against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "WARRANTY_DEED against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "WARRANTY_DEED against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_26",
+    "recorded_date": "1-25-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Warranty Deed",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_rec_27",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_27"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240046522",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_27",
+    "recorded_date": "1-30-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "REL D/T",
+      "parcel_id": null,
+      "signal_type": "Rel D/T"
+    },
+    "base_record_id": "base_real_rec_28",
+    "canonical_doc_type": "REL D/T",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_28"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240057744",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "REL D/T against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "REL D/T against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "REL D/T against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_28",
+    "recorded_date": "2-05-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Rel D/T",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIEN",
+      "parcel_id": null,
+      "signal_type": "Lien"
+    },
+    "base_record_id": "base_real_rec_29",
+    "canonical_doc_type": "LIEN",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_29"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240058453",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIEN against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_29",
+    "recorded_date": "2-05-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lien",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "MED LIEN",
+      "parcel_id": null,
+      "signal_type": "Med Lien"
+    },
+    "base_record_id": "base_real_rec_30",
+    "canonical_doc_type": "MED LIEN",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_30"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240069691",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "MED LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "MED LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "MED LIEN against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_30",
+    "recorded_date": "2-12-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Med Lien",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_rec_31",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_31"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240101903",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_31",
+    "recorded_date": "2-28-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "REL D/T",
+      "parcel_id": null,
+      "signal_type": "Rel D/T"
+    },
+    "base_record_id": "base_real_rec_32",
+    "canonical_doc_type": "REL D/T",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_32"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240118576",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "REL D/T against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "REL D/T against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "REL D/T against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_32",
+    "recorded_date": "3-07-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Rel D/T",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "RELEASE",
+      "parcel_id": null,
+      "signal_type": "Release"
+    },
+    "base_record_id": "base_real_rec_33",
+    "canonical_doc_type": "RELEASE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_33"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240135925",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "RELEASE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "RELEASE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "RELEASE against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_33",
+    "recorded_date": "3-15-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Release",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "LIS PEND",
+      "parcel_id": null,
+      "signal_type": "Lis Pend"
+    },
+    "base_record_id": "base_real_rec_34",
+    "canonical_doc_type": "LIS PEND",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_34"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240143783",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "LIS PEND against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "LIS PEND against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "LIS PEND against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_34",
+    "recorded_date": "3-20-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Lis Pend",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_rec_35",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_35"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240156299",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_35",
+    "recorded_date": "3-27-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "MED LIEN",
+      "parcel_id": null,
+      "signal_type": "Med Lien"
+    },
+    "base_record_id": "base_real_rec_36",
+    "canonical_doc_type": "MED LIEN",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_rec_36"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240208756",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "MED LIEN against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "MED LIEN against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "MED LIEN against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_rec_36",
+    "recorded_date": "4-22-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Med Lien",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_37",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_37"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240046522",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_recd_37",
+    "recorded_date": "1-30-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_38",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_38"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240101903",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_recd_38",
+    "recorded_date": "2-28-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_39",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_39"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240156299",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "13618206",
+      "situs_address": "132 W INGRAM ST"
+    },
+    "raw_event_id": "real_recd_39",
+    "recorded_date": "3-27-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_40",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_40"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240536594",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "15935022",
+      "situs_address": "9228 N 11TH ST"
+    },
+    "raw_event_id": "real_recd_40",
+    "recorded_date": "10-09-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_41",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_41"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240290028",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "10487399",
+      "situs_address": "7008 S 77TH LN"
+    },
+    "raw_event_id": "real_recd_41",
+    "recorded_date": "5-31-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "NOTICE_OF_TRUSTEE_SALE",
+      "parcel_id": null,
+      "signal_type": "Notice Of Trustee Sale"
+    },
+    "base_record_id": "base_real_recd_42",
+    "canonical_doc_type": "NOTICE_OF_TRUSTEE_SALE",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_42"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240001833",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "NOTICE_OF_TRUSTEE_SALE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "NOTICE_OF_TRUSTEE_SALE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "NOTICE_OF_TRUSTEE_SALE against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "10317277A",
+      "situs_address": "5329 W VERNON AVE"
+    },
+    "raw_event_id": "real_recd_42",
+    "recorded_date": "1-03-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Notice Of Trustee Sale",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_43",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_43"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240652150",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "10127308",
+      "situs_address": "9129 W MIAMI ST"
+    },
+    "raw_event_id": "real_recd_43",
+    "recorded_date": "12-09-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_44",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_44"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240620054",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "21406153",
+      "situs_address": "17844 N 26TH ST"
+    },
+    "raw_event_id": "real_recd_44",
+    "recorded_date": "11-19-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_45",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_45"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250310862",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "30489048M",
+      "situs_address": "25523 S 188TH WAY"
+    },
+    "raw_event_id": "real_recd_45",
+    "recorded_date": "5-30-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_46",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_46"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240170351",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "30249525",
+      "situs_address": "2804 W CURRY ST"
+    },
+    "raw_event_id": "real_recd_46",
+    "recorded_date": "4-02-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_47",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_47"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250202571",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "30249525",
+      "situs_address": "2804 W CURRY ST"
+    },
+    "raw_event_id": "real_recd_47",
+    "recorded_date": "4-11-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_48",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_48"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250539974",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "30249525",
+      "situs_address": "2804 W CURRY ST"
+    },
+    "raw_event_id": "real_recd_48",
+    "recorded_date": "9-18-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_49",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_49"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240542240",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "30106374",
+      "situs_address": "6370 S COLONIAL WAY"
+    },
+    "raw_event_id": "real_recd_49",
+    "recorded_date": "10-11-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_50",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_50"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250183098",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "30106374",
+      "situs_address": "6370 S COLONIAL WAY"
+    },
+    "raw_event_id": "real_recd_50",
+    "recorded_date": "4-02-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_51",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_51"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250241814",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "15106086",
+      "situs_address": "4124 W AUGUSTA AVE"
+    },
+    "raw_event_id": "real_recd_51",
+    "recorded_date": "4-29-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_52",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_52"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240003923",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "21173026A",
+      "situs_address": "39640 N 7TH ST"
+    },
+    "raw_event_id": "real_recd_52",
+    "recorded_date": "1-03-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_53",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_53"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240028633",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "21173026A",
+      "situs_address": "39640 N 7TH ST"
+    },
+    "raw_event_id": "real_recd_53",
+    "recorded_date": "1-19-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_54",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_54"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250131908",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "21173026A",
+      "situs_address": "39640 N 7TH ST"
+    },
+    "raw_event_id": "real_recd_54",
+    "recorded_date": "3-11-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_55",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_55"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240521946",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "50172339",
+      "situs_address": "12735 W VERDE LN"
+    },
+    "raw_event_id": "real_recd_55",
+    "recorded_date": "10-01-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_56",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_56"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250072852",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "50041480",
+      "situs_address": "828 E AGUA FRIA LN"
+    },
+    "raw_event_id": "real_recd_56",
+    "recorded_date": "2-11-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_57",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_57"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250072853",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "50041480",
+      "situs_address": "828 E AGUA FRIA LN"
+    },
+    "raw_event_id": "real_recd_57",
+    "recorded_date": "2-11-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_58",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_58"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250506547",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "14275171",
+      "situs_address": "10714 W MORTEN AVE"
+    },
+    "raw_event_id": "real_recd_58",
+    "recorded_date": "9-03-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_59",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_59"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20240215985",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "10313510",
+      "situs_address": "5901 W BERKELEY RD"
+    },
+    "raw_event_id": "real_recd_59",
+    "recorded_date": "4-25-2024",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_60",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_60"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250749193",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "10313510",
+      "situs_address": "5901 W BERKELEY RD"
+    },
+    "raw_event_id": "real_recd_60",
+    "recorded_date": "12-30-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_61",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_61"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250515947",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "10313510",
+      "situs_address": "5901 W BERKELEY RD"
+    },
+    "raw_event_id": "real_recd_61",
+    "recorded_date": "9-08-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DEED_OF_TRUST",
+      "parcel_id": null,
+      "signal_type": "Deed of Trust"
+    },
+    "base_record_id": "base_real_recd_62",
+    "canonical_doc_type": "DEED_OF_TRUST",
+    "confidence_status": "Confirmed",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_recd_62"
+    ],
+    "filer_entity": null,
+    "instrument_number": "20250122279",
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DEED_OF_TRUST against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DEED_OF_TRUST against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DEED_OF_TRUST against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "10474610",
+      "situs_address": "5108 W GRENADINE RD"
+    },
+    "raw_event_id": "real_recd_62",
+    "recorded_date": "3-06-2025",
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Deed of Trust",
+    "source_id": "clerk_recordings",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://publicapi.recorder.maricopa.gov/documents/search"
+  }
+]
