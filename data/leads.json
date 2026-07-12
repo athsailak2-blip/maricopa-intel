@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T12:04:32Z",
+  "generated_at": "2026-07-12T16:25:39Z",
   "build_label": "PARTIAL_BUILD",
   "build_label_reason": "Tax-lien source BLOCKED (RealAuction / arizonataxsale.com login wall; MyMCTO credentials do not cross over). Recorder + Probate leads included with real Assessor situs addresses. NEW sources added (verified live): Divorce (Family Court), Eviction (Justice Court), Surplus (tax-deeded land). Divorce/Eviction party names are redacted by the portals (case number is the verified key); Surplus carries a real parcel_id. Addresses are best-effort owner-name matches — verify before outreach.",
   "mode": "real-limited-sample",
@@ -92,7 +92,16 @@
         "PB0000-139852",
         "PB0000-147504"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Probate case PB0000-115373",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=PB0000-115373"
+        },
+        {
+          "label": "Assessor parcel 21816146A",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Probate / Estate",
       "display_source": "Superior Court — Probate"
     },
@@ -139,7 +148,16 @@
       "evidence_ids": [
         "20260318333"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260318333",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21855312",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Warranty Deed",
       "display_source": "Maricopa County Recorder"
     },
@@ -186,7 +204,16 @@
       "evidence_ids": [
         "20260346208"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260346208",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21855312",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Release of Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -233,7 +260,16 @@
       "evidence_ids": [
         "20260052244"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260052244",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21725693",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Lien",
       "display_source": "Maricopa County Recorder"
     },
@@ -274,7 +310,16 @@
       "evidence_ids": [
         "20260302422"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260302422",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21725693",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "MIN ENTRY",
       "display_source": "Maricopa County Recorder"
     },
@@ -315,7 +360,16 @@
       "evidence_ids": [
         "20260302423"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260302423",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21725693",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "ORDER",
       "display_source": "Maricopa County Recorder"
     },
@@ -356,7 +410,16 @@
       "evidence_ids": [
         "20260398149"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260398149",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21725693",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "RENW JDG",
       "display_source": "Maricopa County Recorder"
     },
@@ -403,7 +466,16 @@
       "evidence_ids": [
         "20260053693"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260053693",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21725693",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -450,7 +522,16 @@
       "evidence_ids": [
         "20260342776"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260342776",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 50227106",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Release",
       "display_source": "Maricopa County Recorder"
     },
@@ -498,7 +579,16 @@
         "20260150916",
         "20260387923"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260150916",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30428707",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Warranty Deed",
       "display_source": "Maricopa County Recorder"
     },
@@ -546,7 +636,16 @@
         "20260150917",
         "20260387924"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260150917",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30428707",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -593,7 +692,16 @@
       "evidence_ids": [
         "20260375796"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260375796",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30704534",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -640,7 +748,16 @@
       "evidence_ids": [
         "20260191370"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260191370",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30489048M",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -687,7 +804,16 @@
       "evidence_ids": [
         "20260330170"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260330170",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30006357",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -734,7 +860,16 @@
       "evidence_ids": [
         "20260245897"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260245897",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 22010108",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -781,7 +916,16 @@
       "evidence_ids": [
         "20260184602"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260184602",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 50445138",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -830,7 +974,16 @@
         "20260035277",
         "20260040783"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260035276",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 23002020",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -877,7 +1030,16 @@
       "evidence_ids": [
         "20260087236"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260087236",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30436379",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -924,7 +1086,16 @@
       "evidence_ids": [
         "20260362221"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260362221",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30106374",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -971,7 +1142,16 @@
       "evidence_ids": [
         "20260082675"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260082675",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30507135",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -1018,7 +1198,16 @@
       "evidence_ids": [
         "20260097430"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260097430",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 30101469",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -1065,7 +1254,16 @@
       "evidence_ids": [
         "20260119818"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260119818",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 50172307",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -1112,7 +1310,16 @@
       "evidence_ids": [
         "20260186377"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260186377",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21759491",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -1159,7 +1366,16 @@
       "evidence_ids": [
         "20260223300"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260223300",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21651485",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -1206,7 +1422,16 @@
       "evidence_ids": [
         "20260204447"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260204447",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 21712752",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -1253,7 +1478,16 @@
       "evidence_ids": [
         "20260363645"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260363645",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 50814826",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -1300,7 +1534,16 @@
       "evidence_ids": [
         "20260030457"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260030457",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 23110361",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Notice of Trustee Sale",
       "display_source": "Maricopa County Recorder"
     },
@@ -1347,7 +1590,16 @@
       "evidence_ids": [
         "20260334231"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260334231",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        },
+        {
+          "label": "Assessor parcel 50443787",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
@@ -1404,15 +1656,20 @@
         "DR1995-005896",
         "DR1995-014680"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Assessor parcel 21665308",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Divorce / Dissolution",
       "display_source": "Superior Court — Civil / Family"
     },
     {
       "lead_id": "MCR-030",
-      "primary_parcel_id": "21665308",
-      "display_address": "8300 E DIXILETA DR STE 276 SCOTTSDALE AZ",
-      "display_owner": "MINOR RICHARD E/KERR-MINOR DEBORAH J TR",
+      "primary_parcel_id": "30013544",
+      "display_address": "6427 W BEVERLY RD LAVEEN AZ",
+      "display_owner": "GARCIA AARON C",
       "display_score": 61,
       "display_tier": "Workable",
       "display_patterns": [
@@ -1439,26 +1696,31 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "resolved_assessor_parcel",
-      "parcel_master_status_note": "owner-name join from 'Minor, Minor'",
+      "parcel_master_status_note": "owner-name join from 'Garcia, Aaron'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [
-        "21665308"
+        "30013544"
       ],
       "review_flags": [],
       "score_reasons": [
-        "Eviction / Forcible Detainer — primary distress signal; resolved to MINOR RICHARD E/KERR-MINOR DEBORAH J TR @ 8300 E DIXILETA DR STE 276 SCOTTSDALE AZ"
+        "Eviction / Forcible Detainer — primary distress signal; resolved to GARCIA AARON C @ 6427 W BEVERLY RD LAVEEN AZ"
       ],
       "evidence_ids": [
-        "0703TR9302084",
-        "0705CR9400023A",
-        "0705TR0202850",
-        "0710TR9306790",
-        "0710TR9306791",
-        "0713TR0303430",
-        "0716TR9302658",
-        "0716TR9302659"
+        "0716TR0403898",
+        "0716TR0403899",
+        "0716TR0403900",
+        "0716TR0403901",
+        "0716TR0403902",
+        "0716TR9705241",
+        "0716TR9705242",
+        "0716TR9705243"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Assessor parcel 30013544",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Eviction / Forcible Detainer",
       "display_source": "Superior Court — Civil / Family"
     },
@@ -1508,7 +1770,12 @@
       "evidence_ids": [
         ""
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Assessor parcel 21735916",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Surplus / Tax-Deeded Land",
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
@@ -1558,7 +1825,12 @@
       "evidence_ids": [
         ""
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Assessor parcel 50315019A",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Surplus / Tax-Deeded Land",
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
@@ -1608,7 +1880,12 @@
       "evidence_ids": [
         ""
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Assessor parcel 30335530",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Surplus / Tax-Deeded Land",
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
@@ -1658,7 +1935,12 @@
       "evidence_ids": [
         ""
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Assessor parcel 30150696",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Surplus / Tax-Deeded Land",
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
@@ -1708,7 +1990,12 @@
       "evidence_ids": [
         ""
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Assessor parcel 21808624",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Surplus / Tax-Deeded Land",
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
@@ -1758,7 +2045,12 @@
       "evidence_ids": [
         ""
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Assessor parcel 21755066",
+          "url": "https://mcassessor.maricopa.gov/mcs/"
+        }
+      ],
       "display_doc_type": "Surplus / Tax-Deeded Land",
       "display_source": "Maricopa County — Tax Deed / Surplus"
     },
@@ -2344,15 +2636,28 @@
       ],
       "evidence_ids": [
         "ev_real_div_64",
+        "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1992-010100",
         "ev_real_div_65",
+        "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-004597",
         "ev_real_div_66",
+        "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-014786",
         "ev_real_div_67",
+        "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-018758",
         "ev_real_div_68",
+        "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-019375",
         "ev_real_div_69",
+        "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-020753",
         "ev_real_div_70",
-        "ev_real_div_71"
+        "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1995-005896",
+        "ev_real_div_71",
+        "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1995-014680"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Family Court case",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1992-010100"
+        }
+      ],
       "display_doc_type": "Divorce / Dissolution",
       "display_source": "Superior Court — Civil / Family"
     },
@@ -2397,9 +2702,15 @@
         "Eviction / Forcible Detainer — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_evc_72"
+        "ev_real_evc_72",
+        "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR0403898"
       ],
-      "primary_source_urls": [],
+      "primary_source_urls": [
+        {
+          "label": "Justice Court case",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR0403898"
+        }
+      ],
       "display_doc_type": "Eviction / Forcible Detainer",
       "display_source": "Superior Court — Civil / Family"
     }

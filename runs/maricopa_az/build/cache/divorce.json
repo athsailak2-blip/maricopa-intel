@@ -1,0 +1,214 @@
+{
+  "fetched_at": "2026-07-12",
+  "count": 8,
+  "events": [
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "DIVORCE",
+      "raw_event_id": "real_div_DR1992-010100",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Minor, Minor",
+          "name_type": "DF",
+          "raw_role": "respondent"
+        }
+      ],
+      "property_refs": {
+        "case_number": "DR1992-010100"
+      },
+      "instrument_number": null,
+      "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1992-010100",
+      "fetched_at": "2026-07-12T16:13:14Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/casesearch.asp",
+          "note": "Maricopa Family Court dissolution case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "DIVORCE",
+      "raw_event_id": "real_div_DR1994-004597",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Minor, Minor",
+          "name_type": "DF",
+          "raw_role": "respondent"
+        }
+      ],
+      "property_refs": {
+        "case_number": "DR1994-004597"
+      },
+      "instrument_number": null,
+      "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-004597",
+      "fetched_at": "2026-07-12T16:13:14Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/casesearch.asp",
+          "note": "Maricopa Family Court dissolution case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "DIVORCE",
+      "raw_event_id": "real_div_DR1994-014786",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Minor, Minor",
+          "name_type": "DF",
+          "raw_role": "respondent"
+        }
+      ],
+      "property_refs": {
+        "case_number": "DR1994-014786"
+      },
+      "instrument_number": null,
+      "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-014786",
+      "fetched_at": "2026-07-12T16:13:14Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/casesearch.asp",
+          "note": "Maricopa Family Court dissolution case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "DIVORCE",
+      "raw_event_id": "real_div_DR1994-018758",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Minor, Minor",
+          "name_type": "DF",
+          "raw_role": "respondent"
+        }
+      ],
+      "property_refs": {
+        "case_number": "DR1994-018758"
+      },
+      "instrument_number": null,
+      "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-018758",
+      "fetched_at": "2026-07-12T16:13:14Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/casesearch.asp",
+          "note": "Maricopa Family Court dissolution case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "DIVORCE",
+      "raw_event_id": "real_div_DR1994-019375",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Minor, Minor",
+          "name_type": "DF",
+          "raw_role": "respondent"
+        }
+      ],
+      "property_refs": {
+        "case_number": "DR1994-019375"
+      },
+      "instrument_number": null,
+      "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-019375",
+      "fetched_at": "2026-07-12T16:13:14Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/casesearch.asp",
+          "note": "Maricopa Family Court dissolution case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "DIVORCE",
+      "raw_event_id": "real_div_DR1994-020753",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Minor, Minor",
+          "name_type": "DF",
+          "raw_role": "respondent"
+        }
+      ],
+      "property_refs": {
+        "case_number": "DR1994-020753"
+      },
+      "instrument_number": null,
+      "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-020753",
+      "fetched_at": "2026-07-12T16:13:14Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/casesearch.asp",
+          "note": "Maricopa Family Court dissolution case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "DIVORCE",
+      "raw_event_id": "real_div_DR1995-005896",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Minor, Minor",
+          "name_type": "DF",
+          "raw_role": "respondent"
+        }
+      ],
+      "property_refs": {
+        "case_number": "DR1995-005896"
+      },
+      "instrument_number": null,
+      "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1995-005896",
+      "fetched_at": "2026-07-12T16:13:14Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/casesearch.asp",
+          "note": "Maricopa Family Court dissolution case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "DIVORCE",
+      "raw_event_id": "real_div_DR1995-014680",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Minor, Minor",
+          "name_type": "DF",
+          "raw_role": "respondent"
+        }
+      ],
+      "property_refs": {
+        "case_number": "DR1995-014680"
+      },
+      "instrument_number": null,
+      "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1995-014680",
+      "fetched_at": "2026-07-12T16:13:14Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/casesearch.asp",
+          "note": "Maricopa Family Court dissolution case search"
+        }
+      ]
+    }
+  ]
+}

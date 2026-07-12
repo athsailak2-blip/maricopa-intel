@@ -1,0 +1,214 @@
+{
+  "fetched_at": "2026-07-12",
+  "count": 8,
+  "events": [
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "EVICTION",
+      "raw_event_id": "real_evc_0716TR0403898",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Garcia, Aaron",
+          "name_type": "DF",
+          "raw_role": "defendant"
+        }
+      ],
+      "property_refs": {
+        "case_number": "0716TR0403898"
+      },
+      "instrument_number": null,
+      "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR0403898",
+      "fetched_at": "2026-07-12T16:13:42Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/casesearch",
+          "note": "Maricopa Justice Court eviction case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "EVICTION",
+      "raw_event_id": "real_evc_0716TR0403899",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Garcia, Aaron",
+          "name_type": "DF",
+          "raw_role": "defendant"
+        }
+      ],
+      "property_refs": {
+        "case_number": "0716TR0403899"
+      },
+      "instrument_number": null,
+      "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR0403899",
+      "fetched_at": "2026-07-12T16:13:42Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/casesearch",
+          "note": "Maricopa Justice Court eviction case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "EVICTION",
+      "raw_event_id": "real_evc_0716TR0403900",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Garcia, Aaron",
+          "name_type": "DF",
+          "raw_role": "defendant"
+        }
+      ],
+      "property_refs": {
+        "case_number": "0716TR0403900"
+      },
+      "instrument_number": null,
+      "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR0403900",
+      "fetched_at": "2026-07-12T16:13:42Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/casesearch",
+          "note": "Maricopa Justice Court eviction case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "EVICTION",
+      "raw_event_id": "real_evc_0716TR0403901",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Garcia, Aaron",
+          "name_type": "DF",
+          "raw_role": "defendant"
+        }
+      ],
+      "property_refs": {
+        "case_number": "0716TR0403901"
+      },
+      "instrument_number": null,
+      "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR0403901",
+      "fetched_at": "2026-07-12T16:13:42Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/casesearch",
+          "note": "Maricopa Justice Court eviction case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "EVICTION",
+      "raw_event_id": "real_evc_0716TR0403902",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Garcia, Aaron",
+          "name_type": "DF",
+          "raw_role": "defendant"
+        }
+      ],
+      "property_refs": {
+        "case_number": "0716TR0403902"
+      },
+      "instrument_number": null,
+      "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR0403902",
+      "fetched_at": "2026-07-12T16:13:42Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/casesearch",
+          "note": "Maricopa Justice Court eviction case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "EVICTION",
+      "raw_event_id": "real_evc_0716TR9705241",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Garcia, Aaron",
+          "name_type": "DF",
+          "raw_role": "defendant"
+        }
+      ],
+      "property_refs": {
+        "case_number": "0716TR9705241"
+      },
+      "instrument_number": null,
+      "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR9705241",
+      "fetched_at": "2026-07-12T16:13:42Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/casesearch",
+          "note": "Maricopa Justice Court eviction case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "EVICTION",
+      "raw_event_id": "real_evc_0716TR9705242",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Garcia, Aaron",
+          "name_type": "DF",
+          "raw_role": "defendant"
+        }
+      ],
+      "property_refs": {
+        "case_number": "0716TR9705242"
+      },
+      "instrument_number": null,
+      "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR9705242",
+      "fetched_at": "2026-07-12T16:13:42Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/casesearch",
+          "note": "Maricopa Justice Court eviction case search"
+        }
+      ]
+    },
+    {
+      "source_id": "civil_court",
+      "canonical_doc_type": "EVICTION",
+      "raw_event_id": "real_evc_0716TR9705243",
+      "event_date": null,
+      "parties": [
+        {
+          "name": "Garcia, Aaron",
+          "name_type": "DF",
+          "raw_role": "defendant"
+        }
+      ],
+      "property_refs": {
+        "case_number": "0716TR9705243"
+      },
+      "instrument_number": null,
+      "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR9705243",
+      "fetched_at": "2026-07-12T16:13:42Z",
+      "evidence": [
+        {
+          "type": "web",
+          "url": "https://justicecourts.maricopa.gov/app/courtrecords/casesearch",
+          "note": "Maricopa Justice Court eviction case search"
+        }
+      ]
+    }
+  ]
+}

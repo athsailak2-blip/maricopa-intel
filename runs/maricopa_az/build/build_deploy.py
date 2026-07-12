@@ -95,6 +95,57 @@ SOURCE_LABELS = {
     "tax_lien": "Maricopa County — Tax Deed / Surplus",
 }
 
+
+def _source_url_for(dt: str, evidence_ids: list, parcel_id=None,
+                     source_id: str = "") -> list:
+    """Build clickable source-lookup URLs from the lead's real identifiers.
+
+    Returns a list of {label, url} dicts so the dashboard can render
+    one-click verification links. Only ever built from identifiers that
+    actually exist in the source data -- never fabricated.
+    """
+    urls = []
+    ev_set = {str(x).strip() for x in (evidence_ids or []) if x}
+    # 1) A full URL already present (divorce/eviction case-search links).
+    for e in ev_set:
+        if e.startswith("http://") or e.startswith("https://"):
+            label = "Case lookup"
+            if "justicecourts" in e:
+                label = "Justice Court case"
+            elif "familycourtcases" in e:
+                label = "Family Court case"
+            elif "CivilCourt" in e:
+                label = "Superior Court case"
+            urls.append({"label": label, "url": e})
+    # 2) Recorder recording number -> document search.
+    if source_id == "clerk_recordings":
+        for e in ev_set:
+            if e.upper().startswith("EV_REAL_REC") or e.startswith("ev_"):
+                continue
+            if e.isdigit() or (e[:4].isdigit() and len(e) >= 8):
+                urls.append({
+                    "label": f"Recorder doc {e}",
+                    "url": "https://recorder.maricopa.gov/recording/document-search.html",
+                })
+                break
+    # 3) Probate case number (PBxxxx-xxxxxx).
+    if dt == "PROBATE":
+        for e in ev_set:
+            if e.upper().startswith("PB") and "-" in e:
+                urls.append({
+                    "label": f"Probate case {e}",
+                    "url": f"https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber={e}",
+                })
+                break
+    # 4) Surplus parcel -> Treasurer PDF + Assessor parcel lookup.
+    if parcel_id:
+        urls.append({
+            "label": f"Assessor parcel {parcel_id}",
+            "url": "https://mcassessor.maricopa.gov/mcs/",
+        })
+    return urls
+
+
 PARTIAL_REASON = (
     "Tax-lien source BLOCKED (RealAuction / arizonataxsale.com login wall; "
     "MyMCTO credentials do not cross over). Recorder + Probate leads included "
@@ -173,7 +224,9 @@ def build_leads_json(enriched: list, scored: list | None = None) -> dict:
                               + (f"; resolved to {owner} @ {addr}" if addr else
                                  " (UNRESOLVED: no address from free source)")],
             "evidence_ids": [e.get("instrument_number") or e.get("case_number") or ""],
-            "primary_source_urls": [],
+            "primary_source_urls": _source_url_for(
+                dt, [e.get("instrument_number") or e.get("case_number") or ""],
+                parcel_id=parcel, source_id=e.get("source_id", "")),
             "display_doc_type": DOC_LABELS.get(dt, dt),
             "display_source": SOURCE_LABELS.get(e.get("source_id", ""), e.get("source_id", "")),
         })
@@ -233,7 +286,10 @@ def build_leads_json(enriched: list, scored: list | None = None) -> dict:
                 "review_flags": ["portal_redacted"],
                 "score_reasons": [f"{DOC_LABELS.get(dt, dt)} — event only; no address (free source redacts)"],
                 "evidence_ids": s.get("evidence_ids") or [],
-                "primary_source_urls": [],
+                "primary_source_urls": _source_url_for(
+                    dt, s.get("evidence_ids") or [],
+                    parcel_id=s.get("primary_parcel_id"),
+                    source_id=src_id),
                 "display_doc_type": DOC_LABELS.get(dt, dt),
                 "display_source": SOURCE_LABELS.get(src_id, src_id),
             })
