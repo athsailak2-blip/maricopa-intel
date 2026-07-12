@@ -449,6 +449,9 @@ def collect_recorder_distress_batch(events: list, *, ev_seq_start: int = 0,
                 "raw_doc_type": dt,
                 "instrument_number": p.get("recording_number"),
                 "recorded_date": p.get("recording_date"),
+                "raw_payload": r.get("raw_payload"),  # keep names + recording# for owner map
+                "owner_name": p.get("names") or "",
+                "primary_owner_name": p.get("names") or "",
                 "event_date": None,
                 "source_url": r["source_url"],
                 "parties": [_party(p.get("names") or "Unknown", "GR")],
@@ -464,6 +467,8 @@ def collect_recorder_distress_batch(events: list, *, ev_seq_start: int = 0,
                 "parser_name": "maricopa_recorder",
                 "parser_version": "1.0.0",
                 "parser_confidence": 90,
+                "owner_name": p.get("names") or "",
+                "primary_owner_name": p.get("names") or "",
                 "captured_at": r["source_fetched_at"],
             }
             collected.append(ev)
@@ -478,6 +483,24 @@ def collect_recorder_distress_batch(events: list, *, ev_seq_start: int = 0,
                 _json.dump(_done, f)
         except Exception as e:
             print(f"    [warn] recorder batch cache write failed: {e}")
+    # Persist a recorder instrument_number -> REAL grantor/grantee name map
+    # (the public API returns party names; the framework's party engine
+    # otherwise emits an "against unidentified party" placeholder). This map
+    # lets build_deploy.py show the real owner on client-facing leads.
+    try:
+        _name_map = {}
+        for _sn, _recs in _done.items():
+            for _r in _recs:
+                _p = _r.get("raw_payload") or {}
+                _in = _p.get("recording_number")
+                _nm = _p.get("names")
+                if _in and _nm:
+                    _name_map[str(_in)] = _nm if isinstance(_nm, str) else " / ".join(_nm)
+        _nm_path = Path(__file__).resolve().parent / "recorder_names.json"
+        with open(_nm_path, "w") as f:
+            _json.dump(_name_map, f)
+    except Exception as e:
+        print(f"    [warn] recorder name map write failed: {e}")
     return added
 
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T16:25:39Z",
+  "generated_at": "2026-07-12T17:22:54Z",
   "build_label": "PARTIAL_BUILD",
   "build_label_reason": "Tax-lien source BLOCKED (RealAuction / arizonataxsale.com login wall; MyMCTO credentials do not cross over). Recorder + Probate leads included with real Assessor situs addresses. NEW sources added (verified live): Divorce (Family Court), Eviction (Justice Court), Surplus (tax-deeded land). Divorce/Eviction party names are redacted by the portals (case number is the verified key); Surplus carries a real parcel_id. Addresses are best-effort owner-name matches — verify before outreach.",
   "mode": "real-limited-sample",
@@ -10,11 +10,11 @@
     "github_org": "athsailak2-blip",
     "github_repo": "maricopa-intel"
   },
-  "lead_total": 49,
-  "total_signals_active": 49,
+  "lead_total": 79,
+  "total_signals_active": 79,
   "total_signals_suppressed": 0,
   "score_tier_distribution": {
-    "Archive": 12,
+    "Archive": 42,
     "Hot": 1,
     "Low": 14,
     "Strong": 18,
@@ -22,23 +22,23 @@
   },
   "pattern_counts": {
     "estate": 3,
-    "foreclosure": 21,
-    "lien": 2,
+    "foreclosure": 44,
+    "lien": 3,
     "litigation": 1,
     "occupant_distress": 2,
     "surplus_funds": 6,
     "tax_deeded": 6,
-    "transfer": 9
+    "transfer": 15
   },
   "attribute_counts": {},
   "deal_path_distribution": {
     "divorce_transfer": 1,
     "occupant_distress": 1,
     "probate_estate": 1,
-    "wholesale": 46
+    "wholesale": 76
   },
   "stack_depth_distribution": {
-    "1": 49
+    "1": 79
   },
   "quality_metrics": {},
   "records": [
@@ -2058,7 +2058,7 @@
       "lead_id": "MCR-037",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "HERNANDEZ ABEL",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [
@@ -2084,20 +2084,16 @@
       "stack_depth": 1,
       "primary_event_date": "1-07-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "Release — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_rec_21",
-        "ev_real_rec_22",
-        "ev_real_rec_28"
+        "ev_real_rec_21"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Release",
@@ -2107,7 +2103,7 @@
       "lead_id": "MCR-038",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "NGUYEN ALICIA L",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [
@@ -2133,48 +2129,16 @@
       "stack_depth": 1,
       "primary_event_date": "1-16-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "Deed of Trust — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_recd_56",
-        "ev_real_recd_47",
-        "ev_real_recd_48",
-        "ev_real_recd_49",
-        "ev_real_rec_27",
-        "ev_real_recd_38",
-        "ev_real_recd_54",
-        "ev_real_recd_51",
-        "ev_real_recd_55",
-        "ev_real_recd_57",
-        "ev_real_rec_33",
-        "ev_real_recd_40",
-        "ev_real_recd_46",
-        "ev_real_recd_58",
-        "ev_real_recd_43",
-        "ev_real_recd_60",
-        "ev_real_recd_59",
-        "ev_real_recd_45",
-        "ev_real_recd_52",
-        "ev_real_recd_44",
-        "ev_real_recd_63",
-        "ev_real_recd_53",
-        "ev_real_recd_61",
-        "ev_real_recd_42",
-        "ev_real_rec_31",
-        "ev_real_recd_39",
-        "ev_real_recd_50",
-        "ev_real_rec_35",
-        "ev_real_recd_41",
-        "ev_real_rec_17",
-        "ev_real_recd_37"
+        "ev_real_recd_56"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Deed of Trust",
@@ -2184,7 +2148,7 @@
       "lead_id": "MCR-039",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "RODRIGUEZ ABELARDO Q",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [
@@ -2210,13 +2174,11 @@
       "stack_depth": 1,
       "primary_event_date": "1-16-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "Notice of Trustee Sale — event only; no address (free source redacts)"
       ],
@@ -2231,7 +2193,54 @@
       "lead_id": "MCR-040",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "MARTINEZ ABEL",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "1-21-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_47",
+        "ev_real_recd_48",
+        "ev_real_recd_49"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-041",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH AARON",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [
@@ -2257,29 +2266,72 @@
       "stack_depth": 1,
       "primary_event_date": "1-28-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "Lien — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_rec_23",
-        "ev_real_rec_20"
+        "ev_real_rec_23"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Lien",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-041",
+      "lead_id": "MCR-042",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "SMITH AARON F",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "1-29-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_27",
+        "ev_real_recd_38"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-043",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH ABIGAIL MARIE",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [],
@@ -2299,13 +2351,11 @@
       "stack_depth": 1,
       "primary_event_date": "2-10-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "SPECIAL_WARRANTY_DEED — event only; no address (free source redacts)"
       ],
@@ -2317,10 +2367,190 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-042",
+      "lead_id": "MCR-044",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "NGUYEN AIMEE",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "2-12-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_54"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-045",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "NGUYEN AARON",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "2-17-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_51"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-046",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "NGUYEN ALEXANDER",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "2-19-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_55"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-047",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "JOHNSON ABRAHAM",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "3-02-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_57"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-048",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH ABIGAIL",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [
@@ -2346,32 +2576,477 @@
       "stack_depth": 1,
       "primary_event_date": "3-16-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "Warranty Deed — event only; no address (free source redacts)"
       ],
       "evidence_ids": [
-        "ev_real_rec_32",
-        "ev_real_rec_18",
-        "ev_real_rec_29",
-        "ev_real_rec_30",
-        "ev_real_rec_34"
+        "ev_real_rec_32"
       ],
       "primary_source_urls": [],
       "display_doc_type": "Warranty Deed",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-043",
+      "lead_id": "MCR-049",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "SMITH ABIGAIL",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "3-16-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_33",
+        "ev_real_recd_40"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-050",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH AARIANA",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "3-24-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_22"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Release",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-051",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "MARTINEZ ABBYGALE NEVAEH",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "3-30-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_46"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-052",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "JOHNSON ADAM",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "3-31-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_58"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-053",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LOPEZ ABBY A",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "4-01-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_43"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-054",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "RODRIGUEZ AARON R",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "4-07-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_60"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-055",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "JOHNSON ADAM D",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "4-15-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_59"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-056",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LOPEZ ADA K",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "4-24-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_45"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-057",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "NGUYEN ADRIAN T",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "4-27-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_52"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-058",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH AAREN C",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "lien"
+      ],
+      "stack_contrib_patterns": [
+        "lien"
+      ],
+      "display_pattern_set": [
+        "lien"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "5-04-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Lien — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_20"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Lien",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-059",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH AARON",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [],
@@ -2391,13 +3066,11 @@
       "stack_depth": 1,
       "primary_event_date": "5-19-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "MIN ENTRY — event only; no address (free source redacts)"
       ],
@@ -2409,10 +3082,10 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-044",
+      "lead_id": "MCR-060",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "SMITH AARON",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [],
@@ -2432,13 +3105,11 @@
       "stack_depth": 1,
       "primary_event_date": "5-19-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "ORDER — event only; no address (free source redacts)"
       ],
@@ -2450,10 +3121,190 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-045",
+      "lead_id": "MCR-061",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "SMITH A KEITH",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "5-27-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_18"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-062",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "LOPEZ ABEL",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-01-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_44"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-063",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "HERNANDEZ ABIGAIL",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-03-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_63"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-064",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH AARON JAMES",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-05-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_28"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Release",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-065",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH A KEITH",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [
@@ -2479,13 +3330,11 @@
       "stack_depth": 1,
       "primary_event_date": "6-09-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "Release of Deed of Trust — event only; no address (free source redacts)"
       ],
@@ -2497,10 +3346,417 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-046",
+      "lead_id": "MCR-066",
       "primary_parcel_id": null,
       "display_address": "",
-      "display_owner": "Unknown (portal redacted)",
+      "display_owner": "SMITH AARON JESSE",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-11-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_29"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-067",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "NGUYEN AI",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-16-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_53"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-068",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "RODRIGUEZ ABELARDO",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-17-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_61"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-069",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "GARCIA ABBY A",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-23-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_42"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-070",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH ABBY LYNNE",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-26-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_30"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-071",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH ABBY LYNNE",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-26-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_31",
+        "ev_real_recd_39"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-072",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "MARTINEZ ABEL JOSE MALPICA",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-26-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_recd_50"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-073",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH ABIGAIL J",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-29-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_34"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-074",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH ABIGAIL J",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "6-29-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_35",
+        "ev_real_recd_41"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-075",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH AARON",
       "display_score": 30,
       "display_tier": "Archive",
       "display_patterns": [],
@@ -2520,13 +3776,11 @@
       "stack_depth": 1,
       "primary_event_date": "7-02-2026",
       "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "portal redacted party; no parcel join",
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
       "parcel_master_match_method": "none",
       "candidate_parcel_ids": [],
-      "review_flags": [
-        "portal_redacted"
-      ],
+      "review_flags": [],
       "score_reasons": [
         "RENW JDG — event only; no address (free source redacts)"
       ],
@@ -2538,7 +3792,53 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-047",
+      "lead_id": "MCR-076",
+      "primary_parcel_id": null,
+      "display_address": "",
+      "display_owner": "SMITH 2008 REVOCABLE TRUST",
+      "display_score": 30,
+      "display_tier": "Archive",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "NEEDS_REVIEW",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.3,
+      "stack_depth": 1,
+      "primary_event_date": "7-09-2026",
+      "expected_sale_date": null,
+      "parcel_master_status": "resolved",
+      "parcel_master_status_note": "",
+      "parcel_master_match_method": "none",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — event only; no address (free source redacts)"
+      ],
+      "evidence_ids": [
+        "ev_real_rec_17",
+        "ev_real_recd_37"
+      ],
+      "primary_source_urls": [],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-077",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
@@ -2592,7 +3892,7 @@
       "display_source": "Superior Court — Civil / Family"
     },
     {
-      "lead_id": "MCR-048",
+      "lead_id": "MCR-078",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",
@@ -2662,7 +3962,7 @@
       "display_source": "Superior Court — Civil / Family"
     },
     {
-      "lead_id": "MCR-049",
+      "lead_id": "MCR-079",
       "primary_parcel_id": null,
       "display_address": "",
       "display_owner": "Unknown (portal redacted)",

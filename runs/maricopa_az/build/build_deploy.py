@@ -95,6 +95,47 @@ SOURCE_LABELS = {
     "tax_lien": "Maricopa County — Tax Deed / Surplus",
 }
 
+# Recorder instrument_number -> REAL grantor/grantee name (from the public
+# recorder API, which returns party names). The framework's party engine
+# emits an "against unidentified party" placeholder; we surface the real
+# name on client-facing leads instead.
+_RECORDER_NAMES = {}
+try:
+    _rn = Path(__file__).resolve().parent / "recorder_names.json"
+    if _rn.exists():
+        _RECORDER_NAMES = json.load(open(_rn))
+except Exception:
+    _RECORDER_NAMES = {}
+
+# scored-lead evidence_id (ev_real_rec_21) -> base raw_event_id -> instrument #
+_RECORDER_EVID_TO_INSTR = {}
+try:
+    _ei = Path(__file__).resolve().parent / "recorder_evid_to_instr.json"
+    if _ei.exists():
+        _RECORDER_EVID_TO_INSTR = json.load(open(_ei))
+except Exception:
+    _RECORDER_EVID_TO_INSTR = {}
+
+
+def _recorder_owner(evidence_ids) -> str:
+    """Resolve a real owner name for a recorder lead from its instrument #.
+
+    Tries the instrument number directly, then falls back to mapping a
+    scored-lead evidence_id (ev_real_rec_21 -> real_rec_21 -> instrument #)
+    via the recorder base file.
+    """
+    for e in (evidence_ids or []):
+        e = str(e).strip()
+        digits = "".join(ch for ch in e if ch.isdigit())
+        if digits and digits in _RECORDER_NAMES:
+            return _RECORDER_NAMES[digits]
+        # ev_real_rec_21 -> real_rec_21 -> instrument in base map
+        base_key = e[3:] if e.startswith("ev_") else e
+        instr = _RECORDER_EVID_TO_INSTR.get(base_key)
+        if instr and instr in _RECORDER_NAMES:
+            return _RECORDER_NAMES[instr]
+    return ""
+
 
 def _source_url_for(dt: str, evidence_ids: list, parcel_id=None,
                      source_id: str = "") -> list:
@@ -256,11 +297,20 @@ def build_leads_json(enriched: list, scored: list | None = None) -> dict:
             dt = ((dtn.get("canonical_doc_types") or [""])[0] or "UNKNOWN").upper()
             src_ids = s.get("source_ids") or []
             src_id = src_ids[0] if src_ids else "unknown"
+            # Prefer a REAL party name if the source carried one (recorder
+            # API returns grantor/grantee names; court portals redact).
+            _real_owner = (
+                s.get("primary_owner_name") or s.get("owner_name")
+                or (s.get("parties") or [{}])[0].get("name") if s.get("parties") else None
+                or "")
+            if not _real_owner and src_id == "clerk_recordings":
+                _real_owner = _recorder_owner(s.get("evidence_ids"))
+            _real_owner = (_real_owner or "").strip()
             rows.append({
                 "lead_id": f"MCR-{len(rows)+1:03d}",
                 "primary_parcel_id": s.get("primary_parcel_id"),
                 "display_address": "",
-                "display_owner": "Unknown (portal redacted)",
+                "display_owner": _real_owner or "Unknown (portal redacted)",
                 "display_score": {"Hot": 92, "Strong": 78, "Workable": 61,
                                   "Low": 40, "Archive": 30}.get(s.get("tier", "Low"), 40),
                 "display_tier": s.get("tier") or DOC_TO_TIER.get(dt, "Low"),
@@ -283,7 +333,10 @@ def build_leads_json(enriched: list, scored: list | None = None) -> dict:
                 "parcel_master_status_note": "portal redacted party; no parcel join",
                 "parcel_master_match_method": "none",
                 "candidate_parcel_ids": [],
-                "review_flags": ["portal_redacted"],
+                "review_flags": [] if _real_owner else ["portal_redacted"],
+                "parcel_master_status": "resolved" if _real_owner else "unresolved",
+                "parcel_master_status_note": (
+                    "" if _real_owner else "portal redacted party; no parcel join"),
                 "score_reasons": [f"{DOC_LABELS.get(dt, dt)} — event only; no address (free source redacts)"],
                 "evidence_ids": s.get("evidence_ids") or [],
                 "primary_source_urls": _source_url_for(
