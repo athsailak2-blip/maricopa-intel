@@ -86,8 +86,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "20089421",
-      "situs_address": "PO BOX 307"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_18",
     "recorded_date": "12-12-2025",
@@ -184,8 +184,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "10256303",
-      "situs_address": "10977 W TAYLOR ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_20",
     "recorded_date": "8-26-2024",
@@ -380,8 +380,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "14166324",
-      "situs_address": "2329 N RECKER UNIT 11"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_24",
     "recorded_date": "9-11-2024",
@@ -478,8 +478,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_26",
     "recorded_date": "1-25-2024",
@@ -527,8 +527,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_27",
     "recorded_date": "1-30-2024",
@@ -576,8 +576,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_28",
     "recorded_date": "2-05-2024",
@@ -625,8 +625,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_29",
     "recorded_date": "2-05-2024",
@@ -674,8 +674,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_30",
     "recorded_date": "2-12-2024",
@@ -723,8 +723,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_31",
     "recorded_date": "2-28-2024",
@@ -772,8 +772,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_32",
     "recorded_date": "3-07-2024",
@@ -821,8 +821,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_33",
     "recorded_date": "3-15-2024",
@@ -870,8 +870,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_34",
     "recorded_date": "3-20-2024",
@@ -919,8 +919,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_35",
     "recorded_date": "3-27-2024",
@@ -968,8 +968,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_rec_36",
     "recorded_date": "4-22-2024",
@@ -1017,8 +1017,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_37",
     "recorded_date": "1-30-2024",
@@ -1066,8 +1066,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_38",
     "recorded_date": "2-28-2024",
@@ -1115,8 +1115,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "13618206",
-      "situs_address": "132 W INGRAM ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_39",
     "recorded_date": "3-27-2024",
@@ -1164,8 +1164,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "15935022",
-      "situs_address": "9228 N 11TH ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_40",
     "recorded_date": "10-09-2024",
@@ -1213,8 +1213,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "10487399",
-      "situs_address": "7008 S 77TH LN"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_41",
     "recorded_date": "5-31-2024",
@@ -1262,8 +1262,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "10317277A",
-      "situs_address": "5329 W VERNON AVE"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_42",
     "recorded_date": "1-03-2024",
@@ -1311,8 +1311,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "10127308",
-      "situs_address": "9129 W MIAMI ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_43",
     "recorded_date": "12-09-2024",
@@ -1360,8 +1360,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "21406153",
-      "situs_address": "17844 N 26TH ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_44",
     "recorded_date": "11-19-2024",
@@ -1409,8 +1409,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "30489048M",
-      "situs_address": "25523 S 188TH WAY"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_45",
     "recorded_date": "5-30-2025",
@@ -1458,8 +1458,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "30249525",
-      "situs_address": "2804 W CURRY ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_46",
     "recorded_date": "4-02-2024",
@@ -1507,8 +1507,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "30249525",
-      "situs_address": "2804 W CURRY ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_47",
     "recorded_date": "4-11-2025",
@@ -1556,8 +1556,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "30249525",
-      "situs_address": "2804 W CURRY ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_48",
     "recorded_date": "9-18-2025",
@@ -1605,8 +1605,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "30106374",
-      "situs_address": "6370 S COLONIAL WAY"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_49",
     "recorded_date": "10-11-2024",
@@ -1654,8 +1654,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "30106374",
-      "situs_address": "6370 S COLONIAL WAY"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_50",
     "recorded_date": "4-02-2025",
@@ -1703,8 +1703,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "15106086",
-      "situs_address": "4124 W AUGUSTA AVE"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_51",
     "recorded_date": "4-29-2025",
@@ -1752,8 +1752,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "21173026A",
-      "situs_address": "39640 N 7TH ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_52",
     "recorded_date": "1-03-2024",
@@ -1801,8 +1801,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "21173026A",
-      "situs_address": "39640 N 7TH ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_53",
     "recorded_date": "1-19-2024",
@@ -1850,8 +1850,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "21173026A",
-      "situs_address": "39640 N 7TH ST"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_54",
     "recorded_date": "3-11-2025",
@@ -1899,8 +1899,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "50172339",
-      "situs_address": "12735 W VERDE LN"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_55",
     "recorded_date": "10-01-2024",
@@ -1948,8 +1948,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "50041480",
-      "situs_address": "828 E AGUA FRIA LN"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_56",
     "recorded_date": "2-11-2025",
@@ -1997,8 +1997,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "50041480",
-      "situs_address": "828 E AGUA FRIA LN"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_57",
     "recorded_date": "2-11-2025",
@@ -2046,8 +2046,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "14275171",
-      "situs_address": "10714 W MORTEN AVE"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_58",
     "recorded_date": "9-03-2025",
@@ -2095,8 +2095,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "10313510",
-      "situs_address": "5901 W BERKELEY RD"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_59",
     "recorded_date": "4-25-2024",
@@ -2144,8 +2144,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "10313510",
-      "situs_address": "5901 W BERKELEY RD"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_60",
     "recorded_date": "12-30-2025",
@@ -2193,8 +2193,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "10313510",
-      "situs_address": "5901 W BERKELEY RD"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_61",
     "recorded_date": "9-08-2025",
@@ -2242,8 +2242,8 @@
     "property_refs": {
       "case_number": null,
       "legal_description": null,
-      "parcel_id": "10474610",
-      "situs_address": "5108 W GRENADINE RD"
+      "parcel_id": null,
+      "situs_address": null
     },
     "raw_event_id": "real_recd_62",
     "recorded_date": "3-06-2025",

@@ -390,5 +390,789 @@
     "source_id": "civil_court",
     "source_role": "PRIMARY_EVENT_SOURCE",
     "source_url": "https://www.superiorcourt.maricopa.gov/docket/CivilCourtCases/caseInfo.asp?caseNumber=LC1991-000260"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DIVORCE",
+      "parcel_id": null,
+      "signal_type": "Divorce"
+    },
+    "base_record_id": "base_real_div_63",
+    "canonical_doc_type": "DIVORCE",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_div_63"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DIVORCE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DIVORCE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DIVORCE against unidentified party",
+    "property_refs": {
+      "case_number": "DR1992-010100",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_div_63",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Divorce",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1992-010100"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DIVORCE",
+      "parcel_id": null,
+      "signal_type": "Divorce"
+    },
+    "base_record_id": "base_real_div_64",
+    "canonical_doc_type": "DIVORCE",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_div_64"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DIVORCE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DIVORCE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DIVORCE against unidentified party",
+    "property_refs": {
+      "case_number": "DR1994-004597",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_div_64",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Divorce",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-004597"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DIVORCE",
+      "parcel_id": null,
+      "signal_type": "Divorce"
+    },
+    "base_record_id": "base_real_div_65",
+    "canonical_doc_type": "DIVORCE",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_div_65"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DIVORCE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DIVORCE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DIVORCE against unidentified party",
+    "property_refs": {
+      "case_number": "DR1994-014786",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_div_65",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Divorce",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-014786"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DIVORCE",
+      "parcel_id": null,
+      "signal_type": "Divorce"
+    },
+    "base_record_id": "base_real_div_66",
+    "canonical_doc_type": "DIVORCE",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_div_66"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DIVORCE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DIVORCE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DIVORCE against unidentified party",
+    "property_refs": {
+      "case_number": "DR1994-018758",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_div_66",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Divorce",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-018758"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DIVORCE",
+      "parcel_id": null,
+      "signal_type": "Divorce"
+    },
+    "base_record_id": "base_real_div_67",
+    "canonical_doc_type": "DIVORCE",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_div_67"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DIVORCE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DIVORCE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DIVORCE against unidentified party",
+    "property_refs": {
+      "case_number": "DR1994-019375",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_div_67",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Divorce",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-019375"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DIVORCE",
+      "parcel_id": null,
+      "signal_type": "Divorce"
+    },
+    "base_record_id": "base_real_div_68",
+    "canonical_doc_type": "DIVORCE",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_div_68"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DIVORCE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DIVORCE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DIVORCE against unidentified party",
+    "property_refs": {
+      "case_number": "DR1994-020753",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_div_68",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Divorce",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1994-020753"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DIVORCE",
+      "parcel_id": null,
+      "signal_type": "Divorce"
+    },
+    "base_record_id": "base_real_div_69",
+    "canonical_doc_type": "DIVORCE",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_div_69"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DIVORCE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DIVORCE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DIVORCE against unidentified party",
+    "property_refs": {
+      "case_number": "DR1995-005896",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_div_69",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Divorce",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1995-005896"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "DIVORCE",
+      "parcel_id": null,
+      "signal_type": "Divorce"
+    },
+    "base_record_id": "base_real_div_70",
+    "canonical_doc_type": "DIVORCE",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_div_70"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "DIVORCE against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "DIVORCE against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "DIVORCE against unidentified party",
+    "property_refs": {
+      "case_number": "DR1995-014680",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_div_70",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Divorce",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.superiorcourt.maricopa.gov/docket/familycourtcases/caseSearchResults.asp?caseNumber=DR1995-014680"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "EVICTION",
+      "parcel_id": null,
+      "signal_type": "Eviction"
+    },
+    "base_record_id": "base_real_evc_71",
+    "canonical_doc_type": "EVICTION",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_evc_71"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "EVICTION against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EVICTION against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "EVICTION against unidentified party",
+    "property_refs": {
+      "case_number": "0703TR9302084",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_evc_71",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Eviction",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0703TR9302084"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "EVICTION",
+      "parcel_id": null,
+      "signal_type": "Eviction"
+    },
+    "base_record_id": "base_real_evc_72",
+    "canonical_doc_type": "EVICTION",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_evc_72"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "EVICTION against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EVICTION against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "EVICTION against unidentified party",
+    "property_refs": {
+      "case_number": "0705CR9400023A",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_evc_72",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Eviction",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0705CR9400023A"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "EVICTION",
+      "parcel_id": null,
+      "signal_type": "Eviction"
+    },
+    "base_record_id": "base_real_evc_73",
+    "canonical_doc_type": "EVICTION",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_evc_73"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "EVICTION against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EVICTION against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "EVICTION against unidentified party",
+    "property_refs": {
+      "case_number": "0705TR0202850",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_evc_73",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Eviction",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0705TR0202850"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "EVICTION",
+      "parcel_id": null,
+      "signal_type": "Eviction"
+    },
+    "base_record_id": "base_real_evc_74",
+    "canonical_doc_type": "EVICTION",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_evc_74"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "EVICTION against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EVICTION against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "EVICTION against unidentified party",
+    "property_refs": {
+      "case_number": "0710TR9306790",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_evc_74",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Eviction",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0710TR9306790"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "EVICTION",
+      "parcel_id": null,
+      "signal_type": "Eviction"
+    },
+    "base_record_id": "base_real_evc_75",
+    "canonical_doc_type": "EVICTION",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_evc_75"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "EVICTION against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EVICTION against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "EVICTION against unidentified party",
+    "property_refs": {
+      "case_number": "0710TR9306791",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_evc_75",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Eviction",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0710TR9306791"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "EVICTION",
+      "parcel_id": null,
+      "signal_type": "Eviction"
+    },
+    "base_record_id": "base_real_evc_76",
+    "canonical_doc_type": "EVICTION",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_evc_76"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "EVICTION against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EVICTION against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "EVICTION against unidentified party",
+    "property_refs": {
+      "case_number": "0713TR0303430",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_evc_76",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Eviction",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0713TR0303430"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "EVICTION",
+      "parcel_id": null,
+      "signal_type": "Eviction"
+    },
+    "base_record_id": "base_real_evc_77",
+    "canonical_doc_type": "EVICTION",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_evc_77"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "EVICTION against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EVICTION against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "EVICTION against unidentified party",
+    "property_refs": {
+      "case_number": "0716TR9302658",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_evc_77",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Eviction",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR9302658"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "EVICTION",
+      "parcel_id": null,
+      "signal_type": "Eviction"
+    },
+    "base_record_id": "base_real_evc_78",
+    "canonical_doc_type": "EVICTION",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_evc_78"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "EVICTION against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "EVICTION against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "EVICTION against unidentified party",
+    "property_refs": {
+      "case_number": "0716TR9302659",
+      "legal_description": null,
+      "parcel_id": null,
+      "situs_address": null
+    },
+    "raw_event_id": "real_evc_78",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Eviction",
+    "source_id": "civil_court",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://justicecourts.maricopa.gov/app/courtrecords/CaseInfo.aspx?casenumber=0716TR9302659"
   }
 ]

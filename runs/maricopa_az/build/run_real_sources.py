@@ -32,6 +32,7 @@ Run: python3 runs/maricopa_az/build/run_real_sources.py
 from __future__ import annotations
 
 import json
+import os
 import sys
 import zipfile
 import io
@@ -75,7 +76,23 @@ def _party(name, role):
 
 
 def collect_real_raw_events(limit_per_source: int = 8) -> list[dict]:
-    """Return a list of framework-canonical raw_event dicts from real sources."""
+    """Return a list of framework-canonical raw_event dicts from real sources.
+
+    Caches its output to runs/maricopa_az/build/.raw_events_pre.json so the
+    slow live recorder fetches + parcel join are NOT re-done on every resume
+    after a gateway blink.
+    """
+    _cache = Path(__file__).resolve().parent / ".raw_events_pre.json"
+    if _cache.exists():
+        try:
+            import json as _json
+            with open(_cache) as f:
+                data = _json.load(f)
+            print(f"  [step1 cache] loaded {len(data)} raw_events from disk")
+            return data
+        except Exception as e:
+            print(f"  [warn] step1 cache load failed ({e}); re-collecting")
+
     from scrapers.maricopa_probate import search_probate, fetch_probate_case_detail
     from scrapers.maricopa_civil import search_civil, fetch_civil_case_detail
     from scrapers.maricopa_recorder import search_recorder
@@ -224,6 +241,15 @@ def collect_real_raw_events(limit_per_source: int = 8) -> list[dict]:
     except Exception as e:
         print(f"  [warn] recorder distress batch failed: {type(e).__name__}: {e}")
 
+    # Persist collected raw_events so a gateway blink does not discard them.
+    try:
+        import json as _json
+        with open(_cache, "w") as f:
+            _json.dump(events, f)
+        print(f"  [step1 cache] wrote {len(events)} raw_events -> {_cache.name}")
+    except Exception as e:
+        print(f"  [warn] step1 cache write failed: {e}")
+
     return events
 
 
@@ -233,34 +259,179 @@ RECORder_DISTRESS_SURNAMES = ["Smith", "Garcia", "Lopez", "Martinez", "Nguyen",
                                "Johnson", "Rodriguez", "Hernandez"]
 
 
+# ---------------------------------------------------------------------------
+# 1b) NEW distress sources (TinyFish cloud browser, approved 2026-07-12):
+#     Divorce (Family Court), Surplus (tax-deeded land), Eviction (Justice Court)
+# These were SOURCE_NOT_FOUND in Phase 0 recon but are REAL (verified live).
+# ---------------------------------------------------------------------------
+NEW_SOURCE_SURNAMES = ["Smith", "Garcia", "Lopez", "Johnson", "Nguyen",
+                        "Martinez", "Rodriguez", "Hernandez", "Patel", "Wilson"]
+
+
+def collect_new_sources(events: list, *, ev_seq_start: int = 0,
+                        enrichment_provider=None) -> int:
+    """Append Divorce / Surplus / Eviction raw_events. Returns count added.
+
+    The new scrapers (maricopa_divorce / maricopa_eviction /
+    maricopa_surplus) ALREADY return framework-canonical event dicts
+    (source_id, canonical_doc_type, parties, property_refs, source_url,
+    source_fetched_at). So we pass them through, re-tagging the
+    raw_event_id + evidence_ids for traceability and doing the Surplus
+    parcel_id -> Assessor situs join via the enrichment provider.
+
+    Surplus rows carry a REAL parcel_id -> joined to Assessor situs.
+    Divorce / Eviction carry a case_number only (party names are
+    redacted by the portal) -> added as stacked leads with the case
+    number as the verified key (no fabricated address).
+    """
+    import json as _json
+    import os as _os
+    from scrapers.maricopa_divorce import search_divorce
+    from scrapers.maricopa_surplus import search_surplus
+    from scrapers.maricopa_eviction import search_eviction
+
+    _CACHE_DIR = _os.path.join(_os.path.dirname(__file__), "cache")
+
+    def _load_cache(name, limit):
+        # Prefer on-disk cache (fast, blink-proof). Fall back to live fetch.
+        p = _os.path.join(_CACHE_DIR, f"{name}.json")
+        if _os.path.exists(p):
+            try:
+                with open(p) as f:
+                    data = _json.load(f)
+                evs = data.get("events", [])[:limit]
+                # Canonical cache events lack source_role; the framework
+                # schema requires it. These are real event sources.
+                for _e in evs:
+                    if "source_role" not in _e:
+                        _e["source_role"] = "PRIMARY_EVENT_SOURCE"
+                print(f"  [cache] {name}: {len(evs)} events from disk", flush=True)
+                return evs
+            except Exception as e:
+                print(f"  [warn] cache read {name} failed: {e}", flush=True)
+        if name == "divorce":
+            return search_divorce(NEW_SOURCE_SURNAMES)[:limit]
+        if name == "eviction":
+            return search_eviction(NEW_SOURCE_SURNAMES)[:limit]
+        return search_surplus()[:limit]
+
+    added = 0
+    seq = ev_seq_start
+
+    # --- DIVORCE (Family Court dissolution) ---
+    try:
+        for r in _load_cache("divorce", 20):
+            seq += 1
+            added += 1
+            ev = dict(r)  # canonical event, pass through
+            ev["raw_event_id"] = f"real_div_{seq}"
+            ev["evidence_ids"] = [f"ev_real_div_{seq}"]
+            ev["parser_name"] = "maricopa_divorce"
+            ev["parser_version"] = "1.0.0"
+            ev["parser_confidence"] = 85
+            ev.setdefault("source_role", "PRIMARY_EVENT_SOURCE")
+            events.append(ev)
+    except Exception as e:
+        print(f"  [warn] divorce collection failed: {type(e).__name__}: {e}")
+
+    # --- EVICTION (Justice Court forcible detainer) ---
+    try:
+        for r in _load_cache("eviction", 20):
+            seq += 1
+            added += 1
+            ev = dict(r)
+            ev["raw_event_id"] = f"real_evc_{seq}"
+            ev["evidence_ids"] = [f"ev_real_evc_{seq}"]
+            ev["parser_name"] = "maricopa_eviction"
+            ev["parser_version"] = "1.0.0"
+            ev["parser_confidence"] = 80
+            ev.setdefault("source_role", "PRIMARY_EVENT_SOURCE")
+            events.append(ev)
+    except Exception as e:
+        print(f"  [warn] eviction collection failed: {type(e).__name__}: {e}")
+
+    # --- SURPLUS (tax-deeded land list -> real parcel_id) ---
+    try:
+        for r in _load_cache("surplus", 50):
+            seq += 1
+            added += 1
+            ev = dict(r)
+            pid = (ev.get("property_refs") or {}).get("parcel_id")
+            rec = None
+            if pid and enrichment_provider is not None:
+                rec = enrichment_provider(pid)
+            if rec:
+                ev["property_refs"]["situs_address"] = rec.get("situs_address")
+                ev["property_refs"]["situs_city"] = rec.get("situs_city")
+                ev["property_refs"]["situs_state"] = rec.get("situs_state")
+                ev["property_refs"]["situs_zip"] = rec.get("situs_zip")
+            ev["raw_event_id"] = f"real_surp_{seq}"
+            ev["evidence_ids"] = [f"ev_real_surp_{seq}"]
+            ev["parser_name"] = "maricopa_surplus"
+            ev["parser_version"] = "1.0.0"
+            ev["parser_confidence"] = 90
+            ev.setdefault("source_role", "PRIMARY_EVENT_SOURCE")
+            events.append(ev)
+    except Exception as e:
+        print(f"  [warn] surplus collection failed: {type(e).__name__}: {e}")
+
+    return added
+
+
 def collect_recorder_distress_batch(events: list, *, ev_seq_start: int = 0,
                                     surnames=None,
                                     begin="2024-01-01", end="2025-12-31",
                                     cap_per_surname: int = 6) -> int:
-    """Append recorder distress-doc raw_events across surnames. Returns count."""
+    """Append recorder distress-doc raw_events across surnames. Returns count.
+
+    Resumable: per-surname results are cached to
+    runs/maricopa_az/build/.recorder_batch.json so a gateway blink mid-loop
+    does not discard already-fetched surnames -- the next run skips them.
+    """
     from scrapers.maricopa_recorder import search_recorder
+    _json = __import__("json")
+    _os_mod = __import__("os")
     DISTRESS = {"DEED_OF_TRUST", "NOTICE_OF_TRUSTEE_SALE",
                 "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE", "LIS_PENDENS",
                 "SUBSTITUTE_TRUSTEE_DEED", "TRUSTEE_DEED"}
     surnames = surnames or RECORder_DISTRESS_SURNAMES
-    added = 0
+    _batch_cache = Path(__file__).resolve().parent / ".recorder_batch.json"
+    _done = {}
+    if _batch_cache.exists():
+        try:
+            with open(_batch_cache) as f:
+                _done = {k: v for k, v in _json.load(f).items()}
+        except Exception:
+            _done = {}
+    # Merge already-cached events (they survived the blink)
     seq = ev_seq_start
+    for sn, recs in _done.items():
+        for r in recs:
+            seq += 1
+            events.append(r)
+    added = len(events) - (ev_seq_start if not _done else 0)
+    # Recompute `added` properly: count only events we appended here
+    added = sum(len(v) for v in _done.values())
     for sn in surnames:
+        if sn in _done:
+            print(f"    [recorder {sn}] cached, skip")
+            continue
         try:
             recs = search_recorder(sn, begin_date=begin, end_date=end)
         except Exception as e:
             print(f"    [warn] recorder {sn}: {type(e).__name__}: {e}")
+            _done[sn] = []
             continue
         per = 0
+        collected = []
         for r in recs:
             p = r["raw_payload"]
             dt = (p.get("document_type") or "").upper()  # normalized
             if dt not in DISTRESS:
                 continue
             seq += 1
-            added += 1
             per += 1
-            events.append({
+            ev = {
                 "raw_event_id": f"real_recd_{seq}",
                 "source_id": "clerk_recordings",
                 "source_role": "PRIMARY_EVENT_SOURCE",
@@ -284,10 +455,21 @@ def collect_recorder_distress_batch(events: list, *, ev_seq_start: int = 0,
                 "parser_version": "1.0.0",
                 "parser_confidence": 90,
                 "captured_at": r["source_fetched_at"],
-            })
+            }
+            collected.append(ev)
+            events.append(ev)
             if per >= cap_per_surname:
                 break
+        _done[sn] = collected
+        added += len(collected)
+        # Persist after EACH surname so a blink loses at most one surname.
+        try:
+            with open(_batch_cache, "w") as f:
+                _json.dump(_done, f)
+        except Exception as e:
+            print(f"    [warn] recorder batch cache write failed: {e}")
     return added
+
 
 
 # ---------------------------------------------------------------------------
@@ -308,42 +490,85 @@ def build_parcel_enrichment_provider():
     """
     parcels: dict[str, dict] = {}
     owner_index: dict[str, list[str]] = {}  # normalized owner token -> parcel ids
-    if OPEN_DATA_ZIP.exists():
+    _pkl = OPEN_DATA_ZIP.with_suffix(".pkl")
+    if _pkl.exists() and _pkl.stat().st_mtime >= OPEN_DATA_ZIP.stat().st_mtime:
+        # Fast resume path: load pre-built index (blink-proof).
+        try:
+            import pickle as _pk
+            with open(_pkl, "rb") as f:
+                parcels, owner_index = _pk.load(f)
+            print(f"  parcel_master index LOADED from cache: {len(parcels):,} parcels")
+            # build provider + resolver below (same as fresh path)
+        except Exception as e:
+            print(f"  [warn] parcel cache load failed ({e}); rebuilding")
+            parcels = {}; owner_index = {}
+    if not parcels and OPEN_DATA_ZIP.exists():
+        import pickle as _pk
+        _partial = OPEN_DATA_ZIP.with_suffix(".pkl.partial")
+        _off = OPEN_DATA_ZIP.with_suffix(".pkl.offset")
+        _start = 0
+        if _off.exists():
+            try:
+                _start = int(_off.read_text().strip() or "0")
+            except Exception:
+                _start = 0
         try:
             z = zipfile.ZipFile(io.BytesIO(OPEN_DATA_ZIP.read_bytes()))
             txt = [n for n in z.namelist() if n.endswith(".txt")][0]
-            for line in z.read(txt).decode("utf-8", "replace").splitlines():
-                cols = line.split("|")
-                if len(cols) < 25 or not cols[0].strip():
-                    continue
-                pid = cols[0].strip()
-                owner = cols[24].strip().upper()
-                rec = {
-                    "parcel_id": pid,
-                    "situs_address": cols[25].strip(),
-                    "situs_city": cols[27].strip(),
-                    "situs_state": cols[28].strip(),
-                    "situs_zip": cols[29].strip(),
-                    "owner_name": cols[24].strip(),
-                    "owner_mailing_city": cols[37].strip(),
-                    "owner_mailing_state": "AZ",
-                    "owner_mailing_zip": cols[38].strip(),
-                    "assessed_value": None,
-                    "land_value": _to_int(cols[22]),
-                    "improvement_value": _to_int(cols[21]),
-                    "year_built": _to_int(cols[10]),
-                    "exempt_homestead": False,
-                    "exempt_over_65": False,
-                    "exempt_disabled": False,
-                    "exempt_veteran": False,
-                    "property_use": cols[2].strip(),
-                    "acres": _to_float(cols[1]),
-                    "legal_description": None,
-                }
-                parcels[pid] = rec
-                # index by normalized owner (store parcel id under a key)
-                key = re.sub(r"[^A-Z0-9 ]", "", owner)
-                owner_index.setdefault(key, []).append(pid)
+            lines = z.read(txt).decode("utf-8", "replace").splitlines()
+            _CHUNK = 150_000
+            _i = _start
+            while _i < len(lines):
+                _end = min(_i + _CHUNK, len(lines))
+                for line in lines[_i:_end]:
+                    cols = line.split("|")
+                    if len(cols) < 25 or not cols[0].strip():
+                        continue
+                    pid = cols[0].strip()
+                    owner = cols[24].strip().upper()
+                    rec = {
+                        "parcel_id": pid,
+                        "situs_address": cols[25].strip(),
+                        "situs_city": cols[27].strip(),
+                        "situs_state": cols[28].strip(),
+                        "situs_zip": cols[29].strip(),
+                        "owner_name": cols[24].strip(),
+                        "owner_mailing_city": cols[37].strip(),
+                        "owner_mailing_state": "AZ",
+                        "owner_mailing_zip": cols[38].strip(),
+                        "assessed_value": None,
+                        "land_value": _to_int(cols[22]),
+                        "improvement_value": _to_int(cols[21]),
+                        "year_built": _to_int(cols[10]),
+                        "exempt_homestead": False,
+                        "exempt_over_65": False,
+                        "exempt_disabled": False,
+                        "exempt_veteran": False,
+                        "property_use": cols[2].strip(),
+                        "acres": _to_float(cols[1]),
+                        "legal_description": None,
+                    }
+                    parcels[pid] = rec
+                    key = re.sub(r"[^A-Z0-9 ]", "", owner)
+                    owner_index.setdefault(key, []).append(pid)
+                # incremental checkpoint -> survives gateway blink
+                try:
+                    with open(_partial, "wb") as f:
+                        _pk.dump((parcels, owner_index), f)
+                    _off.write_text(str(_end))
+                except Exception:
+                    pass
+                print(f"  parcel parse progress: {_end:,}/{len(lines):,} lines")
+                _i = _end
+            try:
+                import os as _os
+                if _partial.exists():
+                    _os.replace(_partial, _pkl)
+                if _off.exists():
+                    _off.unlink()
+                print(f"  parcel_master index CACHED to {_pkl.name}")
+            except Exception as e:
+                print(f"  [warn] parcel cache finalize failed: {e}")
         except Exception as e:
             print(f"  [warn] parcel enrichment load failed: {e}")
     print(f"  parcel_master enrichment index: {len(parcels):,} parcels loaded")
@@ -402,72 +627,113 @@ def _to_float(s):
 # 3) Run
 # ---------------------------------------------------------------------------
 def main(limit_per_source: int = 8) -> int:
-    print(f"[1] collect limited real samples (limit={limit_per_source}/source)")
-    raw_events = collect_real_raw_events(limit_per_source=limit_per_source)
-    by_src = {}
-    for e in raw_events:
-        by_src[e["source_id"]] = by_src.get(e["source_id"], 0) + 1
-    print(f"    real events: {len(raw_events)} -> {by_src}")
+    OUT = Path(__file__).resolve().parent
+    import pickle as _pickle
 
-    evidence_entries = [
-        {
-            "evidence_id": e["evidence_ids"][0],
-            "record_id": e["raw_event_id"],
-            "field": "owner_name" if e["source_id"] != "probate_court" else "case_party",
-            "value": "real",
-            "status": "Confirmed",
-            "source_id": e["source_id"],
-            "source_reliability_grade": "A",
-            "source_url": e["source_url"],
-            "captured_at": e["captured_at"],
-        }
-        for e in raw_events
-    ]
+    # ---- Checkpoint helpers (blink-proof resume) -------------------------
+    def _ckpt_raw(path):
+        with open(path, "wb") as f:
+            _pickle.dump({
+                "raw_events": raw_events,
+                "evidence_entries": evidence_entries,
+            }, f)
 
-    print("[2] build real parcel_master enrichment provider")
-    enrichment_provider = build_parcel_enrichment_provider()
+    def _have_raw_ckpt(path):
+        return os.path.exists(path)
 
-    # [2b] Pre-join owner names -> parcel (wholesaler-usable path).
-    # probate/civil/recorder events carry a PARTY NAME but no parcel_id. Join
-    # that name to the Assessor open-data parcel file and record the resolved
-    # parcel_id + situs. NOTE: the framework's enrichment_status stays
-    # UNENRICHED unless §17 RESOLVES a debtor+parcel (by design) -- so we
-    # capture the join result in our OWN enriched-leads output (the data a
-    # wholesaler actually needs), independent of the framework flag. Honest:
-    # only records when a real match exists.
-    pre_joined = 0
-    enriched_records = []
-    for e in raw_events:
-        name = e["parties"][0].get("name") if e.get("parties") else None
-        if not name or name.strip().upper() in ("UNKNOWN", "N/A", ""):
-            continue
-        m = enrichment_provider.resolve_by_owner(name)
-        if m:
-            rec = m[0]
-            e["property_refs"]["parcel_id"] = rec["parcel_id"]
-            e["property_refs"]["situs_address"] = rec["situs_address"]
-            e["property_refs"]["situs_city"] = rec["situs_city"]
-            e["property_refs"]["situs_state"] = rec["situs_state"]
-            e["property_refs"]["situs_zip"] = rec["situs_zip"]
-            pre_joined += 1
-            enriched_records.append({
+    raw_ckpt = OUT / ".raw_events.ckpt"
+    final_out = OUT / "real_dashboard_payload.json"
+
+    # ---- STEP [1]+[2]+new sources  (skipped if checkpoint fresh) ---------
+    if _have_raw_ckpt(raw_ckpt):
+        print("[1-2] RESUME from checkpoint (raw_events already collected)")
+        with open(raw_ckpt, "rb") as f:
+            _d = _pickle.load(f)
+        raw_events = _d["raw_events"]
+        # Self-heal: older checkpoints may lack source_role (schema-required).
+        for _e in raw_events:
+            if not _e.get("source_role"):
+                _e["source_role"] = "PRIMARY_EVENT_SOURCE"
+        evidence_entries = _d["evidence_entries"]
+        enrichment_provider = build_parcel_enrichment_provider()
+        pre_joined = 0  # not recomputed on resume; report shows joins from raw_events
+        enriched_records = []
+    else:
+        print(f"[1] collect limited real samples (limit={limit_per_source}/source)")
+        enrichment_provider = build_parcel_enrichment_provider()
+        raw_events = collect_real_raw_events(limit_per_source=limit_per_source)
+        by_src = {}
+        for e in raw_events:
+            by_src[e["source_id"]] = by_src.get(e["source_id"], 0) + 1
+        print(f"    real events: {len(raw_events)} -> {by_src}")
+
+        evidence_entries = [
+            {
+                "evidence_id": e["evidence_ids"][0],
+                "record_id": e["raw_event_id"],
+                "field": "owner_name" if e["source_id"] != "probate_court" else "case_party",
+                "value": "real",
+                "status": "Confirmed",
                 "source_id": e["source_id"],
-                "canonical_doc_type": e["canonical_doc_type"],
-                "instrument_number": e.get("instrument_number"),
-                "case_number": (e.get("property_refs") or {}).get("case_number"),
-                "joined_from_name": name,
-                "join_candidates": len(m),
-                "parcel_id": rec["parcel_id"],
-                "situs_address": rec["situs_address"],
-                "situs_city": rec["situs_city"],
-                "situs_state": rec["situs_state"],
-                "situs_zip": rec["situs_zip"],
-                "owner_name_assessor": rec["owner_name"],
-                "confidence": "best_effort_owner_name_join",
-            })
-    print(f"    owner-name pre-joins (real parcel + situs recovered): {pre_joined}")
-    (OUT / "real_enriched_leads.json").write_text(
-        json.dumps(enriched_records, indent=2, ensure_ascii=False))
+                "source_reliability_grade": "A",
+                "source_url": e["source_url"],
+                "captured_at": e["captured_at"],
+            }
+            for e in raw_events
+        ]
+
+        print("[2] (enrichment provider already built above in step [1])")
+
+        # --- NEW distress sources (Divorce / Eviction / Surplus) ---
+        try:
+            n = collect_new_sources(raw_events, ev_seq_start=len(raw_events),
+                                     enrichment_provider=enrichment_provider)
+            print(f"  [new sources] added {n} events (divorce/eviction/surplus)")
+        except Exception as e:
+            print(f"  [warn] new sources collection failed: {type(e).__name__}: {e}")
+
+        # owner-name pre-join (real parcel + situs recovered) -- fast, local
+        pre_joined = 0
+        enriched_records = []
+        for e in raw_events:
+            name = e["parties"][0].get("name") if e.get("parties") else None
+            if not name or name.strip().upper() in ("UNKNOWN", "N/A", ""):
+                continue
+            m = enrichment_provider.resolve_by_owner(name)
+            if m:
+                rec = m[0]
+                e["property_refs"]["parcel_id"] = rec["parcel_id"]
+                e["property_refs"]["situs_address"] = rec["situs_address"]
+                e["property_refs"]["situs_city"] = rec["situs_city"]
+                e["property_refs"]["situs_state"] = rec["situs_state"]
+                e["property_refs"]["situs_zip"] = rec["situs_zip"]
+                pre_joined += 1
+                enriched_records.append({
+                    "source_id": e["source_id"],
+                    "canonical_doc_type": e["canonical_doc_type"],
+                    "instrument_number": e.get("instrument_number"),
+                    "case_number": (e.get("property_refs") or {}).get("case_number"),
+                    "joined_from_name": name,
+                    "join_candidates": len(m),
+                    "parcel_id": rec["parcel_id"],
+                    "situs_address": rec["situs_address"],
+                    "situs_city": rec["situs_city"],
+                    "situs_state": rec["situs_state"],
+                    "situs_zip": rec["situs_zip"],
+                    "owner_name_assessor": rec["owner_name"],
+                    "confidence": "best_effort_owner_name_join",
+                })
+        print(f"    owner-name pre-joins (real parcel + situs recovered): {pre_joined}")
+        (OUT / "real_enriched_leads.json").write_text(
+            json.dumps(enriched_records, indent=2, ensure_ascii=False))
+
+        # checkpoint BEFORE the heavy staged pipeline (the part that dies on blink)
+        _ckpt_raw(raw_ckpt)
+        print(f"    [checkpoint] raw_events saved -> {raw_ckpt.name}")
+
+    # [2b] Pre-join owner names -> parcel (wholesaler-usable path) is now
+    # performed INSIDE the checkpoint block above (so it is not re-run on
+    # resume). Skipped here to avoid a double join.
 
     print("[3] run staged pipeline (real events)")
     OUT.mkdir(parents=True, exist_ok=True)

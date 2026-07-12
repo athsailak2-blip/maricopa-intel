@@ -1,0 +1,2452 @@
+[
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_100",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_100"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "212-32-108D",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_100",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_101",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_101"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "214-01-713B",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_101",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_102",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_102"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "214-20-358",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_102",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_103",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_103"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "215-39-071",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_103",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_104",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_104"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "215-39-072",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_104",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_105",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_105"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "216-67-204A",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_105",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_106",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_106"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "216-77-082",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_106",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_107",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_107"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "218-26-031R",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_107",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_108",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_108"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "219-21-003M",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_108",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_109",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_109"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "219-39-065U",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_109",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_110",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_110"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "219-37-497E",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_110",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_111",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_111"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "219-38-012F",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_111",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_112",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_112"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "220-07-016G",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_112",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_113",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_113"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "220-08-016F",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_113",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_114",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_114"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "220-08-017J",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_114",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_115",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_115"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "220-19-002P",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_115",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_116",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_116"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "301-68-149",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_116",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_117",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_117"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "301-68-150",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_117",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_118",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_118"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "301-68-152",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_118",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_119",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_119"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "301-68-153",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_119",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_120",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_120"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "301-78-312",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_120",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_121",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_121"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "301-83-500C",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_121",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_122",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_122"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "304-04-811",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_122",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_123",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_123"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "304-16-001D",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_123",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_124",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_124"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "304-67-020C",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_124",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_125",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_125"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "304-68-004B",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_125",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_126",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_126"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "500-06-489",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_126",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_127",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_127"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "500-57-001H",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_127",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_128",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_128"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "502-42-009L",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_128",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_79",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_79"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "102-08-222C",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_79",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_80",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_80"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "102-08-222F",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_80",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_81",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_81"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "102-08-222G",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_81",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_82",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_82"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "102-08-222H",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_82",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_83",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_83"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "122-56-044B",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_83",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_84",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_84"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "135-15-006Q",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_84",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_85",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_85"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "142-66-045B",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_85",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_86",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_86"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "143-05-618B",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_86",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_87",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_87"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "157-27-012B",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_87",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_88",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_88"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "160-14-057B",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_88",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_89",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_89"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "162-13-047D",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_89",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_90",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_90"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "168-05-211",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_90",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_91",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_91"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "173-03-496A",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_91",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_92",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_92"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "200-05-545A",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_92",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_93",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_93"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "201-08-065G",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_93",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_94",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_94"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "201-14-430",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_94",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_95",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_95"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "201-15-226A",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_95",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_96",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_96"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "209-03-210",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_96",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_97",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_97"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "211-02-034",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_97",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_98",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_98"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "211-16-002V",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_98",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  },
+  {
+    "additional_owner_names": [],
+    "aggregation_key": {
+      "canonical_doc_type": "SURPLUS",
+      "parcel_id": null,
+      "signal_type": "Surplus"
+    },
+    "base_record_id": "base_real_surp_99",
+    "canonical_doc_type": "SURPLUS",
+    "confidence_status": "Unknown",
+    "enrichment_status": "UNENRICHED",
+    "event_date": null,
+    "evidence_ids": [
+      "ev_real_surp_99"
+    ],
+    "filer_entity": null,
+    "instrument_number": null,
+    "multi_owner_status": "SINGLE_OWNER",
+    "owner_count": 1,
+    "owner_name": "SURPLUS against unidentified party",
+    "owner_type": "UNKNOWN",
+    "owners": [
+      {
+        "confidence": null,
+        "is_primary": true,
+        "name": "SURPLUS against unidentified party",
+        "name_type": null,
+        "notes": null,
+        "resolution_status": "REVIEW_REQUIRED",
+        "role": "unresolved",
+        "source_field": null
+      }
+    ],
+    "parcel_resolution_status": "REVIEW_REQUIRED",
+    "primary_owner_name": "SURPLUS against unidentified party",
+    "property_refs": {
+      "case_number": null,
+      "legal_description": null,
+      "parcel_id": "211-70-004L",
+      "situs_address": null
+    },
+    "raw_event_id": "real_surp_99",
+    "recorded_date": null,
+    "review_reason": "no_debtor_rule_for_doc_type",
+    "signal_type": "Surplus",
+    "source_id": "tax_lien",
+    "source_role": "PRIMARY_EVENT_SOURCE",
+    "source_url": "https://www.maricopa.gov/DocumentCenter/View/2241/Listing-of-Previously-Offered-Tax-Deeded-Land---NOT-SOLD-PDF"
+  }
+]
