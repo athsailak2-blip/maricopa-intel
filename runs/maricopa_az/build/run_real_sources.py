@@ -54,7 +54,10 @@ from scaffold.pipeline.contracts import schema_path
 
 SAMPLE_DIR = REPO_ROOT / "samples" / "maricopa"
 OUT = REPO_ROOT / "runs" / "maricopa_az" / "build"
-OPEN_DATA_ZIP = Path("/tmp/maricopa_parcel.zip")  # downloaded during recon
+# Persisted Assessor parcel master (blink-proof; was /tmp/maricopa_parcel.zip).
+# The .pkl is the working index; the .zip is the source for rebuild if needed.
+OPEN_DATA_ZIP = OUT / "data" / "parcel_master.zip"
+OPEN_DATA_PKL = OUT / "data" / "parcel_master.pkl"
 
 SIGNAL_TYPE_LABELS = {
     "PROBATE": "Probate Estate",
@@ -239,10 +242,12 @@ def collect_real_raw_events(limit_per_source: int = 8) -> list[dict]:
     # trustor/defendant NAME, which IS the parcel owner -> owner-name join
     # recovers a real situs address. Verified: 26/26 joined in dry run.
     try:
+        from datetime import timedelta
+        _30ago = (date.today() - timedelta(days=30)).isoformat()
         n = collect_recorder_distress_batch(events, ev_seq_start=ev_seq,
-                                            surnames=RECORder_DISTRESS_SURNAMES)
+                                            begin=_30ago, end=_today_str())
         ev_seq += n
-        print(f"  [recorder distress batch] added {n} events")
+        print(f"  [recorder distress batch] added {n} events (last 30 days)")
     except Exception as e:
         print(f"  [warn] recorder distress batch failed: {type(e).__name__}: {e}")
 
@@ -391,65 +396,65 @@ def collect_new_sources(events: list, *, ev_seq_start: int = 0,
 def collect_recorder_distress_batch(events: list, *, ev_seq_start: int = 0,
                                     surnames=None,
                                     begin="2026-01-01", end=_today_str(),
-                                    cap_per_surname: int = 6) -> int:
-    """Append recorder distress-doc raw_events across surnames. Returns count.
+                                    cap_per_surname: int = 6,
+                                    max_docs: int = 0) -> int:
+    """Harvest ALL recorder distress docs in [begin, end] via date-range + pagination.
 
-    Resumable: per-surname results are cached to
-    runs/maricopa_az/build/.recorder_batch.json so a gateway blink mid-loop
-    does not discard already-fetched surnames -- the next run skips them.
+    Replaces the old surname-sample approach (8 surnames x 6 = ~48 leads)
+    with a full harvest: the public recorder API supports an empty lastNames
+    + beginDate/endDate search and paginates 20 results/page. We loop pages
+    until exhausted (or max_docs reached) and keep only DISTRESS doc types.
+
+    Resumable: the last fetched page is cached to .recorder_page.json so a
+    gateway blink resumes from the next page, not from scratch.
     """
     from scrapers.maricopa_recorder import search_recorder
     _json = __import__("json")
-    _os_mod = __import__("os")
     DISTRESS = {"DEED_OF_TRUST", "NOTICE_OF_TRUSTEE_SALE",
                 "NOTICE_OF_SUBSTITUTE_TRUSTEE_SALE", "LIS_PENDENS",
-                "SUBSTITUTE_TRUSTEE_DEED", "TRUSTEE_DEED"}
-    surnames = surnames or RECORder_DISTRESS_SURNAMES
-    _batch_cache = Path(__file__).resolve().parent / ".recorder_batch.json"
-    _done = {}
-    if _batch_cache.exists():
+                "SUBSTITUTE_TRUSTEE_DEED", "TRUSTEE_DEED",
+                "MECHANICS_LIEN", "FEDERAL_TAX_LIEN", "STATE_TAX_LIEN",
+                "JUDGMENT_LIEN", "ABSTRACT_OF_JUDGMENT", "WARRANTY_DEED",
+                "QUITCLAIM_DEED", "SPECIAL_WARRANTY_DEED"}
+    _page_cache = Path(__file__).resolve().parent / ".recorder_page.json"
+    start_page = 1
+    if _page_cache.exists():
         try:
-            with open(_batch_cache) as f:
-                _done = {k: v for k, v in _json.load(f).items()}
+            start_page = int(_json.load(open(_page_cache)).get("page", 1))
         except Exception:
-            _done = {}
-    # Merge already-cached events (they survived the blink)
+            start_page = 1
     seq = ev_seq_start
-    for sn, recs in _done.items():
-        for r in recs:
-            seq += 1
-            events.append(r)
-    added = len(events) - (ev_seq_start if not _done else 0)
-    # Recompute `added` properly: count only events we appended here
-    added = sum(len(v) for v in _done.values())
-    for sn in surnames:
-        if sn in _done:
-            print(f"    [recorder {sn}] cached, skip")
-            continue
+    added = 0
+    page = start_page
+    seen_instr = set()
+    while True:
         try:
-            recs = search_recorder(sn, begin_date=begin, end_date=end)
+            recs = search_recorder("", begin_date=begin, end_date=end, page=page)
         except Exception as e:
-            print(f"    [warn] recorder {sn}: {type(e).__name__}: {e}")
-            _done[sn] = []
-            continue
-        per = 0
-        collected = []
+            print(f"    [warn] recorder page {page}: {type(e).__name__}: {e}")
+            break
+        if not recs:
+            break
         for r in recs:
             p = r["raw_payload"]
-            dt = (p.get("document_type") or "").upper()  # normalized
+            dt = (p.get("document_type") or "").upper()
             if dt not in DISTRESS:
                 continue
+            instr = p.get("recording_number")
+            if instr in seen_instr:
+                continue
+            seen_instr.add(instr)
             seq += 1
-            per += 1
+            added += 1
             ev = {
                 "raw_event_id": f"real_recd_{seq}",
                 "source_id": "clerk_recordings",
                 "source_role": "PRIMARY_EVENT_SOURCE",
                 "canonical_doc_type": dt,
                 "raw_doc_type": dt,
-                "instrument_number": p.get("recording_number"),
+                "instrument_number": instr,
                 "recorded_date": p.get("recording_date"),
-                "raw_payload": r.get("raw_payload"),  # keep names + recording# for owner map
+                "raw_payload": r.get("raw_payload"),
                 "owner_name": p.get("names") or "",
                 "primary_owner_name": p.get("names") or "",
                 "event_date": None,
@@ -457,52 +462,47 @@ def collect_recorder_distress_batch(events: list, *, ev_seq_start: int = 0,
                 "parties": [_party(p.get("names") or "Unknown", "GR")],
                 "document_body_text": None,
                 "property_refs": {
-                    "parcel_id": None,
-                    "situs_address": None,
-                    "legal_description": None,
-                    "case_number": None,
+                    "parcel_id": None, "situs_address": None,
+                    "legal_description": None, "case_number": None,
                 },
                 "amounts": [],
-                "evidence_ids": [f"ev_real_recd_{seq}"],
+                "evidence_ids": [f"ev_real_recd_{seq}", instr],
                 "parser_name": "maricopa_recorder",
                 "parser_version": "1.0.0",
                 "parser_confidence": 90,
-                "owner_name": p.get("names") or "",
-                "primary_owner_name": p.get("names") or "",
                 "captured_at": r["source_fetched_at"],
             }
-            collected.append(ev)
             events.append(ev)
-            if per >= cap_per_surname:
+            if max_docs and added >= max_docs:
                 break
-        _done[sn] = collected
-        added += len(collected)
-        # Persist after EACH surname so a blink loses at most one surname.
+        if len(recs) < 20 or (max_docs and added >= max_docs):
+            break
+        page += 1
         try:
-            with open(_batch_cache, "w") as f:
-                _json.dump(_done, f)
-        except Exception as e:
-            print(f"    [warn] recorder batch cache write failed: {e}")
-    # Persist a recorder instrument_number -> REAL grantor/grantee name map
-    # (the public API returns party names; the framework's party engine
-    # otherwise emits an "against unidentified party" placeholder). This map
-    # lets build_deploy.py show the real owner on client-facing leads.
+            _json.dump({"page": page, "begin": begin, "end": end}, open(_page_cache, "w"))
+        except Exception:
+            pass
+    # clear page checkpoint on clean completion of a window
     try:
-        _name_map = {}
-        for _sn, _recs in _done.items():
-            for _r in _recs:
-                _p = _r.get("raw_payload") or {}
-                _in = _p.get("recording_number")
-                _nm = _p.get("names")
-                if _in and _nm:
-                    _name_map[str(_in)] = _nm if isinstance(_nm, str) else " / ".join(_nm)
+        if _page_cache.exists():
+            _page_cache.unlink()
+    except Exception:
+        pass
+    # Persist instrument -> REAL owner name map for build_deploy.
+    try:
+        _name_map = {str(instr): (ev["owner_name"] or "") for ev in events
+                     if ev.get("instrument_number") and ev.get("owner_name")}
         _nm_path = Path(__file__).resolve().parent / "recorder_names.json"
-        with open(_nm_path, "w") as f:
-            _json.dump(_name_map, f)
+        # merge with existing map (don't clobber)
+        try:
+            _existing = _json.load(open(_nm_path))
+        except Exception:
+            _existing = {}
+        _existing.update(_name_map)
+        _json.dump(_existing, open(_nm_path, "w"))
     except Exception as e:
         print(f"    [warn] recorder name map write failed: {e}")
     return added
-
 
 
 # ---------------------------------------------------------------------------
@@ -630,9 +630,39 @@ def build_parcel_enrichment_provider():
     def provider(parcel_id):
         return parcels.get(parcel_id)
 
+    # Fast surname index (built once) so owner-name join is O(1) per lead
+    # instead of the old O(N) substring scan over 1.4M parcels.
+    surname_index: dict[str, list] = {}
+    for pid, rec in parcels.items():
+        own = re.sub(r"[^A-Z0-9 ]", "", rec["owner_name"].upper())
+        if own:
+            surname_index.setdefault(own.split()[0], []).append((own, pid))
+
     # Expose an owner-name resolver for the driver (not part of the strict
     # EnrichmentProvider contract, but used to enrich name-only leads).
-    provider.resolve_by_owner = lambda name: _resolve_owner(name, parcels, owner_index)
+    def _resolve_fast(name):
+        if not name:
+            return []
+        n = re.sub(r"[^A-Z0-9 ]", "", str(name).upper()).strip()
+        if not n:
+            return []
+        toks = n.split()
+        if n in owner_index:
+            return [parcels[pid] for pid in owner_index[n][:5]]
+        sur = toks[0]
+        cand = surname_index.get(sur)
+        if not cand:
+            return []
+        rest = set(toks[1:])
+        out = []
+        for own, pid in cand:
+            if all(t in own.split() for t in rest):
+                out.append(parcels[pid])
+                if len(out) >= 5:
+                    break
+        return out
+
+    provider.resolve_by_owner = _resolve_fast
     return provider
 
 
@@ -797,7 +827,7 @@ def main(limit_per_source: int = 8) -> int:
             evidence_entries=evidence_entries,
             signal_type_labels=SIGNAL_TYPE_LABELS,
             workdir=OUT / "real_run",
-            as_of=date(2026, 7, 11),
+            as_of=date.today(),
             enrichment_provider=enrichment_provider,
         )
         verdict = result["semantic_verdict"]
@@ -817,7 +847,7 @@ def main(limit_per_source: int = 8) -> int:
             evidence_entries=evidence_entries,
             signal_type_labels=SIGNAL_TYPE_LABELS,
             workdir=OUT / "real_run",
-            as_of=date(2026, 7, 11),
+            as_of=date.today(),
             enrichment_provider=enrichment_provider,
             approve_needs_review=True,
         )

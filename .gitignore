@@ -1,38 +1,6 @@
-# secrets / credentials
 .env
 secrets/
-*.key
-scrapers/.tinyfish_key
-
-# python venvs
-.venv/
-.venv_hcad/
-venv/
+*.log
 __pycache__/
 *.pyc
 .DS_Store
-
-# large data / binary artifacts (never commit)
-*.pkl
-*.parquet
-*.zip
-records.zip
-scaffold/data/
-samples/
-
-# pipeline build artifacts (large, regenerable) -- but KEEP the public dashboard data
-runs/*/build/cache/
-runs/*/build/.raw_events*.json
-runs/*/build/.recorder_batch.json
-runs/*/build/real_*.json
-runs/*/build/real_run/
-
-# logs
-*.log
-
-# local deploy scratch (Pages serves repo root)
-maricopa-intel/
-
-# keep the public dashboard data file (served by GitHub Pages at /data/leads.json)
-!data/leads.json
-!data/dashboard.json
