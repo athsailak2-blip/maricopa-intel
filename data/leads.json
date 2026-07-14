@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T06:26:09Z",
+  "generated_at": "2026-07-14T06:16:33Z",
   "build_label": "PARTIAL_BUILD",
   "build_label_reason": "Tax-lien source BLOCKED (RealAuction / arizonataxsale.com login wall; MyMCTO credentials do not cross over). Recorder + Probate leads included with real Assessor situs addresses. NEW sources added (verified live): Divorce (Family Court), Eviction (Justice Court), Surplus (tax-deeded land). Divorce/Eviction party names are redacted by the portals (case number is the verified key); Surplus carries a real parcel_id. Addresses are best-effort owner-name matches — verify before outreach.",
   "mode": "real-limited-sample",
@@ -14,16 +14,19 @@
   "total_signals_active": 94,
   "total_signals_suppressed": 0,
   "score_tier_distribution": {
-    "Low": 55,
-    "Strong": 39
+    "Low": 54,
+    "Strong": 39,
+    "Workable": 1
   },
   "pattern_counts": {
+    "estate": 1,
     "foreclosure": 39,
-    "transfer": 36
+    "transfer": 40
   },
   "attribute_counts": {},
   "deal_path_distribution": {
-    "wholesale": 94
+    "divorce_transfer": 1,
+    "wholesale": 93
   },
   "stack_depth_distribution": {
     "1": 94
@@ -283,8 +286,58 @@
     {
       "lead_id": "MCR-006",
       "primary_parcel_id": null,
-      "display_address": "18522 N MICA DR SUN AZ",
-      "display_owner": "SMITH DAWN M",
+      "display_address": "4601 E MINERAL RD PHOENIX AZ",
+      "display_owner": "SMITH CONNOR",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'SMITH CONNOR'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to SMITH CONNOR @ 4601 E MINERAL RD PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260412729"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260412729",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-007",
+      "primary_parcel_id": null,
+      "display_address": "15536 N 172ND LN SURPRISE AZ",
+      "display_owner": "SMITH DENNIS W",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [
@@ -311,19 +364,19 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'SMITH DAWN M'",
+      "parcel_master_status_note": "owner-name join from 'SMITH DENNIS W'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Release — primary distress signal; resolved to SMITH DAWN M @ 18522 N MICA DR SUN AZ"
+        "Release — primary distress signal; resolved to SMITH DENNIS W @ 15536 N 172ND LN SURPRISE AZ"
       ],
       "evidence_ids": [
-        "20260401091"
+        "20260414016"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260401091",
+          "label": "Recorder doc 20260414016",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
@@ -331,7 +384,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-007",
+      "lead_id": "MCR-008",
       "primary_parcel_id": null,
       "display_address": "1222 E AVENIDA HERMOSA PHOENIX AZ",
       "display_owner": "SMITH DEVON",
@@ -381,10 +434,10 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-008",
+      "lead_id": "MCR-009",
       "primary_parcel_id": null,
-      "display_address": "17404 E ORO GRANDE DR FOUNTAIN AZ",
-      "display_owner": "SMITH GEOFFREY",
+      "display_address": "6817 S 44TH LN LAVEEN AZ",
+      "display_owner": "SMITH GAVEN",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [
@@ -411,19 +464,19 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'SMITH GEOFFREY'",
+      "parcel_master_status_note": "owner-name join from 'SMITH GAVEN'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Release — primary distress signal; resolved to SMITH GEOFFREY @ 17404 E ORO GRANDE DR FOUNTAIN AZ"
+        "Release — primary distress signal; resolved to SMITH GAVEN @ 6817 S 44TH LN LAVEEN AZ"
       ],
       "evidence_ids": [
-        "20260399736"
+        "20260414017"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260399736",
+          "label": "Recorder doc 20260414017",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
@@ -431,7 +484,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-009",
+      "lead_id": "MCR-010",
       "primary_parcel_id": null,
       "display_address": "6222 W RAYMOND ST PHOENIX AZ",
       "display_owner": "GARCIA ADAM",
@@ -481,7 +534,59 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-010",
+      "lead_id": "MCR-011",
+      "primary_parcel_id": null,
+      "display_address": "7005 S 78TH DR LAVEEN AZ",
+      "display_owner": "GARCIA AMY",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'GARCIA AMY'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — primary distress signal; resolved to GARCIA AMY @ 7005 S 78TH DR LAVEEN AZ"
+      ],
+      "evidence_ids": [
+        "20260411608",
+        "20260411611",
+        "20260411612"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260411608",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Release",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-012",
       "primary_parcel_id": null,
       "display_address": "4629 W SUMMERSIDE RD LAVEEN AZ",
       "display_owner": "GARCIA ANGELINA M",
@@ -525,57 +630,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-011",
-      "primary_parcel_id": null,
-      "display_address": "818 N 10TH AVE PHOENIX AZ",
-      "display_owner": "GARCIA ANNETTE",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'GARCIA ANNETTE'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to GARCIA ANNETTE @ 818 N 10TH AVE PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260399642"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260399642",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-012",
+      "lead_id": "MCR-013",
       "primary_parcel_id": null,
       "display_address": "111 S 28TH DR PHOENIX AZ",
       "display_owner": "GARCIA BEATRICE",
@@ -618,56 +673,6 @@
       "primary_source_urls": [
         {
           "label": "Recorder doc 20260406380",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-013",
-      "primary_parcel_id": null,
-      "display_address": "2740 S SUNLAND DR CHANDLER AZ",
-      "display_owner": "GARCIA CECILIA",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'GARCIA CECILIA'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to GARCIA CECILIA @ 2740 S SUNLAND DR CHANDLER AZ"
-      ],
-      "evidence_ids": [
-        "20260399770"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260399770",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
@@ -727,8 +732,8 @@
     {
       "lead_id": "MCR-015",
       "primary_parcel_id": null,
-      "display_address": "11152 W ELM LN AVONDALE AZ",
-      "display_owner": "GARCIA CESAR",
+      "display_address": "2467 S 243RD DR BUCKEYE AZ",
+      "display_owner": "GARCIA CLARISA A",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [],
@@ -749,27 +754,77 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'GARCIA CESAR'",
+      "parcel_master_status_note": "owner-name join from 'GARCIA CLARISA A'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "ASSIGNMENT — primary distress signal; resolved to GARCIA CESAR @ 11152 W ELM LN AVONDALE AZ"
+        "JUDGMENT_LIEN — primary distress signal; resolved to GARCIA CLARISA A @ 2467 S 243RD DR BUCKEYE AZ"
       ],
       "evidence_ids": [
-        "20260400919"
+        "20260414210"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260400919",
+          "label": "Recorder doc 20260414210",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
-      "display_doc_type": "ASSIGNMENT",
+      "display_doc_type": "JUDGMENT_LIEN",
       "display_source": "Maricopa County Recorder"
     },
     {
       "lead_id": "MCR-016",
+      "primary_parcel_id": null,
+      "display_address": "6752 W COLES RD LAVEEN AZ",
+      "display_owner": "LOPEZ ALMA D",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'LOPEZ ALMA D'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — primary distress signal; resolved to LOPEZ ALMA D @ 6752 W COLES RD LAVEEN AZ"
+      ],
+      "evidence_ids": [
+        "20260412875"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260412875",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Release",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-017",
       "primary_parcel_id": null,
       "display_address": "9356 W PIONEER ST TOLLESON AZ",
       "display_owner": "LOPEZ AMERICA ALEJANDRA COLLAZO",
@@ -813,107 +868,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-017",
-      "primary_parcel_id": null,
-      "display_address": "842 E IVANHOE CT GILBERT AZ",
-      "display_owner": "LOPEZ ANNETTE",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'LOPEZ ANNETTE'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Release — primary distress signal; resolved to LOPEZ ANNETTE @ 842 E IVANHOE CT GILBERT AZ"
-      ],
-      "evidence_ids": [
-        "20260400134"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400134",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
       "lead_id": "MCR-018",
-      "primary_parcel_id": null,
-      "display_address": "521 W WILSHIRE DR PHOENIX AZ",
-      "display_owner": "LOPEZ ANTHONY JON",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'LOPEZ ANTHONY JON'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Warranty Deed — primary distress signal; resolved to LOPEZ ANTHONY JON @ 521 W WILSHIRE DR PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260400963"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400963",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Warranty Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-019",
       "primary_parcel_id": null,
       "display_address": "4210 N 85TH DR PHOENIX AZ",
       "display_owner": "LOPEZ ARACELI",
@@ -960,6 +915,56 @@
         }
       ],
       "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-019",
+      "primary_parcel_id": null,
+      "display_address": "10626 W POMO ST TOLLESON AZ",
+      "display_owner": "LOPEZ BERNARDO G",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'LOPEZ BERNARDO G'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — primary distress signal; resolved to LOPEZ BERNARDO G @ 10626 W POMO ST TOLLESON AZ"
+      ],
+      "evidence_ids": [
+        "20260411658"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260411658",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Release",
       "display_source": "Maricopa County Recorder"
     },
     {
@@ -1015,50 +1020,6 @@
     {
       "lead_id": "MCR-021",
       "primary_parcel_id": null,
-      "display_address": "3301 W BASELINE RD LAVEEN AZ",
-      "display_owner": "LOPEZ CANDELARIA",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'LOPEZ CANDELARIA'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "JUDGMENT_LIEN — primary distress signal; resolved to LOPEZ CANDELARIA @ 3301 W BASELINE RD LAVEEN AZ"
-      ],
-      "evidence_ids": [
-        "20260405189"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260405189",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "JUDGMENT_LIEN",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-022",
-      "primary_parcel_id": null,
       "display_address": "5431 S 5TH ST PHOENIX AZ",
       "display_owner": "MARTINEZ ABEL",
       "display_score": 40,
@@ -1101,158 +1062,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-023",
-      "primary_parcel_id": null,
-      "display_address": "16634 S 29TH ST PHOENIX AZ",
-      "display_owner": "MARTINEZ ADAM",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'MARTINEZ ADAM'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to MARTINEZ ADAM @ 16634 S 29TH ST PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260400883"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400883",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-024",
-      "primary_parcel_id": null,
-      "display_address": "18228 N 30TH PL PHOENIX AZ",
-      "display_owner": "MARTINEZ ADRIANA",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'MARTINEZ ADRIANA'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Warranty Deed — primary distress signal; resolved to MARTINEZ ADRIANA @ 18228 N 30TH PL PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260401872"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260401872",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Warranty Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-025",
-      "primary_parcel_id": null,
-      "display_address": "18228 N 30TH PL PHOENIX AZ",
-      "display_owner": "MARTINEZ ADRIANA",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'MARTINEZ ADRIANA'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to MARTINEZ ADRIANA @ 18228 N 30TH PL PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260401873",
-        "20260401874"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260401873",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-026",
+      "lead_id": "MCR-022",
       "primary_parcel_id": null,
       "display_address": "9430 W ENCINAS LN TOLLESON AZ",
       "display_owner": "MARTINEZ ANGELINA",
@@ -1308,15 +1118,21 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-027",
+      "lead_id": "MCR-023",
       "primary_parcel_id": null,
-      "display_address": "3355 W WESCOTT DR PHOENIX AZ",
-      "display_owner": "NGUYEN BETTY",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
+      "display_address": "310 N 94TH AVE TOLLESON AZ",
+      "display_owner": "MARTINEZ ANICETO",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
       "display_attributes": [],
       "display_deal_paths": [
         "wholesale"
@@ -1332,27 +1148,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'NGUYEN BETTY'",
+      "parcel_master_status_note": "owner-name join from 'MARTINEZ ANICETO'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "ASSIGNMENT — primary distress signal; resolved to NGUYEN BETTY @ 3355 W WESCOTT DR PHOENIX AZ"
+        "Deed of Trust — primary distress signal; resolved to MARTINEZ ANICETO @ 310 N 94TH AVE TOLLESON AZ"
       ],
       "evidence_ids": [
-        "20260400144"
+        "20260413548"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260400144",
+          "label": "Recorder doc 20260413548",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
-      "display_doc_type": "ASSIGNMENT",
+      "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-028",
+      "lead_id": "MCR-024",
       "primary_parcel_id": null,
       "display_address": "13605 W AVALON DR AVONDALE AZ",
       "display_owner": "NGUYEN DAI T",
@@ -1402,7 +1218,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-029",
+      "lead_id": "MCR-025",
       "primary_parcel_id": null,
       "display_address": "5398 W BELMONT AVE GLENDALE AZ",
       "display_owner": "NGUYEN DAVID",
@@ -1452,7 +1268,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-030",
+      "lead_id": "MCR-026",
       "primary_parcel_id": null,
       "display_address": "2845 W STATE AVE PHOENIX AZ",
       "display_owner": "NGUYEN HUNG",
@@ -1502,7 +1318,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-031",
+      "lead_id": "MCR-027",
       "primary_parcel_id": null,
       "display_address": "3135 E BOSTON ST GILBERT AZ",
       "display_owner": "NGUYEN KIM",
@@ -1546,7 +1362,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-032",
+      "lead_id": "MCR-028",
       "primary_parcel_id": null,
       "display_address": "PO BOX 419692 KANSAS AZ",
       "display_owner": "JOHNSON BANK",
@@ -1585,7 +1401,8 @@
       ],
       "evidence_ids": [
         "20260403507",
-        "20260405138"
+        "20260405138",
+        "20260411594"
       ],
       "primary_source_urls": [
         {
@@ -1597,7 +1414,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-033",
+      "lead_id": "MCR-029",
       "primary_parcel_id": null,
       "display_address": "2365 E CATALINA AVE MESA AZ",
       "display_owner": "JOHNSON BONNIE",
@@ -1647,7 +1464,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-034",
+      "lead_id": "MCR-030",
       "primary_parcel_id": null,
       "display_address": "2810 N 65TH AVE PHOENIX AZ",
       "display_owner": "RODRIGUEZ ALBERTO",
@@ -1691,110 +1508,10 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-035",
+      "lead_id": "MCR-031",
       "primary_parcel_id": null,
-      "display_address": "3927 W MERCER LN PHOENIX AZ",
-      "display_owner": "RODRIGUEZ ALMA C",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ALMA C'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Release — primary distress signal; resolved to RODRIGUEZ ALMA C @ 3927 W MERCER LN PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260402405"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260402405",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-036",
-      "primary_parcel_id": null,
-      "display_address": "12792 S 175TH AVE GOODYEAR AZ",
-      "display_owner": "RODRIGUEZ ALYSSA",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ALYSSA'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Warranty Deed — primary distress signal; resolved to RODRIGUEZ ALYSSA @ 12792 S 175TH AVE GOODYEAR AZ"
-      ],
-      "evidence_ids": [
-        "20260402402"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260402402",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Warranty Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-037",
-      "primary_parcel_id": null,
-      "display_address": "12792 S 175TH AVE GOODYEAR AZ",
-      "display_owner": "RODRIGUEZ ALYSSA",
+      "display_address": "1012 W YALE DR TEMPE AZ",
+      "display_owner": "RODRIGUEZ ALEX",
       "display_score": 78,
       "display_tier": "Strong",
       "display_patterns": [
@@ -1821,19 +1538,19 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ALYSSA'",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ALEX'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ ALYSSA @ 12792 S 175TH AVE GOODYEAR AZ"
+        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ ALEX @ 1012 W YALE DR TEMPE AZ"
       ],
       "evidence_ids": [
-        "20260402403"
+        "20260413135"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260402403",
+          "label": "Recorder doc 20260413135",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
@@ -1841,10 +1558,110 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-038",
+      "lead_id": "MCR-032",
       "primary_parcel_id": null,
-      "display_address": "1313 W 6TH AVE MESA AZ",
-      "display_owner": "RODRIGUEZ ANA",
+      "display_address": "7213 W SHEILA LN PHOENIX AZ",
+      "display_owner": "RODRIGUEZ ALFONSO",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ALFONSO'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal; resolved to RODRIGUEZ ALFONSO @ 7213 W SHEILA LN PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260412459"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260412459",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-033",
+      "primary_parcel_id": null,
+      "display_address": "7213 W SHEILA LN PHOENIX AZ",
+      "display_owner": "RODRIGUEZ ALFONSO",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ALFONSO'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ ALFONSO @ 7213 W SHEILA LN PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260412461"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260412461",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-034",
+      "primary_parcel_id": null,
+      "display_address": "18509 W SANNA ST WADDELL AZ",
+      "display_owner": "RODRIGUEZ ANDREW",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [],
@@ -1865,19 +1682,19 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ANA'",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ANDREW'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "ASSIGNMENT — primary distress signal; resolved to RODRIGUEZ ANA @ 1313 W 6TH AVE MESA AZ"
+        "ASSIGNMENT — primary distress signal; resolved to RODRIGUEZ ANDREW @ 18509 W SANNA ST WADDELL AZ"
       ],
       "evidence_ids": [
-        "20260403894"
+        "20260411867"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260403894",
+          "label": "Recorder doc 20260411867",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
@@ -1885,157 +1702,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-039",
-      "primary_parcel_id": null,
-      "display_address": "8837 W CORDES RD TOLLESON AZ",
-      "display_owner": "RODRIGUEZ ARIANA",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ ARIANA'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ ARIANA @ 8837 W CORDES RD TOLLESON AZ"
-      ],
-      "evidence_ids": [
-        "20260400842"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400842",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-040",
-      "primary_parcel_id": null,
-      "display_address": "8120 W PAPAGO ST PHOENIX AZ",
-      "display_owner": "RODRIGUEZ CARLOS",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ CARLOS'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ CARLOS @ 8120 W PAPAGO ST PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260402422"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260402422",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-041",
-      "primary_parcel_id": null,
-      "display_address": "15091 W LINDEN ST GOODYEAR AZ",
-      "display_owner": "RODRIGUEZ CARLOS E",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ CARLOS E'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ CARLOS E @ 15091 W LINDEN ST GOODYEAR AZ"
-      ],
-      "evidence_ids": [
-        "20260401081"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260401081",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-042",
+      "lead_id": "MCR-035",
       "primary_parcel_id": null,
       "display_address": "3125 N 64TH DR PHOENIX AZ",
       "display_owner": "RODRIGUEZ CECILIA",
@@ -2086,7 +1753,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-043",
+      "lead_id": "MCR-036",
       "primary_parcel_id": null,
       "display_address": "8323 W ALVARADO RD PHOENIX AZ",
       "display_owner": "RODRIGUEZ CLAUDIA",
@@ -2136,10 +1803,160 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-044",
+      "lead_id": "MCR-037",
       "primary_parcel_id": null,
-      "display_address": "4402 E NANCY LN PHOENIX AZ",
-      "display_owner": "HERNANDEZ ADAM",
+      "display_address": "2620 W PIEDMONT RD PHOENIX AZ",
+      "display_owner": "RODRIGUEZ CRISTAL",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ CRISTAL'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ CRISTAL @ 2620 W PIEDMONT RD PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260404363"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260404363",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-038",
+      "primary_parcel_id": null,
+      "display_address": "7201 W WILSHIRE DR PHOENIX AZ",
+      "display_owner": "RODRIGUEZ DANIEL",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ DANIEL'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ DANIEL @ 7201 W WILSHIRE DR PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260406141"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260406141",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-039",
+      "primary_parcel_id": null,
+      "display_address": "2901 W CORONADO RD PHOENIX AZ",
+      "display_owner": "RODRIGUEZ DANIELA",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ DANIELA'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ DANIELA @ 2901 W CORONADO RD PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260407850"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260407850",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-040",
+      "primary_parcel_id": null,
+      "display_address": "1008 W SAINT CHARLES AVE PHOENIX AZ",
+      "display_owner": "RODRIGUEZ DAVID",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [
@@ -2166,27 +1983,121 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'HERNANDEZ ADAM'",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ DAVID'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Quitclaim Deed — primary distress signal; resolved to HERNANDEZ ADAM @ 4402 E NANCY LN PHOENIX AZ"
+        "Release — primary distress signal; resolved to RODRIGUEZ DAVID @ 1008 W SAINT CHARLES AVE PHOENIX AZ"
       ],
       "evidence_ids": [
-        "20260400505"
+        "20260412323"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260400505",
+          "label": "Recorder doc 20260412323",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
-      "display_doc_type": "Quitclaim Deed",
+      "display_doc_type": "Release",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-045",
+      "lead_id": "MCR-041",
+      "primary_parcel_id": null,
+      "display_address": "2841 N 71ST AVE PHOENIX AZ",
+      "display_owner": "RODRIGUEZ DELIA M",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'RODRIGUEZ DELIA M'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to RODRIGUEZ DELIA M @ 2841 N 71ST AVE PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260402858"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260402858",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-042",
+      "primary_parcel_id": null,
+      "display_address": "22348 W YAVAPAI ST BUCKEYE AZ",
+      "display_owner": "HERNANDEZ ADRIANA G",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'HERNANDEZ ADRIANA G'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "JUDGMENT_LIEN — primary distress signal; resolved to HERNANDEZ ADRIANA G @ 22348 W YAVAPAI ST BUCKEYE AZ"
+      ],
+      "evidence_ids": [
+        "20260412994"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260412994",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "JUDGMENT_LIEN",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-043",
       "primary_parcel_id": null,
       "display_address": "2762 W CHANUTE PASS PHOENIX AZ",
       "display_owner": "HERNANDEZ ALMA",
@@ -2236,7 +2147,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-046",
+      "lead_id": "MCR-044",
       "primary_parcel_id": null,
       "display_address": "7307 W MONTECITO AVE PHOENIX AZ",
       "display_owner": "HERNANDEZ ANGEL",
@@ -2286,7 +2197,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-047",
+      "lead_id": "MCR-045",
       "primary_parcel_id": null,
       "display_address": "3134 W EUGIE AVE PHOENIX AZ",
       "display_owner": "HERNANDEZ ANTHONY M",
@@ -2333,6 +2244,106 @@
         }
       ],
       "display_doc_type": "Release",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-046",
+      "primary_parcel_id": null,
+      "display_address": "8149 W TUCKEY LN GLENDALE AZ",
+      "display_owner": "HERNANDEZ CARLOS",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'HERNANDEZ CARLOS'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal; resolved to HERNANDEZ CARLOS @ 8149 W TUCKEY LN GLENDALE AZ"
+      ],
+      "evidence_ids": [
+        "20260413148"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260413148",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-047",
+      "primary_parcel_id": null,
+      "display_address": "8149 W TUCKEY LN GLENDALE AZ",
+      "display_owner": "HERNANDEZ CARLOS",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'HERNANDEZ CARLOS'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to HERNANDEZ CARLOS @ 8149 W TUCKEY LN GLENDALE AZ"
+      ],
+      "evidence_ids": [
+        "20260413149"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260413149",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
@@ -2389,56 +2400,6 @@
     {
       "lead_id": "MCR-049",
       "primary_parcel_id": null,
-      "display_address": "3240 W DALEY LN PHOENIX AZ",
-      "display_owner": "PATEL DHARMENDRA",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'PATEL DHARMENDRA'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to PATEL DHARMENDRA @ 3240 W DALEY LN PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260400829"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400829",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-050",
-      "primary_parcel_id": null,
       "display_address": "11680 E SAHUARO DR UNIT 2030 SCOTTSDALE AZ",
       "display_owner": "PATEL MONEIL M",
       "display_score": 40,
@@ -2481,57 +2442,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-051",
-      "primary_parcel_id": null,
-      "display_address": "15012 N 56TH DR GLENDALE AZ",
-      "display_owner": "PATEL RAKESH",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'PATEL RAKESH'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Release — primary distress signal; resolved to PATEL RAKESH @ 15012 N 56TH DR GLENDALE AZ"
-      ],
-      "evidence_ids": [
-        "20260400142"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400142",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-052",
+      "lead_id": "MCR-050",
       "primary_parcel_id": null,
       "display_address": "2450 W GLENROSA AVE UNIT 9 PHOENIX AZ",
       "display_owner": "PATEL SEEMA",
@@ -2581,7 +2492,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-053",
+      "lead_id": "MCR-051",
       "primary_parcel_id": null,
       "display_address": "2450 W GLENROSA AVE UNIT 9 PHOENIX AZ",
       "display_owner": "PATEL SEEMA",
@@ -2631,7 +2542,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-054",
+      "lead_id": "MCR-052",
       "primary_parcel_id": null,
       "display_address": "9045 E HALIFAX CIR MESA AZ",
       "display_owner": "WILSON CHRISTINA",
@@ -2681,107 +2592,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-055",
-      "primary_parcel_id": null,
-      "display_address": "6550 E STAR VALLEY ST MESA AZ",
-      "display_owner": "WILSON DAVID E",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'WILSON DAVID E'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Quitclaim Deed — primary distress signal; resolved to WILSON DAVID E @ 6550 E STAR VALLEY ST MESA AZ"
-      ],
-      "evidence_ids": [
-        "20260400197"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400197",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Quitclaim Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-056",
-      "primary_parcel_id": null,
-      "display_address": "6550 E STAR VALLEY ST MESA AZ",
-      "display_owner": "WILSON DAVID E",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'WILSON DAVID E'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to WILSON DAVID E @ 6550 E STAR VALLEY ST MESA AZ"
-      ],
-      "evidence_ids": [
-        "20260400198"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400198",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-057",
+      "lead_id": "MCR-053",
       "primary_parcel_id": null,
       "display_address": "6550 E STAR VALLEY ST MESA AZ",
       "display_owner": "WILSON DAVID E",
@@ -2831,10 +2642,10 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-058",
+      "lead_id": "MCR-054",
       "primary_parcel_id": null,
-      "display_address": "5437 E PHELPS RD SCOTTSDALE AZ",
-      "display_owner": "WILSON ELISHER",
+      "display_address": "929 S SCALLOP DR GILBERT AZ",
+      "display_owner": "WILSON DOROTHY",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [
@@ -2861,27 +2672,27 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'WILSON ELISHER'",
+      "parcel_master_status_note": "owner-name join from 'WILSON DOROTHY'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Release — primary distress signal; resolved to WILSON ELISHER @ 5437 E PHELPS RD SCOTTSDALE AZ"
+        "Quitclaim Deed — primary distress signal; resolved to WILSON DOROTHY @ 929 S SCALLOP DR GILBERT AZ"
       ],
       "evidence_ids": [
-        "20260401868"
+        "20260414322"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260401868",
+          "label": "Recorder doc 20260414322",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
-      "display_doc_type": "Release",
+      "display_doc_type": "Quitclaim Deed",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-059",
+      "lead_id": "MCR-055",
       "primary_parcel_id": null,
       "display_address": "2123 W CHAMBERS ST PHOENIX AZ",
       "display_owner": "WILSON FAMILY LIVING TRUST",
@@ -2931,7 +2742,57 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-060",
+      "lead_id": "MCR-056",
+      "primary_parcel_id": null,
+      "display_address": "6119 E CARNATION  CIR PHOENIX AZ",
+      "display_owner": "WILSON JENNIFER",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'WILSON JENNIFER'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to WILSON JENNIFER @ 6119 E CARNATION  CIR PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260413935"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260413935",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-057",
       "primary_parcel_id": null,
       "display_address": "12002 W CHARTER OAK RD EL AZ",
       "display_owner": "WILSON JONATHAN T",
@@ -2975,20 +2836,20 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-061",
+      "lead_id": "MCR-058",
       "primary_parcel_id": null,
-      "display_address": "525 S VISALIA MESA AZ",
-      "display_owner": "BROWN BRIAN",
-      "display_score": 78,
-      "display_tier": "Strong",
+      "display_address": "9849 W MONTE LINDO PEORIA AZ",
+      "display_owner": "JONES CINDY G",
+      "display_score": 40,
+      "display_tier": "Low",
       "display_patterns": [
-        "foreclosure"
+        "transfer"
       ],
       "stack_contrib_patterns": [
-        "foreclosure"
+        "transfer"
       ],
       "display_pattern_set": [
-        "foreclosure"
+        "transfer"
       ],
       "display_attributes": [],
       "display_deal_paths": [
@@ -3005,27 +2866,71 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'BROWN BRIAN'",
+      "parcel_master_status_note": "owner-name join from 'JONES CINDY G'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to BROWN BRIAN @ 525 S VISALIA MESA AZ"
+        "Release — primary distress signal; resolved to JONES CINDY G @ 9849 W MONTE LINDO PEORIA AZ"
       ],
       "evidence_ids": [
-        "20260400667"
+        "20260413626"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260400667",
+          "label": "Recorder doc 20260413626",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
-      "display_doc_type": "Deed of Trust",
+      "display_doc_type": "Release",
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-062",
+      "lead_id": "MCR-059",
+      "primary_parcel_id": null,
+      "display_address": "3724 E EVANS DR PHOENIX AZ",
+      "display_owner": "BROWN CATHERINE",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [],
+      "stack_contrib_patterns": [],
+      "display_pattern_set": [],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'BROWN CATHERINE'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "JUDGMENT_LIEN — primary distress signal; resolved to BROWN CATHERINE @ 3724 E EVANS DR PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260412407"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260412407",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "JUDGMENT_LIEN",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-060",
       "primary_parcel_id": null,
       "display_address": "3839 N 85TH PL SCOTTSDALE AZ",
       "display_owner": "BROWN DAVID S",
@@ -3069,7 +2974,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-063",
+      "lead_id": "MCR-061",
       "primary_parcel_id": null,
       "display_address": "4114 N 81ST ST SCOTTSDALE AZ",
       "display_owner": "BROWN DUJHAN",
@@ -3119,95 +3024,107 @@
       "display_source": "Maricopa County Recorder"
     },
     {
+      "lead_id": "MCR-062",
+      "primary_parcel_id": null,
+      "display_address": "206 E KINDERMAN DR AVONDALE AZ",
+      "display_owner": "GONZALEZ BERNICE",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'GONZALEZ BERNICE'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to GONZALEZ BERNICE @ 206 E KINDERMAN DR AVONDALE AZ"
+      ],
+      "evidence_ids": [
+        "20260412167"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260412167",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-063",
+      "primary_parcel_id": null,
+      "display_address": "22137 W MESQUITE DR BUCKEYE AZ",
+      "display_owner": "GONZALEZ BIANCA M",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'GONZALEZ BIANCA M'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal; resolved to GONZALEZ BIANCA M @ 22137 W MESQUITE DR BUCKEYE AZ"
+      ],
+      "evidence_ids": [
+        "20260412732"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260412732",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
       "lead_id": "MCR-064",
-      "primary_parcel_id": null,
-      "display_address": "12221 W CHASE LN AVONDALE AZ",
-      "display_owner": "GONZALEZ ABRAHAM ENRIQUE",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'GONZALEZ ABRAHAM ENRIQUE'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "ASSIGNMENT — primary distress signal; resolved to GONZALEZ ABRAHAM ENRIQUE @ 12221 W CHASE LN AVONDALE AZ"
-      ],
-      "evidence_ids": [
-        "20260399953"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260399953",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "ASSIGNMENT",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-065",
-      "primary_parcel_id": null,
-      "display_address": "5025 W OSBORN RD PHOENIX AZ",
-      "display_owner": "GONZALEZ ARTURO",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'GONZALEZ ARTURO'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "JUDGMENT_LIEN — primary distress signal; resolved to GONZALEZ ARTURO @ 5025 W OSBORN RD PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260401001"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260401001",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "JUDGMENT_LIEN",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-066",
       "primary_parcel_id": null,
       "display_address": "13762 W VIRGINIA CIR GOODYEAR AZ",
       "display_owner": "GONZALEZ CARLOS A",
@@ -3257,7 +3174,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-067",
+      "lead_id": "MCR-065",
       "primary_parcel_id": null,
       "display_address": "4812 W HOLLY ST PHOENIX AZ",
       "display_owner": "GONZALEZ CAROLINA",
@@ -3307,7 +3224,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-068",
+      "lead_id": "MCR-066",
       "primary_parcel_id": null,
       "display_address": "3215 W CARIBBEAN LN PHOENIX AZ",
       "display_owner": "GONZALEZ DANNY",
@@ -3350,6 +3267,107 @@
       "primary_source_urls": [
         {
           "label": "Recorder doc 20260408324",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-067",
+      "primary_parcel_id": null,
+      "display_address": "1831 S 105TH DR TOLLESON AZ",
+      "display_owner": "GONZALEZ ESTEBAN",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'GONZALEZ ESTEBAN'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — primary distress signal; resolved to GONZALEZ ESTEBAN @ 1831 S 105TH DR TOLLESON AZ"
+      ],
+      "evidence_ids": [
+        "20260405987"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260405987",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Release",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-068",
+      "primary_parcel_id": null,
+      "display_address": "1343 E VINE AVE MESA AZ",
+      "display_owner": "GONZALEZ EVER",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'GONZALEZ EVER'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to GONZALEZ EVER @ 1343 E VINE AVE MESA AZ"
+      ],
+      "evidence_ids": [
+        "20260403423",
+        "20260409207"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260403423",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
@@ -3409,50 +3427,6 @@
     {
       "lead_id": "MCR-070",
       "primary_parcel_id": null,
-      "display_address": "18703 N 79TH AVE GLENDALE AZ",
-      "display_owner": "DAVIS BRANWYN L",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'DAVIS BRANWYN L'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "SPECIAL_WARRANTY_DEED — primary distress signal; resolved to DAVIS BRANWYN L @ 18703 N 79TH AVE GLENDALE AZ"
-      ],
-      "evidence_ids": [
-        "20260401515"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260401515",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "SPECIAL_WARRANTY_DEED",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-071",
-      "primary_parcel_id": null,
       "display_address": "7414 W PARADISE DR PEORIA AZ",
       "display_owner": "DAVIS CHRISTOPHER",
       "display_score": 40,
@@ -3501,7 +3475,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-072",
+      "lead_id": "MCR-071",
       "primary_parcel_id": null,
       "display_address": "4843 E FAIRFIELD ST MESA AZ",
       "display_owner": "DAVIS DAVID J",
@@ -3545,7 +3519,107 @@
       "display_source": "Maricopa County Recorder"
     },
     {
+      "lead_id": "MCR-072",
+      "primary_parcel_id": null,
+      "display_address": "1937 E JAMAICA AVE MESA AZ",
+      "display_owner": "MILLER BARBARA ANN",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'MILLER BARBARA ANN'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal; resolved to MILLER BARBARA ANN @ 1937 E JAMAICA AVE MESA AZ"
+      ],
+      "evidence_ids": [
+        "20260413724"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260413724",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
       "lead_id": "MCR-073",
+      "primary_parcel_id": null,
+      "display_address": "16212 N 21ST PL PHOENIX AZ",
+      "display_owner": "MILLER CHRISTOPHER D",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'MILLER CHRISTOPHER D'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to MILLER CHRISTOPHER D @ 16212 N 21ST PL PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260411707"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260411707",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-074",
       "primary_parcel_id": null,
       "display_address": "30038 N 47TH ST CAVE AZ",
       "display_owner": "MILLER DAMIAN",
@@ -3592,56 +3666,6 @@
         }
       ],
       "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-074",
-      "primary_parcel_id": null,
-      "display_address": "930 W LYNWOOD  ST PHOENIX AZ",
-      "display_owner": "MILLER ELIZABETH",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'MILLER ELIZABETH'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to MILLER ELIZABETH @ 930 W LYNWOOD  ST PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260400734"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400734",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
       "display_source": "Maricopa County Recorder"
     },
     {
@@ -3697,56 +3721,6 @@
     {
       "lead_id": "MCR-076",
       "primary_parcel_id": null,
-      "display_address": "315 W ELLIOT RD 107-411 TEMPE AZ",
-      "display_owner": "MILLER GARY D",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'MILLER GARY D'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Release — primary distress signal; resolved to MILLER GARY D @ 315 W ELLIOT RD 107-411 TEMPE AZ"
-      ],
-      "evidence_ids": [
-        "20260410185"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260410185",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-077",
-      "primary_parcel_id": null,
       "display_address": "15380 N 100TH ST UNIT 2106 SCOTTSDALE AZ",
       "display_owner": "LEWIS BONNIE J",
       "display_score": 78,
@@ -3792,6 +3766,56 @@
         }
       ],
       "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-077",
+      "primary_parcel_id": null,
+      "display_address": "3819 S 57TH DR PHOENIX AZ",
+      "display_owner": "LEWIS DAVID",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'LEWIS DAVID'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — primary distress signal; resolved to LEWIS DAVID @ 3819 S 57TH DR PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260411539"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260411539",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Release",
       "display_source": "Maricopa County Recorder"
     },
     {
@@ -3897,6 +3921,56 @@
     {
       "lead_id": "MCR-080",
       "primary_parcel_id": null,
+      "display_address": "4079 W WINSTON DR LAVEEN AZ",
+      "display_owner": "LEWIS MICHAEL ALAN",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'LEWIS MICHAEL ALAN'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Warranty Deed — primary distress signal; resolved to LEWIS MICHAEL ALAN @ 4079 W WINSTON DR LAVEEN AZ"
+      ],
+      "evidence_ids": [
+        "20260413781"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260413781",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-081",
+      "primary_parcel_id": null,
       "display_address": "4529 W SANDRA TER GLENDALE AZ",
       "display_owner": "LEE DENISE",
       "display_score": 40,
@@ -3942,50 +4016,6 @@
         }
       ],
       "display_doc_type": "Quitclaim Deed",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-081",
-      "primary_parcel_id": null,
-      "display_address": "6888 W DARREL DR LAVEEN AZ",
-      "display_owner": "WALKER ANDRE",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [],
-      "stack_contrib_patterns": [],
-      "display_pattern_set": [],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'WALKER ANDRE'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "ASSIGNMENT — primary distress signal; resolved to WALKER ANDRE @ 6888 W DARREL DR LAVEEN AZ"
-      ],
-      "evidence_ids": [
-        "20260400916"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260400916",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "ASSIGNMENT",
       "display_source": "Maricopa County Recorder"
     },
     {
@@ -4085,56 +4115,6 @@
     {
       "lead_id": "MCR-084",
       "primary_parcel_id": null,
-      "display_address": "3329 W MORELAND ST PHOENIX AZ",
-      "display_owner": "WALKER ANN",
-      "display_score": 78,
-      "display_tier": "Strong",
-      "display_patterns": [
-        "foreclosure"
-      ],
-      "stack_contrib_patterns": [
-        "foreclosure"
-      ],
-      "display_pattern_set": [
-        "foreclosure"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'WALKER ANN'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to WALKER ANN @ 3329 W MORELAND ST PHOENIX AZ"
-      ],
-      "evidence_ids": [
-        "20260401679"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260401679",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-085",
-      "primary_parcel_id": null,
       "display_address": "26618 S NEW TOWN DR SUN AZ",
       "display_owner": "WALKER BRENDA",
       "display_score": 40,
@@ -4177,7 +4157,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-086",
+      "lead_id": "MCR-085",
       "primary_parcel_id": null,
       "display_address": "5601 W VERNON AVE PHOENIX AZ",
       "display_owner": "WALKER FAMILY TRUST",
@@ -4227,7 +4207,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-087",
+      "lead_id": "MCR-086",
       "primary_parcel_id": null,
       "display_address": "19627 N 78TH AVE GLENDALE AZ",
       "display_owner": "WALKER JACQUELINE",
@@ -4277,7 +4257,7 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-088",
+      "lead_id": "MCR-087",
       "primary_parcel_id": null,
       "display_address": "1818 E MISSOURI AVE PHOENIX AZ",
       "display_owner": "WALKER JASON",
@@ -4320,6 +4300,56 @@
       "primary_source_urls": [
         {
           "label": "Recorder doc 20260409974",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Deed of Trust",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-088",
+      "primary_parcel_id": null,
+      "display_address": "4228 N PARKWAY AVE SCOTTSDALE AZ",
+      "display_owner": "HALL LINDA A",
+      "display_score": 78,
+      "display_tier": "Strong",
+      "display_patterns": [
+        "foreclosure"
+      ],
+      "stack_contrib_patterns": [
+        "foreclosure"
+      ],
+      "display_pattern_set": [
+        "foreclosure"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'HALL LINDA A'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Deed of Trust — primary distress signal; resolved to HALL LINDA A @ 4228 N PARKWAY AVE SCOTTSDALE AZ"
+      ],
+      "evidence_ids": [
+        "20260411491"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260411491",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
@@ -4379,56 +4409,6 @@
     {
       "lead_id": "MCR-090",
       "primary_parcel_id": null,
-      "display_address": "5122 E SHEA BLVD UNIT 1082 SCOTTSDALE AZ",
-      "display_owner": "HALL TAYLOR",
-      "display_score": 40,
-      "display_tier": "Low",
-      "display_patterns": [
-        "transfer"
-      ],
-      "stack_contrib_patterns": [
-        "transfer"
-      ],
-      "display_pattern_set": [
-        "transfer"
-      ],
-      "display_attributes": [],
-      "display_deal_paths": [
-        "wholesale"
-      ],
-      "display_title_complexity_tier": "Unknown",
-      "display_lead_status": "STACKED_LEAD",
-      "display_assessed_value": null,
-      "display_last_sale_price": null,
-      "display_last_sale_date": null,
-      "display_year_built": null,
-      "display_match_confidence": 0.9,
-      "stack_depth": 1,
-      "primary_event_date": null,
-      "expected_sale_date": null,
-      "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'HALL TAYLOR'",
-      "parcel_master_match_method": "owner_name_to_assessor_parcel",
-      "candidate_parcel_ids": [],
-      "review_flags": [],
-      "score_reasons": [
-        "Release — primary distress signal; resolved to HALL TAYLOR @ 5122 E SHEA BLVD UNIT 1082 SCOTTSDALE AZ"
-      ],
-      "evidence_ids": [
-        "20260408505"
-      ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260408505",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Release",
-      "display_source": "Maricopa County Recorder"
-    },
-    {
-      "lead_id": "MCR-091",
-      "primary_parcel_id": null,
       "display_address": "165 S 163RD ST GILBERT AZ",
       "display_owner": "YOUNG AMY",
       "display_score": 40,
@@ -4477,10 +4457,10 @@
       "display_source": "Maricopa County Recorder"
     },
     {
-      "lead_id": "MCR-092",
+      "lead_id": "MCR-091",
       "primary_parcel_id": null,
-      "display_address": "269 LEISURE WORLD MESA AZ",
-      "display_owner": "YOUNG ARLENE",
+      "display_address": "1616 E HERMOSA DR TEMPE AZ",
+      "display_owner": "YOUNG AUBREY",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [
@@ -4507,19 +4487,69 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'YOUNG ARLENE'",
+      "parcel_master_status_note": "owner-name join from 'YOUNG AUBREY'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Release — primary distress signal; resolved to YOUNG ARLENE @ 269 LEISURE WORLD MESA AZ"
+        "Warranty Deed — primary distress signal; resolved to YOUNG AUBREY @ 1616 E HERMOSA DR TEMPE AZ"
       ],
       "evidence_ids": [
-        "20260400148"
+        "20260413178"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260400148",
+          "label": "Recorder doc 20260413178",
+          "url": "https://recorder.maricopa.gov/recording/document-search.html"
+        }
+      ],
+      "display_doc_type": "Warranty Deed",
+      "display_source": "Maricopa County Recorder"
+    },
+    {
+      "lead_id": "MCR-092",
+      "primary_parcel_id": null,
+      "display_address": "9426 N 36TH DR PHOENIX AZ",
+      "display_owner": "YOUNG PATRICK",
+      "display_score": 40,
+      "display_tier": "Low",
+      "display_patterns": [
+        "transfer"
+      ],
+      "stack_contrib_patterns": [
+        "transfer"
+      ],
+      "display_pattern_set": [
+        "transfer"
+      ],
+      "display_attributes": [],
+      "display_deal_paths": [
+        "wholesale"
+      ],
+      "display_title_complexity_tier": "Unknown",
+      "display_lead_status": "STACKED_LEAD",
+      "display_assessed_value": null,
+      "display_last_sale_price": null,
+      "display_last_sale_date": null,
+      "display_year_built": null,
+      "display_match_confidence": 0.9,
+      "stack_depth": 1,
+      "primary_event_date": null,
+      "expected_sale_date": null,
+      "parcel_master_status": "unresolved",
+      "parcel_master_status_note": "owner-name join from 'YOUNG PATRICK'",
+      "parcel_master_match_method": "owner_name_to_assessor_parcel",
+      "candidate_parcel_ids": [],
+      "review_flags": [],
+      "score_reasons": [
+        "Release — primary distress signal; resolved to YOUNG PATRICK @ 9426 N 36TH DR PHOENIX AZ"
+      ],
+      "evidence_ids": [
+        "20260413600"
+      ],
+      "primary_source_urls": [
+        {
+          "label": "Recorder doc 20260413600",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
@@ -4529,8 +4559,8 @@
     {
       "lead_id": "MCR-093",
       "primary_parcel_id": null,
-      "display_address": "5649 E DALLAS ST MESA AZ",
-      "display_owner": "YOUNG CHRISTINE",
+      "display_address": "14219 N 49TH PL SCOTTDALE AZ",
+      "display_owner": "YOUNG PATRICK CHRISTOPHER KLOTZ",
       "display_score": 40,
       "display_tier": "Low",
       "display_patterns": [
@@ -4557,44 +4587,47 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'YOUNG CHRISTINE'",
+      "parcel_master_status_note": "owner-name join from 'YOUNG PATRICK CHRISTOPHER KLOTZ'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Warranty Deed — primary distress signal; resolved to YOUNG CHRISTINE @ 5649 E DALLAS ST MESA AZ"
+        "Release — primary distress signal; resolved to YOUNG PATRICK CHRISTOPHER KLOTZ @ 14219 N 49TH PL SCOTTDALE AZ"
       ],
       "evidence_ids": [
-        "20260402590"
+        "20260411362"
       ],
       "primary_source_urls": [
         {
-          "label": "Recorder doc 20260402590",
+          "label": "Recorder doc 20260411362",
           "url": "https://recorder.maricopa.gov/recording/document-search.html"
         }
       ],
-      "display_doc_type": "Warranty Deed",
+      "display_doc_type": "Release",
       "display_source": "Maricopa County Recorder"
     },
     {
       "lead_id": "MCR-094",
       "primary_parcel_id": null,
-      "display_address": "16014 W KINO DR SURPRISE AZ",
-      "display_owner": "YOUNG KYLE",
-      "display_score": 78,
-      "display_tier": "Strong",
+      "display_address": "14201 N 14TH PL PHOENIX AZ",
+      "display_owner": "ALAN SMITH",
+      "display_score": 61,
+      "display_tier": "Workable",
       "display_patterns": [
-        "foreclosure"
+        "estate",
+        "transfer"
       ],
       "stack_contrib_patterns": [
-        "foreclosure"
+        "estate",
+        "transfer"
       ],
       "display_pattern_set": [
-        "foreclosure"
+        "estate",
+        "transfer"
       ],
       "display_attributes": [],
       "display_deal_paths": [
-        "wholesale"
+        "divorce_transfer"
       ],
       "display_title_complexity_tier": "Unknown",
       "display_lead_status": "STACKED_LEAD",
@@ -4607,24 +4640,19 @@
       "primary_event_date": null,
       "expected_sale_date": null,
       "parcel_master_status": "unresolved",
-      "parcel_master_status_note": "owner-name join from 'YOUNG KYLE'",
+      "parcel_master_status_note": "owner-name join from 'ALAN SMITH'",
       "parcel_master_match_method": "owner_name_to_assessor_parcel",
       "candidate_parcel_ids": [],
       "review_flags": [],
       "score_reasons": [
-        "Deed of Trust — primary distress signal; resolved to YOUNG KYLE @ 16014 W KINO DR SURPRISE AZ"
+        "Divorce / Dissolution — primary distress signal; resolved to ALAN SMITH @ 14201 N 14TH PL PHOENIX AZ"
       ],
       "evidence_ids": [
-        "20260402132"
+        "DR1988-013136"
       ],
-      "primary_source_urls": [
-        {
-          "label": "Recorder doc 20260402132",
-          "url": "https://recorder.maricopa.gov/recording/document-search.html"
-        }
-      ],
-      "display_doc_type": "Deed of Trust",
-      "display_source": "Maricopa County Recorder"
+      "primary_source_urls": [],
+      "display_doc_type": "Divorce / Dissolution",
+      "display_source": "maricopa_divorce"
     }
   ]
 }
